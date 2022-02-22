@@ -52,7 +52,7 @@ $table_prefix = 'wp_';
 define('WP_DEBUG', false);
 
 /** Кэширование Redis */
-define('WP_CACHE_KEY_SALT', 'q-roll.ru');
+define('WP_CACHE_KEY_SALT', 'q-roll.ru:');
 define('WP_CACHE', true);
 
 
