@@ -1,3 +1,6 @@
+# Сохранение сессий в Redis
+php_value session.save_handler "redis"
+php_value session.save_path "tcp://127.0.0.1:6379"
 
 # BEGIN WordPress
 # Директивы (строки) между `BEGIN WordPress` и `END WordPress`
