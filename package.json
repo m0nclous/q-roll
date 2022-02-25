@@ -6,6 +6,12 @@
 	"main": "index.js",
 	"author": "m0nclous",
 	"license": "ISC",
+
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack --watch"
+	},
+
 	"devDependencies": {
 		"webpack": "^5.69.1"
 	}
