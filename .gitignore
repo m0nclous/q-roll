@@ -1,2 +1,8 @@
 # npm модули для node.js
 node_modules/
+
+# файлы сборки webpack
+public_html/wp-content/themes/q-roll/assets/
+
+# игнорируем этот файл, так как его генерирует webpack
+public_html/wp-content/themes/q-roll/style.css
