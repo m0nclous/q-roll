@@ -11,14 +11,23 @@ module.exports = {
 	},
 
 	module: {
-		rules: [{
-			test: /\.scss$/,
-			use: [
-				miniCss.loader,
-				'css-loader',
-				'sass-loader'
-			]
-		}]
+		rules: [
+			{
+				test: /\.scss$/,
+				use: [
+					miniCss.loader,
+					'css-loader',
+					'sass-loader'
+				]
+			},
+			{
+				test: /\.css$/,
+				use: [
+					miniCss.loader,
+					'css-loader'
+				]
+			},
+		]
 	},
 
 	plugins: [
