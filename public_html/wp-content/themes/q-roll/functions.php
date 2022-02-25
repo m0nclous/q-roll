@@ -8,7 +8,7 @@ add_action('wp_enqueue_scripts', function () {
 	wp_enqueue_style('m0nclous-style', get_stylesheet_uri(), ['font-roboto'], $version);
 
 	wp_register_script('jquery.maskedinput', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js');
-	wp_enqueue_script('m0nclous-script', $js('script.js'), ['jquery.maskedinput'], $version, true);
+	wp_enqueue_script('m0nclous-script', get_theme_file_uri('assets/script.js'), ['jquery.maskedinput'], $version, true);
 });
 
 /** Удаляем jquery-migrate */

@@ -7,26 +7,24 @@ module.exports = {
 
 	output: {
 		path: path.resolve(__dirname, 'public_html/wp-content/themes/q-roll', 'assets'),
-		filename: 'scripts.js'
+		filename: 'script.js'
 	},
 
 	module: {
 		rules: [
 			{
-				test: /\.scss$/,
+				test: /\.(s*)css$/i,
 				use: [
 					miniCss.loader,
 					'css-loader',
-					'sass-loader'
+					{
+						loader: "sass-loader",
+						options: {
+							implementation: require('dart-sass')
+						}
+					}
 				]
-			},
-			{
-				test: /\.css$/,
-				use: [
-					miniCss.loader,
-					'css-loader'
-				]
-			},
+			}
 		]
 	},
 

@@ -12,9 +12,10 @@
 	},
 	"devDependencies": {
 		"css-loader": "^6.6.0",
+		"dart-sass": "^1.25.0",
 		"mini-css-extract-plugin": "^2.5.3",
 		"node-sass": "^7.0.1",
-		"normalize.css": "^8.0.1",
+		"normalize-scss": "^7.0.1",
 		"sass-loader": "^12.6.0",
 		"webpack": "^5.69.1",
 		"webpack-cli": "^4.9.2"
