@@ -1,0 +1,9 @@
+{
+	"name": "q-roll.ru",
+	"version": "1.0.0",
+	"description": "Доставка суши и роллов в Омске",
+	"private": true,
+	"main": "index.js",
+	"author": "m0nclous",
+	"license": "ISC"
+}
