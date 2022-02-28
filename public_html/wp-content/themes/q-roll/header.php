@@ -15,5 +15,4 @@
 	<header>
 		<a href="<?= site_url() ?>" class="logo"></a>
 		<?php wp_nav_menu(['sort_column' => 'menu_order', 'theme_location' => 'header']) ?>
-		<?php wp_nav_menu(['sort_column' => 'menu_order', 'theme_location' => 'cart']) ?>
 	</header>
