@@ -6,3 +6,6 @@ public_html/wp-content/themes/q-roll/assets/
 
 # игнорируем этот файл, так как его генерирует webpack
 public_html/wp-content/themes/q-roll/style.css
+
+# игнорируем файлы с логами
+*.log
