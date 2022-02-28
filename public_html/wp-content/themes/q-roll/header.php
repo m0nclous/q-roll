@@ -15,4 +15,5 @@
 	<header>
 		<?php the_custom_logo() ?>
 		<?php wp_nav_menu(['sort_column' => 'menu_order', 'theme_location' => 'header']) ?>
+		<a href="<?= wc_get_cart_url() ?>">Корзина</a>
 	</header>
