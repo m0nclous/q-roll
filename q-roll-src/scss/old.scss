@@ -33,13 +33,13 @@ header {
 	padding: 20px 0;
 }
 
-.logo {
-	width: 190px;
+.custom-logo-link {
+	display: flex;
+}
+
+img.custom-logo {
 	height: 63px;
-	background-image: url(../img/Q-Roll--light.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+	width: auto;
 }
 
 .menu {
