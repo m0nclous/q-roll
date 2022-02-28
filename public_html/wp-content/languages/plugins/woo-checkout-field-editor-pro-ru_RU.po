@@ -1,0 +1,289 @@
+# Translation of Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-12 09:12:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Development (trunk)\n"
+
+#: admin/class-thwcfd-admin-form-field.php:181
+msgid "Next"
+msgstr "Далее"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:238
+msgid "Activate"
+msgstr "Активировать"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:225
+msgid "Activated"
+msgstr "Активирован"
+
+#: admin/class-thwcfd-admin-settings-general.php:32
+#: admin/class-thwcfd-admin-settings.php:25
+msgid "Advanced Settings"
+msgstr "Расширенные настройки"
+
+#: admin/class-thwcfd-admin-form-field.php:87
+msgid "Default Value"
+msgstr "Значение по-умолчанию"
+
+#: admin/class-thwcfd-admin-form-field.php:212
+msgid "Display Settings"
+msgstr "Настройки отображения"
+
+#: admin/class-thwcfd-admin-form-field.php:68
+msgid "Full width"
+msgstr "Во всю ширину"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:176
+msgid "Other Plugins"
+msgstr "Другие плагины"
+
+#: admin/class-thwcfd-admin-settings-general.php:33
+#: admin/class-thwcfd-admin-settings.php:26
+msgid "Premium Features"
+msgstr "Премиум возможности"
+
+#: admin/class-thwcfd-admin-form-field.php:541
+#: admin/assets/js/thwcfd-admin.js:927
+msgid "Add new option"
+msgstr "Добавлены новые опции"
+
+#: admin/class-thwcfd-admin-settings-general.php:39
+msgid "Additional Fields"
+msgstr "Дополнительные поля"
+
+#: admin/class-thwcfd-admin-form-field.php:184
+msgid "Back"
+msgstr "Назад"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:259
+msgid "Install now"
+msgstr "Установить сейчас"
+
+#: admin/class-thwcfd-admin-form-field.php:541
+#: admin/assets/js/thwcfd-admin.js:928
+msgid "Remove option"
+msgstr "Удалить параметр"
+
+#: admin/class-thwcfd-admin-form-field.php:178
+msgid "Save & Close"
+msgstr "Сохранить и закрыть"
+
+#: admin/class-thwcfd-admin-form-field.php:143
+msgid "Save Field"
+msgstr "Сохранить поле"
+
+#: admin/class-thwcfd-admin-form-field.php:91
+msgid "Validation"
+msgstr "Валидность"
+
+#: admin/class-thwcfd-admin-form-field.php:198
+msgid "Basic Details"
+msgstr "Основные сведения"
+
+#: admin/class-thwcfd-admin-form-field.php:146
+msgid "Basic Info"
+msgstr "Основная информация"
+
+#: admin/class-thwcfd-admin-settings-general.php:37
+msgid "Billing Fields"
+msgstr "Поля платежного адреса"
+
+#: admin/class-thwcfd-admin-settings-general.php:75
+msgid "Checkout fields successfully reset"
+msgstr "Поля на странице оформления заказа сброшены"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:138
+msgid "Compatible Plugins"
+msgstr "Несовместимые плагины"
+
+#: admin/class-thwcfd-admin.php:68
+msgid "Get Pro"
+msgstr "Получить Про"
+
+#: admin/class-thwcfd-admin.php:55
+msgid "WooCommerce Checkout Field Editor"
+msgstr "Редактор полей на странице оформления заказа WooCommerce"
+
+#. Author of the plugin
+msgid "ThemeHigh"
+msgstr "ThemeHigh"
+
+#: admin/class-thwcfd-admin-form-field.php:43
+msgid "Password"
+msgstr "Пароль"
+
+#: admin/class-thwcfd-admin-form-field.php:47
+msgid "Radio"
+msgstr "Переключатель"
+
+#: admin/class-thwcfd-admin-form-field.php:46
+msgid "Textarea"
+msgstr "Многострочное текстовое поле"
+
+#: admin/class-thwcfd-admin-settings-general.php:259
+#: admin/class-thwcfd-admin-settings-general.php:319
+msgid "Your changes were not saved due to an error."
+msgstr "Ваши изменения не были сохранены из-за ошибки."
+
+#: admin/class-thwcfd-admin-settings-general.php:274
+msgid "Your changes were not saved due to no fields found."
+msgstr "Ваши изменения не были сохранены из-за отсутствия найденных полей."
+
+#: admin/class-thwcfd-admin-form-field.php:83
+#: admin/class-thwcfd-admin-settings-general.php:89
+msgid "Type"
+msgstr "Тип"
+
+#: admin/class-thwcfd-admin-form-field.php:45
+#: admin/class-thwcfd-admin-form-field.php:61
+msgid "Phone"
+msgstr "Телефон"
+
+#: admin/class-thwcfd-admin-form-field.php:44
+#: admin/class-thwcfd-admin-form-field.php:60
+msgid "Email"
+msgstr "Email"
+
+#: admin/class-thwcfd-admin-form-field.php:96
+#: admin/class-thwcfd-admin-settings-general.php:93
+msgid "Required"
+msgstr "Обязательное"
+
+#: admin/class-thwcfd-admin-form-field.php:99
+#: admin/class-thwcfd-admin-settings-general.php:94
+msgid "Enabled"
+msgstr "Включено"
+
+#: admin/class-thwcfd-admin-form-field.php:40
+msgid "Text"
+msgstr "Текстовое"
+
+#: admin/class-thwcfd-admin-form-field.php:530
+msgid "Options"
+msgstr "Параметры"
+
+#: admin/class-thwcfd-admin-form-field.php:48
+msgid "Select"
+msgstr "Выпадающий список"
+
+#: admin/class-thwcfd-admin-form-field.php:88
+#: admin/class-thwcfd-admin-settings-general.php:91
+msgid "Placeholder"
+msgstr "Подсказка"
+
+#: admin/class-thwcfd-admin-form-field.php:86
+#: admin/class-thwcfd-admin-settings-general.php:90
+msgid "Label"
+msgstr "Ярлык"
+
+#: admin/class-thwcfd-admin-form-field.php:85
+#: admin/class-thwcfd-admin-settings-general.php:88
+msgid "Name"
+msgstr "Название"
+
+#: admin/class-thwcfd-admin-settings-general.php:92
+msgid "Validations"
+msgstr "Проверка"
+
+#: admin/class-thwcfd-admin-form-field.php:90
+msgid "Class"
+msgstr "Класс"
+
+#: admin/class-thwcfd-admin-form-field.php:62
+msgid "Postcode"
+msgstr "Почтовый индекс"
+
+#: admin/class-thwcfd-admin-form-field.php:63
+msgid "State"
+msgstr "Округ/Область"
+
+#: admin/class-thwcfd-admin-settings-general.php:31
+#: admin/class-thwcfd-admin-settings.php:24
+msgid "Checkout Fields"
+msgstr "Поля оформления заказа"
+
+#: admin/class-thwcfd-admin-form-field.php:101
+msgid "Display in Emails"
+msgstr "Отображать в электронных письмах"
+
+#: admin/class-thwcfd-admin.php:60
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/class-thwcfd-admin.php:66
+msgid "Settings"
+msgstr "Настройки"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.themehigh.com"
+msgstr "https://www.themehigh.com"
+
+#: admin/class-thwcfd-admin-settings-general.php:95
+#: admin/class-thwcfd-admin-settings-general.php:191
+msgid "Edit"
+msgstr "Изменить"
+
+#: admin/class-thwcfd-admin-settings-general.php:102
+msgid "Add field"
+msgstr "Добавить поле"
+
+#: admin/class-thwcfd-admin-settings-general.php:103
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/class-thwcfd-admin-settings-general.php:108
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: admin/class-thwcfd-admin-settings-general.php:104
+msgid "Enable"
+msgstr "Включить"
+
+#: admin/class-thwcfd-admin-settings-general.php:105
+msgid "Disable"
+msgstr "Выключить"
+
+#: admin/class-thwcfd-admin.php:55
+msgid "Checkout Form"
+msgstr "Форма оформления заказа"
+
+#. Description of the plugin
+msgid "Customize WooCommerce checkout fields(Add, Edit, Delete and re-arrange fields)."
+msgstr "Настройка полей на странице оформления заказа WooCommerce (добавление, изменение, удаление и сортировка полей)."
+
+#: admin/class-thwcfd-admin-settings-general.php:109
+msgid "Reset to default fields"
+msgstr "Восстановить поля по умолчанию"
+
+#: includes/utils/class-thwcfd-utils.php:152
+msgctxt "placeholder"
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "Примечания к вашему заказу, например особые пожелания для службы доставки."
+
+#: includes/utils/class-thwcfd-utils.php:151
+msgid "Order Notes"
+msgstr "Примечания к заказу"
+
+#. Plugin Name of the plugin
+msgid "Checkout Field Editor for WooCommerce"
+msgstr "Checkout Field Editor for WooCommerce"
+
+#: admin/class-thwcfd-admin-settings-advanced.php:129
+#: admin/class-thwcfd-admin-settings-general.php:256
+#: admin/class-thwcfd-admin-settings-general.php:316
+msgid "Your changes were not saved due to an error (or you made none!)."
+msgstr "Ваши изменения не были сохранены из-за ошибки (или вы их не внесли!)."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:127
+#: admin/class-thwcfd-admin-settings-general.php:254
+#: admin/class-thwcfd-admin-settings-general.php:314
+msgid "Your changes were saved."
+msgstr "Ваши изменения сохранены."
