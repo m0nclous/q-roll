@@ -361,7 +361,7 @@ h1:empty, h3:empty {
 	display: grid;
 	grid-template-columns: 3fr 2fr;
 	grid-template-rows: minmax(0, max-content) minmax(0, max-content);
-	grid-column-gap: 275px;
+	grid-column-gap: 70px;
 	grid-template-areas:
 		'order_errors order_errors'
 		'customer_details order_review_heading'
@@ -378,6 +378,7 @@ h1:empty, h3:empty {
 
 #customer_details {
 	grid-area: customer_details;
+	max-width: 750px;
 }
 
 #order_review {
@@ -387,10 +388,9 @@ h1:empty, h3:empty {
 input, textarea {
 	background-color: #2A2A2A;
 	color: #FFFFFF;
-	border-color: #6a6a6a;
-	border-width: 1px;
+	border: 1px solid #2A2A2A;
+	// border-left: 1px solid #2A2A2A;
 	border-radius: 4px;
-	border-style: inset;
 	padding: 10px 15px;
 	transition: border-left .2s;
 }
