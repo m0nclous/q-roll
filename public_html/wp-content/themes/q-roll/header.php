@@ -13,6 +13,6 @@
 	<?php wp_body_open() ?>
 
 	<header>
-		<a href="<?= site_url() ?>" class="logo"></a>
+		<?php the_custom_logo() ?>
 		<?php wp_nav_menu(['sort_column' => 'menu_order', 'theme_location' => 'header']) ?>
 	</header>
