@@ -1,5 +1,6 @@
 @import 'normalize-scss';
 @include normalize();
 
+@import 'variables.scss';
 @import 'wp-theme-info.scss';
 @import 'old.scss';

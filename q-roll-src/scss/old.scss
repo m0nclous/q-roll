@@ -202,6 +202,23 @@ img.custom-logo {
 	margin-bottom: -12px;
 
 	border-radius: 11px;
+
+	&:not(.added)::before {
+		content: '';
+	
+		position: absolute;
+		display: block;
+		width: 23px;
+		height: 23px;
+	
+		background-image: $cart-image;
+		background-size: contain;
+		background-repeat: no-repeat;
+	
+		&.added {
+			display: none;
+		}
+	}
 }
 
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
@@ -210,10 +227,6 @@ img.custom-logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.woocommerce ul.products li.product .button::before {
-	font-size: 23px;
 }
 
 .woocommerce #respond input#submit.loading, .woocommerce a.button.loading, .woocommerce button.button.loading, .woocommerce input.button.loading {
