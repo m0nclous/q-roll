@@ -527,30 +527,6 @@ input:focus, textarea:focus {
 	display: none;
 }
 
-.checkout_coupon {
-	display: inline-flex;
-	margin-bottom: 20px;
-	border-radius: 3px;
-	overflow: hidden;
-}
-
-#coupon_code_fake, .checkout_coupon button[name="apply_coupon"] {
-	border-radius: 0;
-}
-
-.checkout_coupon button[name="apply_coupon"] {
-	color: #1E1E1E;
-	font-size: 15px;
-}
-
-#coupon_code_fake:focus-visible {
-	outline: none;
-}
-
-.woocommerce-form-coupon-toggle {
-	display: none;
-}
-
 @media (min-width: 1770px) {
 	.woocommerce .products ul, .woocommerce ul.products {
 		grid-template-columns: repeat(5, 1fr);
