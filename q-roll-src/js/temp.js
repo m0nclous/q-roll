@@ -3,15 +3,15 @@ function isVisible(element) {
 	return (rect.x + rect.width) < 0 || (rect.y - (document.body.classList.contains('admin-bar') ? 32 : 0) - 20 + rect.height) < 0 || (rect.x > window.innerWidth || rect.y > window.innerHeight);
 }
 
-if (document.body.classList.contains('woocommerce-shop')) {
-	const observer = new IntersectionObserver(([ e ]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1), { threshold: [ 1 ] });
-	observer.observe(document.querySelector('.menu-categories-container'));
+// if (document.body.classList.contains('woocommerce-shop')) {
+// 	const observer = new IntersectionObserver(([ e ]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1), { threshold: [ 1 ] });
+// 	observer.observe(document.querySelector('.menu-categories-container'));
 
-	document.addEventListener('scroll', () => {
-		const header = document.querySelector('header');
-		header.querySelector('.menu-korzina-container').toggleAttribute('offscreen', isVisible(header));
-	}, { passive: true });
-}
+// 	document.addEventListener('scroll', () => {
+// 		const header = document.querySelector('header');
+// 		header.querySelector('.menu-korzina-container').toggleAttribute('offscreen', isVisible(header));
+// 	}, { passive: true });
+// }
 
 const scrollToTop = document.querySelector('.scroll-to-top');
 
