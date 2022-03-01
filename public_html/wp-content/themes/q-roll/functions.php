@@ -71,9 +71,6 @@ add_filter('woocommerce_get_cart_url', 'wc_get_checkout_url');
 /** Направляем на страницу магазина, если мы находимся на оформлении заказа и у нас пустая корзина */
 add_action('template_redirect', fn () => is_checkout() && !(isset($_GET['key']) && is_wc_endpoint_url('order-received')) && count(WC()->cart->cart_contents) === 0 ? exit(wp_redirect(get_home_url())) : '');
 
-/** Выводим поле для купонов после checkout_order_review */
-add_action('woocommerce_checkout_order_review', fn () => printf('<div class="checkout_coupon"><input type="text" name="coupon_code" class="input-text" placeholder="%s" id="coupon_code_fake" value=""><button type="submit" class="button" name="apply_coupon" value="%s">%s</button></div>', esc_attr__('Coupon code', 'woocommerce'), esc_attr__('Apply coupon', 'woocommerce'), esc_html__('Apply coupon', 'woocommerce')));
-
 function get_the_weight($with_unit = false) {
 	global $product;
 	if (empty($product->get_weight())) return '';

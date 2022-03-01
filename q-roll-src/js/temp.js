@@ -34,14 +34,4 @@ jQuery(($) => {
 	// Маска телефона
 	$.mask.definitions[ 'h' ] = '[0-6-9]'; // Исключаем 7 и 8
 	$('input[type="tel"]').mask('+7 (h99) 999-99-99');
-
-	$('#coupon_code_fake ~ button').click(() => {
-		$('#coupon_code').val($('#coupon_code_fake').val());
-		$('#coupon_code').closest('form').submit();
-		return false;
-	});
-
-	$(document.body).on('applied_coupon_in_checkout', () => {
-		setTimeout(() => $.scroll_to_notices($('.woocommerce-error, .woocommerce-message')));
-	})
 });
