@@ -30,7 +30,7 @@ add_theme_support('woocommerce');
 add_action('admin_bar_menu', fn ($wp_admin_bar) => $wp_admin_bar->remove_node('wp-logo'), 999);
 
 /** Добавляем области меню */
-add_action('after_setup_theme', fn () => register_nav_menus(['header' => 'Header', 'footer' => 'Footer', 'footer-socials' => 'Footer Socials']));
+add_action('after_setup_theme', fn () => register_nav_menus(['header' => 'Header', 'footer' => 'Footer', 'cart' => 'Cart', 'footer-socials' => 'Footer Socials']));
 
 /** Вывод описания товара после названия в цикле */
 add_action('woocommerce_after_shop_loop_item_title', fn () => printf('<div class="woocommerce-loop-product__content">%s</div>', get_the_content()), 5);
