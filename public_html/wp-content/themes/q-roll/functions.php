@@ -17,6 +17,9 @@ add_action('wp_default_scripts', fn ($scripts) => (!is_admin() && isset($scripts
 /** Добавляем preconnect для гугл шрифтов */
 add_action('wp_head', fn () => print('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'));
 
+/** Добавляем meta тег для верификации enot */
+add_action('wp_head', fn () => print('<meta name="enot" content="8471646207409BHdzxmnzXMMo1pz-cI-yhGdbnbE6gnPV">'));
+
 /** Эта функция позволит плагинам и темам изменять метатег <title> */
 add_theme_support('title-tag');
 
