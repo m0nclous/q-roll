@@ -74,6 +74,17 @@ add_filter('woocommerce_get_cart_url', 'wc_get_checkout_url');
 /** Направляем на страницу магазина, если мы находимся на оформлении заказа и у нас пустая корзина */
 add_action('template_redirect', fn () => is_checkout() && !(isset($_GET['key']) && is_wc_endpoint_url('order-received')) && count(WC()->cart->cart_contents) === 0 ? exit(wp_redirect(get_home_url())) : '');
 
+/** Корректировка тестов Здоровье сайта */
+add_filter('site_status_tests', function ($tests) {
+	// Тема по умолчанию
+	unset($tests['direct']['theme_version']);
+
+	// git репозиторий
+	unset($tests['async']['background_updates']);
+
+	return $tests;
+});
+
 function get_the_weight($with_unit = false) {
 	global $product;
 	if (empty($product->get_weight())) return '';
