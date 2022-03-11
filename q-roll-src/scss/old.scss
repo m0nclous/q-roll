@@ -56,6 +56,35 @@ img.custom-logo {
 	}
 }
 
+.woocommerce div.product form.cart div.quantity {
+	display: none;
+}
+
+.woocommerce div.product form.cart .button {
+	width: unset;
+	border: #FCC12C 1px solid;
+	background: #3c3116;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+	float: none;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+	float: none;
+	width: 100%;
+}
+
+.woocommerce div.product {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 50px;
+}
+
 .woocommerce .products ul, .woocommerce ul.products {
 	margin: 0;
 	display: grid;

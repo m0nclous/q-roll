@@ -88,6 +88,25 @@ add_filter('site_status_tests', function ($tests) {
 	return $tests;
 });
 
+/** Убираем хлебные крошки woocommerce */
+remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
+
+/** Убираем хлебные крошки woocommerce */
+add_action('woocommerce_product_thumbnails_columns', fn () => 1);
+
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50);
+
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15);
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
+
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
+add_action('woocommerce_single_product_summary', 'the_content', 5);
+
+add_action('woocommerce_single_product_summary', fn () => printf('<div class="product__weight">%s</div>', get_the_weight(with_unit: true)), 7);
+
 function get_the_weight($with_unit = false) {
 	global $product;
 	if (empty($product->get_weight())) return '';
