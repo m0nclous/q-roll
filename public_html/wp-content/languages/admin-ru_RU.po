@@ -32,7 +32,7 @@ msgid "Continue"
 msgstr "Продолжить"
 
 #. translators: %s: Learn WordPress link.
-#: wp-admin/about.php:304
+#: wp-admin/about.php:329
 msgid "Want to dive into 5.9 but don&#8217;t know where to start? Visit <a href=\"%s\">learn.wordpress.org</a> for expanding resources on new features in WordPress 5.9."
 msgstr "Хотите погрузиться в 5.9, но не знаете, с чего начать? Посетите <a href=\"%s\"> learn.wordpress.org</a>, чтобы посмотреть короткие видеоуроки и дополнительные ресурсы по новым функциям WordPress 5.9."
 
@@ -105,144 +105,144 @@ msgstr "Узнайте больше о версии %s."
 msgid "WordPress is free and open source software"
 msgstr "WordPress - свободное программное обеспечение с открытым исходным кодом"
 
-#: wp-admin/about.php:299
+#: wp-admin/about.php:324
 msgid "Learn more about the new features in 5.9"
 msgstr "Узнайте больше о новых возможностях в 5.9"
 
 #. translators: %s: Gallery Refactor dev note link.
-#: wp-admin/about.php:284
+#: wp-admin/about.php:309
 msgid "The changes to the Gallery block listed above are the result of a near-complete refactoring. Have you built a plugin or theme on the Gallery block functionality? Be sure to read the <a href=\"%s\">Gallery block compatibility dev note</a>."
 msgstr "Перечисленные выше изменения в блоке галереи являются результатом почти полного рефакторинга. Вы создали плагин или тему на основе функциональности блока галереи? Обязательно прочтите <a href=\"%s\"> примечание для разработчиков по совместимости блоков галереи</a>."
 
-#: wp-admin/about.php:278
+#: wp-admin/about.php:303
 msgid "A refactored Gallery block"
 msgstr "Переработан блок галереи"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:298
 msgid "Now you can lock any block (or a few of them) in a pattern, just by adding a lock attribute to its settings in block.json &#8212; leaving the rest of the pattern free for site editors to adapt to their content."
 msgstr "Теперь вы можете зафиксировать любой блок (или несколько из них) в паттернах, просто добавив атрибут блокировки к его настройкам в block.json, оставив часть паттерна свободным, чтобы редакторы сайта могли адаптировать блок к содержимому сайта."
 
-#: wp-admin/about.php:270
+#: wp-admin/about.php:295
 msgid "Block&#8209;level locking"
 msgstr "Фиксация на уровне блока"
 
 #. translators: %s: Multiple stylesheets dev note link.
-#: wp-admin/about.php:260
+#: wp-admin/about.php:285
 msgid "Now you can register more than one stylesheet per block. You can use this to share styles across blocks you write, or to load styles for individual blocks, so your styles are only loaded when the block is used. Find out more about <a href=\"%s\">using multiple stylesheets in a block</a>."
 msgstr "Теперь вы можете зарегистрировать более одной таблицы стилей на блок. Вы можете использовать это для обмена стилями между блоками, которые вы пишете, или для загрузки стилей для отдельных блоков, ваши стили будут загружаться только при использовании блока. Узнайте больше об <a href=\"%s\"> использовании нескольких таблиц стилей в блоке</a>."
 
-#: wp-admin/about.php:254
+#: wp-admin/about.php:279
 msgid "Multiple stylesheets for a block"
 msgstr "Несколько таблиц стилей для блока"
 
 #. translators: %s: Block-based themes dev note link.
-#: wp-admin/about.php:246
+#: wp-admin/about.php:271
 msgid "A new way to build themes: Block themes use blocks to define the templates that structure your entire site. The new templates and template parts are defined in HTML and use the custom styling offered in theme.json. More information is available in the <a href=\"%s\">block themes dev note</a>."
 msgstr "Новый способ создания тем: блочные темы используют блоки для определения шаблонов, которые структурируют весь ваш сайт. Новые шаблоны и части шаблона определены в HTML и используют настраиваемый стиль, предлагаемый в theme.json. Дополнительную информацию можно найти в <a href=\"%s\"> примечании разработчика блочных тем</a>."
 
-#: wp-admin/about.php:240
+#: wp-admin/about.php:265
 msgid "Introducing block themes"
 msgstr "Представляем блочные темы"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:230
+#: wp-admin/about.php:255
 msgid "WordPress %s for developers"
 msgstr "WordPress %s для разработчиков"
 
-#: wp-admin/about.php:215
+#: wp-admin/about.php:240
 msgid "Style every image in your gallery differently from the next (with different crops, or duotones, for instance) or make them all the same. And change the layout with drag-and-drop."
 msgstr "Создайте разные стили для каждого изображения в вашей галерее (например, с разными кадрированием или двуцветным фильтром), или сделайте их все одинаковыми. А также измените макет с помощью перетаскивания."
 
-#: wp-admin/about.php:212
+#: wp-admin/about.php:237
 msgid "Treat every image in a Gallery block the same way you would treat it in the Image block."
 msgstr "Обращайтесь с каждым изображением в блоке галереи так же, как и в блоке изображения."
 
-#: wp-admin/about.php:209
+#: wp-admin/about.php:234
 msgid "A better Gallery block"
 msgstr "Улучшенный блок галереи"
 
-#: wp-admin/about.php:201
+#: wp-admin/about.php:226
 msgid "In 5.9, the List View lets you drag and drop your content exactly where you want it. Managing complex documents is easier, too: simple controls let you expand and collapse sections as you build your site &#8212; and add HTML anchors to your blocks to help users get around the page."
 msgstr "В версии 5.9 представление списка позволяет перетаскивать содержимое именно туда, куда вы хотите. Управлять сложными документами также проще: простые элементы управления позволяют разворачивать и сворачивать разделы в процессе создания сайта и добавлять якоря HTML к блокам, чтобы помочь пользователям перемещаться по странице."
 
-#: wp-admin/about.php:198
+#: wp-admin/about.php:223
 msgid "A revamped List View"
 msgstr "Обновлённый вид списка"
 
-#: wp-admin/about.php:184
+#: wp-admin/about.php:209
 msgid "With a near full-screen view that draws you in to see fine details, the Pattern Explorer makes it easy to compare patterns and choose the one your users will expect."
 msgstr "Благодаря почти полноэкранному представлению, которое позволяет разглядеть все детали, инструмент просмотра паттернов позволяет легко сравнивать паттерны и выбрать тот, который ожидают ваши пользователи."
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:206
 msgid "The WordPress Pattern Directory is the home of a wide range of block patterns built to save you time and add core site functionality. And you can edit them as you see fit. Need something different in the header or footer for your theme? Swap it out with a new one in a few clicks."
 msgstr "Каталог паттернов WordPress - дом для широкого спектра паттернов блоков, созданных для экономии вашего времени и добавления основных функций сайта. И вы можете редактировать их по своему усмотрению. Хотите чего-то другого в заголовке или подвале вашей темы? Замените это всего за пару нажатий."
 
-#: wp-admin/about.php:178
+#: wp-admin/about.php:203
 msgid "The power of patterns"
 msgstr "Сила паттернов"
 
-#: wp-admin/about.php:170
+#: wp-admin/about.php:195
 msgid "WordPress 5.9 features new typography tools, flexible layout controls, and finer control over details like spacing, borders, and more &#8212; to help you get not just the look, but the polish that says you care about details."
 msgstr "WordPress 5.9 предлагает новые инструменты типографики, гибкие элементы управления макетом и более точный контроль над деталями, такими как интервалы, границы и многое другое, чтобы помочь вам создать не только внешний вид, но и отполировать мелочи, которые расскажут о том, насколько вы заботитесь о деталях."
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:192
 msgid "Better block controls"
 msgstr "Лучшее управление блоками"
 
-#: wp-admin/about.php:155
+#: wp-admin/about.php:180
 msgid "Do you love to blog or produce content? New tweaks to the publishing flow help you say more, faster."
 msgstr "Вы любите вести блог или создавать содержимое? Новые настройки процесса публикации помогут вам рассказать больше и быстрее."
 
-#: wp-admin/about.php:152
+#: wp-admin/about.php:177
 msgid "More improvements and updates"
 msgstr "Больше улучшений и обновлений"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:168
 msgid "The new Navigation block gives you the power to choose: an always-on responsive menu or one that adapts to your user&#8217;s screen size. Whatever you create, know it&#8217;s there to reuse wherever you like, whether in a brand new template or after switching themes."
 msgstr "Новый блок навигации дает вам силу выбора: постоянное адаптивное меню или меню, которое адаптируется к размерам экрана ваших пользователей. Что бы вы ни создавали, знайте, что это можно использовать где угодно, будь то в новом шаблоне или после смены тем."
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:165
 msgid "Blocks come to site navigation, the heart of user experience."
 msgstr "Блоки теперь и для навигации, а это основа пользовательского опыта."
 
-#: wp-admin/about.php:137
+#: wp-admin/about.php:162
 msgid "The Navigation block"
 msgstr "Блок навигации"
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:148
 msgid "When you use any of those new themes, you no longer need the Customizer. Instead, you have all the power of the Styles interface inside the Site Editor. Just as in Twenty Twenty&#8209;Two, you build your site&#8217;s look and feel there, with the tools you need for the job in a fluid interface that practically comes alive in your hands."
 msgstr "Когда вы используете любую из этих новых тем, вам больше не нужен старый интерфейс настройки. Вместо этого у вас есть все его возможности внутри редактора сайта. Как и в Twenty Twenty Two, вы создаете внешний вид своего сайта с помощью необходимых инструментов, в гибком интерфейсе, который практически оживает в ваших руках."
 
-#: wp-admin/about.php:120
+#: wp-admin/about.php:145
 msgid "More block themes built for full site editing features are in the Theme Directory alongside the Twenty Twenty&#8209;Two theme, just waiting to be explored. Expect more to come!"
 msgstr "Другие блочные темы, созданные для полного редактирования сайта, находятся в каталоге тем вместе с темой Twenty Twenty Two и только и ждут, чтобы их попробовали. Ждите гораздо больше!"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:142
 msgid "Your personal paintbox awaits"
 msgstr "Ваш личный мольберт ждёт"
 
 #. translators: %s: Link to Themes screen.
-#: wp-admin/about.php:105
+#: wp-admin/about.php:130
 msgid "The Twenty Twenty&#8209;Two theme is already available to you. It came installed with WordPress 5.9, and you will find it with <a href=\"%s\">your other installed themes</a>."
 msgstr "Тема Twenty Twenty Two уже доступна. Она поставляется вместе с установкой WordPress 5.9, вы найдете её среди <a href=\"%s\">других установленных тем</a>."
 
-#: wp-admin/about.php:98
+#: wp-admin/about.php:123
 msgid "Block themes put a wide array of visual choices in your hands, from color schemes and typeface combinations to page templates and image filters &#8212; all together, in the site editing interface. By making changes in one place, you can give Twenty Twenty&#8209;Two the same look and feel as your brand or other websites &#8212; or take your site&#8217;s look in another direction."
 msgstr "Блочные темы предоставляют вам широкий спектр визуальных возможностей: от цветовых схем и комбинаций шрифтов до шаблонов страниц и фильтров изображений - всё вместе в интерфейсе редактирования сайта. Внося изменения в одном месте, вы можете придать Twenty Twenty Two такой же внешний вид, как и стиль вашего бренда или других веб-сайтов, или создать иное направление в оформлении вашего сайта."
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:120
 msgid "And say hello to the first default block theme in the history of WordPress. This is more than just a new default theme. It&#8217;s a brand-new way to work with WordPress themes."
 msgstr "Поприветствуйте первую в истории WordPress блочную тему по умолчанию. Это не просто новая тема по умолчанию, а полностью новый способ работы с темами WordPress."
 
-#: wp-admin/about.php:92
+#: wp-admin/about.php:117
 msgid "Say hello to Twenty Twenty&#8209;Two"
 msgstr "Поприветствуйте Twenty Twenty Two в 2022!"
 
-#: wp-admin/about.php:80
+#: wp-admin/about.php:105
 msgid "It puts you in control of your whole site, right in the WordPress Admin."
 msgstr "Это дает вам возможность контролировать весь ваш сайт прямо в админке WordPress."
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:102
 msgid "Full Site Editing is here"
 msgstr "Полное редактирование сайта уже здесь и сейчас"
 
@@ -938,7 +938,7 @@ msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
 #. translators: %s: WordPress 5.9 Field Guide link.
-#: wp-admin/about.php:321
+#: wp-admin/about.php:346
 msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.9 Field Guide.</a>"
 msgstr "Загляните в свежую версию <a href=\"%s\">WordPress 5.9 Field Guide</a>, там вы найдете заметки для разработчиков по каждому изменению, если вы хотите быть в курсе всех подробностей."
 
@@ -1009,7 +1009,7 @@ msgstr "Добавить новый пароль приложения"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Требуется для создания паролей приложений, но не для обновления данных пользователя."
 
-#: wp-admin/about.php:334
+#: wp-admin/about.php:359
 msgid "Go to Updates"
 msgstr "Перейти к обновлениям"
 
@@ -1365,7 +1365,7 @@ msgstr "Значение \"%1$s\" меньше чем \"%2$s\""
 msgid "Environment type"
 msgstr "Тип окружения"
 
-#: wp-admin/about.php:316
+#: wp-admin/about.php:341
 msgid "Check the Field Guide for more!"
 msgstr "Посмотрите руководство, чтобы узнать больше!"
 
@@ -4401,7 +4401,7 @@ msgid "Cannot Install"
 msgstr "Установка невозможна"
 
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:64 wp-admin/includes/update.php:302
+#: wp-admin/about.php:64 wp-admin/about.php:89 wp-admin/includes/update.php:302
 #: wp-admin/index.php:119 wp-admin/install.php:238 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:80
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
@@ -6811,7 +6811,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Сейчас отображает меню «%s»)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:358
+#: wp-admin/about.php:383
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "В <strong>версии %s</strong> решена проблема с безопасностью."
 
@@ -6823,15 +6823,15 @@ msgstr "https://ru.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Аватар"
 
-#: wp-admin/about.php:355
+#: wp-admin/about.php:44 wp-admin/about.php:380
 msgid "Maintenance and Security Releases"
 msgstr "Технические обновления безопасности"
 
-#: wp-admin/about.php:352
+#: wp-admin/about.php:377
 msgid "Security Releases"
 msgstr "Обновления безопасности"
 
-#: wp-admin/about.php:349
+#: wp-admin/about.php:374
 msgid "Maintenance Releases"
 msgstr "Технические обновления"
 
@@ -10262,13 +10262,13 @@ msgstr "Показывать верхнюю панель при просмотр
 
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:61 wp-admin/about.php:381
+#: wp-admin/about.php:61 wp-admin/about.php:86 wp-admin/about.php:406
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Дополнительную информацию можно найти в <a href=\"%s\">заметке о выпуске</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:375
+#: wp-admin/about.php:49 wp-admin/about.php:400
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "В <strong>версии %1$s</strong> решены несколько проблем с безопасностью и исправлена %2$s ошибка."
@@ -10277,7 +10277,7 @@ msgstr[2] "В <strong>версии %1$s</strong> решены несколько
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:369
+#: wp-admin/about.php:394
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлена %2$s ошибка."
@@ -10286,7 +10286,7 @@ msgstr[2] "В <strong>версии %1$s</strong> решена проблема �
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:49 wp-admin/about.php:363
+#: wp-admin/about.php:74 wp-admin/about.php:388
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "В <strong>версии %1$s</strong> исправлена %2$s ошибка."
@@ -10294,19 +10294,19 @@ msgstr[1] "В <strong>версии %1$s</strong> исправлены %2$s ош�
 msgstr[2] "В <strong>версии %1$s</strong> исправлены %2$s ошибок."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:360
+#: wp-admin/about.php:385
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "В <strong>версии %s</strong> решены несколько проблем с безопасностью."
 
-#: wp-admin/about.php:354
+#: wp-admin/about.php:379
 msgid "Maintenance and Security Release"
 msgstr "Техническое обновление безопасности"
 
-#: wp-admin/about.php:351
+#: wp-admin/about.php:376
 msgid "Security Release"
 msgstr "Обновление безопасности"
 
-#: wp-admin/about.php:44 wp-admin/about.php:348
+#: wp-admin/about.php:373
 msgid "Maintenance Release"
 msgstr "Техническое обновление"
 
@@ -10591,11 +10591,11 @@ msgstr "<strong>&laquo;Редактировать&raquo;</strong> &#8212; отк
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "Поскольку это сеть сайтов, можно добавлять существующие в ней учётные записи, указав имя пользователя или e-mail и выбрав роль. Чтобы иметь больше возможностей &#8212; например, назначать пароль &#8212; нужно быть администратором сети и использовать ссылку для редактирования профиля пользователя, которая появляется под его именем в разделе &laquo;Управление сетью&raquo; &rarr; &laquo;Все пользователи&raquo;."
 
-#: wp-admin/about.php:337
+#: wp-admin/about.php:362
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Перейти на страницу &laquo;Консоль&raquo; &rarr; &laquo;Главная&raquo;"
 
-#: wp-admin/about.php:334
+#: wp-admin/about.php:359
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Перейти на страницу &laquo;Консоль&raquo; &rarr; &laquo;Обновления&raquo;"
 
@@ -12404,7 +12404,7 @@ msgstr "Обновления WordPress"
 msgid "Edit menu item"
 msgstr "Изменить элемент меню"
 
-#: wp-admin/about.php:337 wp-admin/includes/network.php:148
+#: wp-admin/about.php:362 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "Перейти на страницу &laquo;Консоль&raquo;"
 
