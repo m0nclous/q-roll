@@ -50,6 +50,10 @@ img.custom-logo {
 .products-container h1, .woocommerce > h1 {
 	margin: 40px 0;
 	text-align: center;
+
+	& > a {
+		text-decoration: none;
+	}
 }
 
 .woocommerce .products ul, .woocommerce ul.products {
