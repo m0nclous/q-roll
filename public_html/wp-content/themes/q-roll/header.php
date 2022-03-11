@@ -17,4 +17,4 @@
 		<?php wp_nav_menu(['sort_column' => 'menu_order', 'theme_location' => 'header']) ?>
 	</header>
 
-	<?php if (function_exists('yoast_breadcrumb')) yoast_breadcrumb('<nav class="breadcrumb">', '</nav>') ?>
+	<?php if (function_exists('yoast_breadcrumb') && !is_shop()) yoast_breadcrumb('<nav class="breadcrumb">', '</nav>') ?>
