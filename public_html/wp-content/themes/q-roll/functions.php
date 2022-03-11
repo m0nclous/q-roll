@@ -20,6 +20,9 @@ add_action('wp_head', fn () => print('<link rel="preconnect" href="https://fonts
 /** Добавляем meta тег для верификации enot */
 add_action('wp_head', fn () => print('<meta name="enot" content="8471646207409BHdzxmnzXMMo1pz-cI-yhGdbnbE6gnPV">'));
 
+/** Добавляем meta тег для верификации google */
+add_action('wp_head', fn () => print('<meta name="google-site-verification" content="zt5uYkc802kL5CJY4ul_leUNvwFywnn1CUx55xIXEzI" />'));
+
 /** Эта функция позволит плагинам и темам изменять метатег <title> */
 add_theme_support('title-tag');
 
