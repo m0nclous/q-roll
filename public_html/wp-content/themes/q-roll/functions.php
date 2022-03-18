@@ -23,6 +23,12 @@ add_action('wp_head', fn () => print('<meta name="enot" content="8471646207409BH
 /** Добавляем meta тег для верификации google */
 add_action('wp_head', fn () => print('<meta name="google-site-verification" content="zt5uYkc802kL5CJY4ul_leUNvwFywnn1CUx55xIXEzI" />'));
 
+/** Добавляем meta тег для верификации webmaster.yandex.ru */
+add_action('wp_head', fn () => print('<meta name="yandex-verification" content="97530ced9599130e" />'));
+
+/** Yandex.Metrika counter */
+add_action('wp_head', fn () => print('<script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(87871205, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/87871205" style="position:absolute; left:-9999px;" alt="" /></div></noscript>'));
+
 /** Эта функция позволит плагинам и темам изменять метатег <title> */
 add_theme_support('title-tag');
 
