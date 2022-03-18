@@ -1,8 +1,9 @@
+@import 'wp-theme-info.scss';
+
 @import 'normalize-scss';
 @include normalize();
 
 @import 'variables.scss';
-@import 'wp-theme-info.scss';
 @import 'old.scss';
 
 @import 'menu.scss';
