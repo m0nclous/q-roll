@@ -435,3 +435,62 @@ input:focus, textarea:focus {
 		grid-template-columns: repeat(5, 1fr);
 	}
 }
+
+@media (max-width: 1300px) {
+	.woocommerce .products ul, .woocommerce ul.products {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 1080px) {
+	.woocommerce .products ul, .woocommerce ul.products {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+		width: 100%;
+		float: unset;
+		clear: unset;
+		margin: 160px 0 0 0;
+	}
+}
+
+@media (max-width: 680px) {
+	.woocommerce .products ul, .woocommerce ul.products {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	body {
+		padding: 0 50px;
+	}
+}
+
+@media (max-width: 630px) {
+	.menu-glavnoe-menyu-container {
+		> .menu {
+			display: grid !important;
+			grid-template-columns: 1fr 1fr !important;
+		}
+	}
+
+	footer .menu-group {
+		display: grid !important;
+		gap: 50px !important;
+		justify-content: center !important;
+	}
+}
+
+@media (max-width: 900px) {
+	header {
+		display: grid;
+		justify-content: center;
+		justify-items: center;
+		gap: 35px;
+	}
+}
+
+.menu-categories-container, .menu-korzina-container {
+	z-index: 100;
+}
