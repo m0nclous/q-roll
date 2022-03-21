@@ -1,6 +1,7 @@
 <?php
 
 /** The name of the database for WordPress */
+define( 'WPCACHEHOME', '/home/m/m0nclous/q-roll.ru/public_html/wp-content/plugins/wp-super-cache/' );
 define('DB_NAME', 'm0nclous_qroll');
 
 /** Database username */
