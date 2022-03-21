@@ -2,7 +2,7 @@ const path = require('path');
 const miniCss = require('mini-css-extract-plugin');
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: './q-roll-src/index.js',
 
 	output: {
