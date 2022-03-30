@@ -58,9 +58,16 @@ class THWCFD_Public_Checkout {
 		add_action('woocommerce_order_details_after_order_table', array($this, 'order_details_after_customer_details'), 20, 1);
 
 		add_filter('woocommerce_form_field_checkboxgroup', array($this, 'woo_form_field'), 10, 4);
+		add_filter('woocommerce_form_field_datetime_local', array($this, 'woo_form_field'), 10, 4);
+		add_filter('woocommerce_form_field_date', array($this, 'woo_form_field'), 10, 4);
+		add_filter('woocommerce_form_field_time', array($this, 'woo_form_field'), 10, 4);
+		add_filter('woocommerce_form_field_month', array($this, 'woo_form_field'), 10, 4);
+		add_filter('woocommerce_form_field_week', array($this, 'woo_form_field'), 10, 4);
+		add_filter('woocommerce_form_field_url', array($this, 'woo_form_field'), 10, 4);
 		add_filter('woocommerce_form_field_multiselect', array($this, 'woo_form_field'), 10, 4);
 		add_filter('woocommerce_form_field_hidden', array($this, 'woo_form_field_hidden'), 10, 4);
 		add_filter('woocommerce_form_field_heading', array($this, 'woo_form_field_heading'), 10, 4);
+		add_filter('woocommerce_form_field_paragraph', array($this, 'woo_form_field_paragraph'), 10, 4);
 
 	}
 
@@ -360,8 +367,11 @@ class THWCFD_Public_Checkout {
 					if(!is_numeric($value)){
 						$err_msg = sprintf( __( '<strong>%s</strong> is not a valid number.', 'woo-checkout-field-editor-pro' ), $flabel );
 					}
+				}else if($vname === 'url'){
+					if (!filter_var($value, FILTER_VALIDATE_URL)) {
+						$err_msg = sprintf( __( '<strong>%s</strong> is not a valid url.', 'woo-checkout-field-editor-pro' ), $flabel );
+					}
 				}
-
 				if($err_msg){
 					if($errors || !$return){
 						$this->add_validation_error($err_msg, $errors);
@@ -599,6 +609,7 @@ class THWCFD_Public_Checkout {
 		$label_id = $args['id'];
 		$sort = $args['priority'] ? $args['priority'] : '';
 		$field_container = '<p class="form-row %1$s" id="%2$s" data-priority="' . esc_attr($sort) . '">%3$s</p>';
+
 		switch ($args['type']) {
 
 			case 'multiselect':
@@ -634,6 +645,45 @@ class THWCFD_Public_Checkout {
 					$field .= '</span>';
 				}
 
+			break;
+
+			case 'datetime_local':
+
+				$field = '';
+
+				$field .= '<input type="datetime-local" name="' . esc_attr( $key ) . '"  id="' . esc_attr( $key ) . '" value="' . esc_attr( $value) . '" />';
+			break;
+
+			case 'date':
+
+				$field = '';
+
+				$field .= '<input type="date" name="' . esc_attr( $key ) . '"  id="' . esc_attr( $key ) . '" value="' . esc_attr( $value) . '" />';
+			break;
+			case 'time':
+
+				$field = '';
+
+				$field .= '<input type="time" name="' . esc_attr( $key ) . '"  id="' . esc_attr( $key ) . '" value="' . esc_attr( $value) . '" />';
+			break;
+			case 'month':
+
+				$field = '';
+
+				$field .= '<input type="month" name="' . esc_attr( $key ) . '"  id="' . esc_attr( $key ) . '" value="' . esc_attr( $value) . '" />';
+			break;
+			case 'week':
+
+				$field = '';
+
+				$field .= '<input type="week" name="' . esc_attr( $key ) . '"  id="' . esc_attr( $key ) . '" value="' . esc_attr( $value) . '" />';
+			break;
+
+			case 'url':
+
+				$field = '';
+
+				$field .= '<input type="url" name="' . esc_attr( $key ) . '"  id="' . esc_attr( $key ) . '" placeholder ="'.esc_attr($args['placeholder']). '" value="' . esc_attr( $value) . '" />';
 			break;
 
 			case 'file':
@@ -672,6 +722,16 @@ class THWCFD_Public_Checkout {
         }
 
 		$field  = '<input type="hidden" id="'. esc_attr($key) .'" name="'. esc_attr($key) .'" value="'. esc_attr( $value ) .'" class="'.esc_attr(implode(' ', $args['class'])).'" />';
+		return $field;
+	}
+
+	public function woo_form_field_paragraph($field, $key, $args, $value){
+		$args['class'][] = 'thwcfd-field-wrapper thwcfd-field-paragraph';
+		
+		if(isset($args['label']) && !empty($args['label'])){
+			$field  = '<p class="form-row '.esc_attr(implode(' ', $args['class'])).'" id="'.esc_attr($key).'_field" >'. esc_html__($args['label'], 'woo-checkout-field-editor-pro') .'</ p >';
+		}
+
 		return $field;
 	}
 

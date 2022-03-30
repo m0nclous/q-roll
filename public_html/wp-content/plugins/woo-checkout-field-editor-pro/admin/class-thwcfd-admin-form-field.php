@@ -50,6 +50,13 @@ class THWCFD_Admin_Form_Field extends THWCFD_Admin_Form{
 			'checkbox' => __('Checkbox', 'woo-checkout-field-editor-pro'),
 			'checkboxgroup' => __('Checkbox Group', 'woo-checkout-field-editor-pro'),
 			'heading' => __('Heading', 'woo-checkout-field-editor-pro'),
+			'datetime_local' => __('Datetime local', 'woo-checkout-field-editor-pro'),
+			'date' => __('Date', 'woo-checkout-field-editor-pro'),
+			'time' => __('Time', 'woo-checkout-field-editor-pro'),
+			'month' => __('Month', 'woo-checkout-field-editor-pro'),
+			'week' => __('Week', 'woo-checkout-field-editor-pro'),
+			'url' => __('URL', 'woo-checkout-field-editor-pro'),
+			'paragraph' => __('Paragraph','woo-checkout-field-editor-pro'),
 		);
 	}
 
@@ -62,6 +69,7 @@ class THWCFD_Admin_Form_Field extends THWCFD_Admin_Form{
 			'postcode' => __('Postcode', 'woo-checkout-field-editor-pro'),
 			'state' => __('State', 'woo-checkout-field-editor-pro'),
 			'number' => __('Number',  'woo-checkout-field-editor-pro'),
+			'url' => __('URL',  'woo-checkout-field-editor-pro'),
 		);
 
 		$display_style = array(
@@ -78,7 +86,7 @@ class THWCFD_Admin_Form_Field extends THWCFD_Admin_Form{
 			'h5' => 'H5',
 			'h6' => 'H6',
 		);
-				
+		
 		return array(
 			'type' 		  => array('type'=>'select', 'name'=>'type', 'label'=>__('Type',  'woo-checkout-field-editor-pro'), 'required'=>1, 'options'=>$field_types, 
 								'onchange'=>'thwcfdFieldTypeChangeListner(this)'),
@@ -255,6 +263,13 @@ class THWCFD_Admin_Form_Field extends THWCFD_Admin_Form{
 		$this->render_form_field_hidden();
 		$this->render_form_field_heading();	
 		$this->render_form_field_default();
+		$this->render_form_field_datetime_local();
+		$this->render_form_field_date();
+		$this->render_form_field_time();
+		$this->render_form_field_month();
+		$this->render_form_field_week();
+		$this->render_form_field_url();
+		$this->render_form_field_paragraph();
 	}
 
 	private function render_form_field_inputtext(){
@@ -502,8 +517,8 @@ class THWCFD_Admin_Form_Field extends THWCFD_Admin_Form{
 			$this->render_form_elm_row_cb($this->field_props['enabled']);
 			?>    
         </table>
-        <?php   
-	}
+        <?php
+	} 
 	
 	private function render_form_field_default(){
 		?>
@@ -520,6 +535,135 @@ class THWCFD_Admin_Form_Field extends THWCFD_Admin_Form{
 			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
 		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
 			?>    
+        </table>
+        <?php   
+	}
+	private function render_form_field_datetime_local(){
+		$placeholder_props = $this->field_props['default'];
+		$placeholder_props['placeholder'] = 'YYYY-MM-DDThh:mm';
+		?>
+        <table id="thwcfd_field_form_id_datetime_local" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			$this->render_form_elm_row($this->field_props['label']);
+			// $this->render_form_elm_row($this->field_props['default']);
+			$this->render_form_elm_row($placeholder_props);
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($this->field_props['validate']);
+
+			$this->render_form_elm_row_cb($this->field_props['required']);
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
+		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
+			?>
+        </table>
+        <?php   
+	}
+	private function render_form_field_date(){
+		$placeholder_props = $this->field_props['default'];
+		$placeholder_props['placeholder'] = 'yyyy-mm-dd';
+		?>
+        <table id="thwcfd_field_form_id_date" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			$this->render_form_elm_row($this->field_props['label']);
+			$this->render_form_elm_row($placeholder_props);
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($this->field_props['validate']);
+
+			$this->render_form_elm_row_cb($this->field_props['required']);
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
+		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
+			?>
+        </table>
+        <?php   
+	}
+	private function render_form_field_time(){
+		$placeholder_props = $this->field_props['default'];
+		$placeholder_props['placeholder'] = 'hh:mm';
+		?>
+        <table id="thwcfd_field_form_id_time" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			$this->render_form_elm_row($this->field_props['label']);
+			$this->render_form_elm_row($placeholder_props);
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($this->field_props['validate']);
+
+			$this->render_form_elm_row_cb($this->field_props['required']);
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
+		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
+			?>
+        </table>
+        <?php   
+	}
+	private function render_form_field_month(){
+		$placeholder_props = $this->field_props['default'];
+		$placeholder_props['placeholder'] = 'yyyy-MM';
+		?>
+        <table id="thwcfd_field_form_id_month" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			$this->render_form_elm_row($this->field_props['label']);
+			$this->render_form_elm_row($placeholder_props);
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($this->field_props['validate']);
+
+			$this->render_form_elm_row_cb($this->field_props['required']);
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
+		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
+			?>
+        </table>
+        <?php   
+	}
+	private function render_form_field_week(){
+		$placeholder_props = $this->field_props['default'];
+		$placeholder_props['placeholder'] = 'yyyy-Www';
+		?>
+        <table id="thwcfd_field_form_id_week" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			$this->render_form_elm_row($this->field_props['label']);
+			$this->render_form_elm_row($placeholder_props);
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($this->field_props['validate']);
+
+			$this->render_form_elm_row_cb($this->field_props['required']);
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
+		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
+			?>
+        </table>
+        <?php   
+	}
+	private function render_form_field_url(){
+		?>
+        <table id="thwcfd_field_form_id_url" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			$this->render_form_elm_row($this->field_props['label']);
+			$this->render_form_elm_row($this->field_props['placeholder']);
+			$this->render_form_elm_row($this->field_props['default']);
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($this->field_props['validate']);
+
+			$this->render_form_elm_row_cb($this->field_props['required']);
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			$this->render_form_elm_row_cb($this->field_props['show_in_email']);
+		    $this->render_form_elm_row_cb($this->field_props['show_in_order']);
+			?>
+        </table>
+        <?php   
+	}
+	private function render_form_field_paragraph(){
+		$label_props = $this->field_props['label'];
+		$label_props['label'] = 'Content';
+		?>
+        <table id="thwcfd_field_form_id_paragraph" class="thwcfd_pp_table" style="display:none;">
+        	<?php
+			
+			$this->render_form_elm_row($this->field_props['class']);
+			$this->render_form_elm_row($label_props);
+			
+			$this->render_form_elm_row_cb($this->field_props['enabled']);
+			?>
         </table>
         <?php   
 	}
