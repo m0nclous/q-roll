@@ -19,6 +19,7 @@ php_value session.save_path "tcp://127.0.0.1:6379"
 </IfModule>
 
 AddType image/webp .webp
+AddType image/svg+xml svg
 
 # BEGIN WordPress
 # Директивы (строки) между `BEGIN WordPress` и `END WordPress`
