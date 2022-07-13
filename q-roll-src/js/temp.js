@@ -31,7 +31,9 @@ jQuery(($) => {
 		$('.woocommerce #content table.cart td.actions button[name="update_cart"], .woocommerce table.cart td.actions button[name="update_cart"], .woocommerce-page #content table.cart td.actions button[name="update_cart"], .woocommerce-page table.cart td.actions button[name="update_cart"]').click();
 	});
 
-	// Маска телефона
-	$.mask.definitions[ 'h' ] = '[0-6-9]'; // Исключаем 7 и 8
-	$('input[type="tel"]').mask('+7 (h99) 999-99-99');
+	if ($.mask !== undefined) {
+		// Маска телефона
+		$.mask.definitions[ 'h' ] = '[0-6-9]'; // Исключаем 7 и 8
+		$('input[type="tel"]').mask('+7 (h99) 999-99-99');
+	}
 });

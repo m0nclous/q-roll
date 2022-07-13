@@ -114,6 +114,11 @@ img.custom-logo {
 	color: #FFFFFF;
 }
 
+.woocommerce-loop-product__link {
+	display: grid;
+	height: 100%;
+}
+
 .woocommerce ul.products li.product a img {
 	margin: auto;
 	margin-top: -160px;
@@ -127,11 +132,8 @@ img.custom-logo {
 
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
 	font-size: 20px;
-	padding: 22px 0;
-}
-
-.woocommerce ul.products li.product .woocommerce-loop-product__content {
-	min-height: 90px;
+	padding: 5px 0;
+	margin-top: 10px;
 }
 
 .woocommerce ul.products li.product .woocommerce-loop-product__content, .woocommerce ul.products li.product .woocommerce-loop-product__weight {
@@ -142,7 +144,7 @@ img.custom-logo {
 .woocommerce ul.products li.product .price {
 	color: #FFFFFF;
 	margin-bottom: 0;
-	margin-top: 13px;
+	margin-top: 15px;
 
 	font-size: 24px;
 	font-weight: 700;
@@ -159,7 +161,7 @@ img.custom-logo {
 	margin: 0;
 
 	position: relative;
-	bottom: 12px;
+	bottom: 50px;
 	margin-bottom: -12px;
 
 	border-radius: 11px;
@@ -220,6 +222,16 @@ footer {
 	padding: 20px 0;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+
+	.company {
+		display: flex;
+		gap: 5px;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}
 }
 
 .woocommerce ul.products li.product .woocommerce-placeholder {
@@ -230,7 +242,7 @@ footer {
 	display: none;
 	position: fixed;
 	bottom: 20px;
-	right: 30px;
+	right: 10px;
 	z-index: 100;
 	border: none;
 	outline: none;
@@ -440,6 +452,10 @@ input:focus, textarea:focus {
 	.woocommerce .products ul, .woocommerce ul.products {
 		grid-template-columns: repeat(3, 1fr);
 	}
+
+	.sub-footer {
+		justify-content: center;
+	}
 }
 
 @media (max-width: 1080px) {
@@ -453,13 +469,23 @@ input:focus, textarea:focus {
 		width: 100%;
 		float: unset;
 		clear: unset;
-		margin: 160px 0 0 0;
+		margin: 100px 0 0 0;
 	}
 }
 
 @media (max-width: 680px) {
 	.woocommerce .products ul, .woocommerce ul.products {
 		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.menu-korzina-container, .menu-categories-container {
+		top: 20px !important;
+	}
+
+	.admin-bar {
+		.menu-korzina-container, .menu-categories-container {
+			top: calc(20px + 32px) !important;
+		}
 	}
 
 	body {
@@ -472,6 +498,7 @@ input:focus, textarea:focus {
 		> .menu {
 			display: grid !important;
 			grid-template-columns: 1fr 1fr !important;
+			gap: 10px !important;
 		}
 	}
 
@@ -479,6 +506,11 @@ input:focus, textarea:focus {
 		display: grid !important;
 		gap: 50px !important;
 		justify-content: center !important;
+	}
+
+	.woocommerce ul.products li.product a img {
+		width: 150px;
+		margin-top: -120px;
 	}
 }
 
