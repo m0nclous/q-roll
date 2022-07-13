@@ -1,0 +1,13 @@
+<offer id="745" available="true"  >
+<name>Запеченный ролл жульен</name>
+<description><![CDATA[<p>Рис, курица х/к, сливочный сыр, томат., Шапочка из шампиньонов и сыра моцареллы., (соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/zhulen.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-zhulen/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

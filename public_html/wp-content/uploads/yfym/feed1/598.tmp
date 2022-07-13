@@ -1,0 +1,13 @@
+<offer id="598" available="true"  >
+<name>Комбо №1</name>
+<description><![CDATA[<p>Сэндвич, наггетсы 3 шт., картофель фри 70 г, соус на выбор, напиток на выбор</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kombo-1.webp</picture>
+<url>https://q-roll.ru/product/kombo-%e2%84%961/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>450</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>

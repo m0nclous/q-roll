@@ -1,0 +1,13 @@
+<offer id="849" available="true"  >
+<name>Ролл ясай маки 8шт.</name>
+<description><![CDATA[<p>Свежий огурчик, рис, нори, соус спайси, томаты, такуан.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/yasaj-maki.webp</picture>
+<url>https://q-roll.ru/product/roll-yasaj-maki-8sht/</url>
+<price>240</price>
+<currencyId>RUR</currencyId>
+<weight>210</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

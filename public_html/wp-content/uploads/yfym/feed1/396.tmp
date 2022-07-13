@@ -1,0 +1,13 @@
+<offer id="396" available="true"  >
+<name>Суп Карри</name>
+<description><![CDATA[<p>Паста карри, куриное филе, красный лук, фасоль, перец болгарский, помидоры черри, ананас</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sup-karri.webp</picture>
+<url>https://q-roll.ru/product/sup-karri/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

@@ -1,0 +1,12 @@
+<offer id="295" available="true"  >
+<name>Соус Спайси</name>
+<description><![CDATA[<p>Приятный Соус Спайси</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/orehovyj.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=295</url>
+<price>18</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

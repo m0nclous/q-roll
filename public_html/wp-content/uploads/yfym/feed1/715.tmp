@@ -1,0 +1,13 @@
+<offer id="715" available="true"  >
+<name>Ролл терияки темпура 8шт.</name>
+<description><![CDATA[<p>Лосось в соусе терияки, сливочный сыр, такуан, рис, нори, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/teriyaki-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-teriyaki-tempura-8sht/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="799" available="true"  >
+<name>Ролл Тори Ясай</name>
+<description><![CDATA[<p>Рис, нори, копченое куриное филе, пекинская капуста, помидор, соус Цезарь, жареный сушенный лук</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tori-yasaj.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=799</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>240</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

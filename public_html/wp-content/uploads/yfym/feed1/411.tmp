@@ -1,0 +1,12 @@
+<offer id="411" available="true"  >
+<name>Васаби</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vasabi.webp</picture>
+<url>https://q-roll.ru/product/vasabi/</url>
+<price>15</price>
+<currencyId>RUR</currencyId>
+<weight>15</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

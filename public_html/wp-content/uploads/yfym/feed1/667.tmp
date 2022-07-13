@@ -1,0 +1,13 @@
+<offer id="667" available="true"  >
+<name>Сет Трио</name>
+<description><![CDATA[<p>Филадельфия лайт, жюльен, green</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-trio.webp</picture>
+<url>https://q-roll.ru/product/set-trio/</url>
+<price>1069</price>
+<currencyId>RUR</currencyId>
+<weight>910</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

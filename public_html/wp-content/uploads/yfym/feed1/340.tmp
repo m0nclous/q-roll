@@ -1,0 +1,12 @@
+<offer id="340" available="true"  >
+<name>Картофель фри</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/344325906_m650_589720df454397271a8c246d79484edebde59c291f4afd558127e914c7369026.webp</picture>
+<url>https://q-roll.ru/product/kartofel-fri/</url>
+<price>150</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>

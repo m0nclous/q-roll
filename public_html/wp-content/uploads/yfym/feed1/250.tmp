@@ -1,0 +1,11 @@
+<offer id="250" available="true"  >
+<name>Вегетарианская</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/veganskaya.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=250</url>
+<price>425</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

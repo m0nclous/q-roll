@@ -1,0 +1,13 @@
+<offer id="402" available="true"  >
+<name>Шпинатный крем суп</name>
+<description><![CDATA[<p>Шпинат, сливки, бекон,(в комплект входят гренки).</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/shpinatnyj-krem-sup.webp</picture>
+<url>https://q-roll.ru/product/shpinatnyj-krem-sup/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

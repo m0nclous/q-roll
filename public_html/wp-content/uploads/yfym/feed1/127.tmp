@@ -1,0 +1,12 @@
+<offer id="127" available="true"  >
+<name>Унаги с огурцом</name>
+<description><![CDATA[<p>Сыр, рис, огурец, угорь, соус унаги</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/0196afa8-4af6-4008-a955-d4d52d3a0bba.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=127</url>
+<price>415</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="718" available="true"  >
+<name>Ролл унаги темпура 8шт.</name>
+<description><![CDATA[<p>Угорь, сливочный сыр, свежий огурчик, рис, нории, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/unagi-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-unagi-tempura-8sht/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="700" available="true"  >
+<name>MAX Филадельфийский</name>
+<description><![CDATA[<p>Филадельфия люкс, Филадельфия фитнес, Филадельфия лайт, Сяке маки, Каппа маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/max-filadelfiya.webp</picture>
+<url>https://q-roll.ru/product/max-filadelfijskij/</url>
+<price>2000</price>
+<currencyId>RUR</currencyId>
+<weight>1150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

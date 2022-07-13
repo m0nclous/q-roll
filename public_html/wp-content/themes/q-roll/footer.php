@@ -6,6 +6,11 @@
 
 			<div class="sub-footer">
 				<div class="copyright"><?= implode(',&nbsp;', ['&copy;&nbsp;' . get_bloginfo('name'), '2021 - ' . date('Y')]) ?></div>
+				<div class="company">
+					<span>ИП Ильинский Вячеслав Игоревич</span>
+					<span>ИНН: 550616525586</span>
+					<span>ОГРНИП: 322554300018830</span>
+				</div>
 				<a href="<?= get_privacy_policy_url() ?>" target="_blank">Политика конфиденциальности</a>
 			</div>
 		</footer>

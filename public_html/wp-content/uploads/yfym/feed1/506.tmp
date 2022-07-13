@@ -1,0 +1,14 @@
+<offer id="506" available="true"  >
+<name>Кесадилья с курицей</name>
+<description><![CDATA[<p>тортилья, лук репчатый, шампиньоны, болгарский перец. помидор, курица х\к,<br />
+моцарелла, соус карри</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kesadilya.webp</picture>
+<url>https://q-roll.ru/product/kesadilya-s-kuriczej/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>

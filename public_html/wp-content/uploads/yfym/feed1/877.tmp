@@ -1,0 +1,13 @@
+<offer id="877" available="true"  >
+<name>Пицца мясная 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, пепперони, копченое куриное филе, колбаски охотничьи, шампиньоны, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/myasnaya-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-myasnaya-35-sm/</url>
+<price>650</price>
+<currencyId>RUR</currencyId>
+<weight>730</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

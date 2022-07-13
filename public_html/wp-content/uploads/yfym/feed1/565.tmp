@@ -1,0 +1,13 @@
+<offer id="565" available="true"  >
+<name>Яппо буррито с креветкой</name>
+<description><![CDATA[<p>Рис, нори, пекинская капуста, помидор, креветка, имбирь, спайси соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/yappo-burito-s-krevetkoj.webp</picture>
+<url>https://q-roll.ru/product/yappo-burrito-s-krevetkoj/</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>220</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

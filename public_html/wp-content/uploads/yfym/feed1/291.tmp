@@ -1,0 +1,12 @@
+<offer id="291" available="true"  >
+<name>Палочки бамбуковые</name>
+<description><![CDATA[<p>Бамбуковые палочки для наших суши и роллов</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/palochki.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=291</url>
+<price>3</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

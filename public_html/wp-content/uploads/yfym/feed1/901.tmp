@@ -1,0 +1,13 @@
+<offer id="901" available="true"  >
+<name>Пицца овощная 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, перец сладкий, шампиньоны, пекинская капуста, маслины, соус чесночный, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ovoshhnaya-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-ovoshhnaya-35-sm/</url>
+<price>520</price>
+<currencyId>RUR</currencyId>
+<weight>670</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

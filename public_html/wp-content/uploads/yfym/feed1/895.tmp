@@ -1,0 +1,13 @@
+<offer id="895" available="true"  >
+<name>Пицца палермо</name>
+<description><![CDATA[<p>Фирменный томатный соус, ветчина, шампиньоны, сыр моцарелла, корнишоны, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/palermo-35sm-1.webp</picture>
+<url>https://q-roll.ru/product/piczcza-palermo/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>640</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

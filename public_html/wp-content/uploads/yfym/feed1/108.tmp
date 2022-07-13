@@ -1,0 +1,12 @@
+<offer id="108" available="true"  >
+<name>Филадельфия лайт</name>
+<description><![CDATA[<p>Лосось, огурец, сыр,соус унаги,кунжут</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3325.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=108</url>
+<price>255</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

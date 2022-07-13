@@ -1,0 +1,13 @@
+<offer id="604" available="true"  >
+<name>Сет №1</name>
+<description><![CDATA[<p>Сяке темпура — 4 шт., спайси — 4 шт., снежный краб — 4 шт., магуро яки — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-1.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%961/</url>
+<price>783</price>
+<currencyId>RUR</currencyId>
+<weight>530</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

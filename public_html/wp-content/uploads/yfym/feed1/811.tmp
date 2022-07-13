@@ -1,0 +1,13 @@
+<offer id="811" available="true"  >
+<name>Ролл Туна маки</name>
+<description><![CDATA[<p>Рис, нори, тунец</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tuna-maki.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=811</url>
+<price>255</price>
+<currencyId>RUR</currencyId>
+<weight>130</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

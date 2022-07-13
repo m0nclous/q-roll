@@ -1,0 +1,13 @@
+<offer id="352" available="true"  >
+<name>Картофельные дольки</name>
+<description><![CDATA[<p>Дольки из натурального картофеля в специях</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kartofelnye-dolki.webp</picture>
+<url>https://q-roll.ru/product/kartofelnye-dolki/</url>
+<price>115</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>

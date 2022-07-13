@@ -1,0 +1,13 @@
+<offer id="345" available="true"  >
+<name>Сырные палочки</name>
+<description><![CDATA[<p>Сыр голландский в панировке </p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/syrnye-palochki.webp</picture>
+<url>https://q-roll.ru/product/syrnye-palochki/</url>
+<price>210</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>

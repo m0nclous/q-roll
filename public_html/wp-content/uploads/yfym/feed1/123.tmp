@@ -1,0 +1,12 @@
+<offer id="123" available="true"  >
+<name>Унаги маки</name>
+<description><![CDATA[<p>Угорь, кунжут, нори, рис</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3413.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=123</url>
+<price>150</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

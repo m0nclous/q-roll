@@ -1,0 +1,13 @@
+<offer id="925" available="true"  >
+<name>Морская 30см.</name>
+<description><![CDATA[<p>Тесто,сырно-сливочный соус,семга,креветки,чери,сыр моцарелла,сыр креметто,маслины,лимон</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/morskaya-30sm.webp</picture>
+<url>https://q-roll.ru/product/morskaya-30sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>660</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

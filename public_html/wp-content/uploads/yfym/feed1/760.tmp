@@ -1,0 +1,12 @@
+<offer id="760" available="true"  >
+<name>Запеченный ролл токио</name>
+<description><![CDATA[<p>Рис, томат, кальмар г/к, омлет томаго, соус спайси, кунжут., Чесночная шапочка.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tokio.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-tokio/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

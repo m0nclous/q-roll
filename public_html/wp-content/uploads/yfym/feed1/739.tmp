@@ -1,0 +1,13 @@
+<offer id="739" available="true"  >
+<name>Ролл скорпион темпура 5шт.</name>
+<description><![CDATA[<p>рис, нори, бекон, помидор, имбирь,спайси соус, панко(соевый,имбирь,васаби в комплект не входят)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/skorpion-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-skorpion-tempura-5sht/</url>
+<price>220</price>
+<currencyId>RUR</currencyId>
+<weight>160</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>

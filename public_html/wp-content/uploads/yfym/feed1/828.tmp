@@ -1,0 +1,13 @@
+<offer id="828" available="true"  >
+<name>Ролл Филадельфия фитнес</name>
+<description><![CDATA[<p>Рис, нори, сыр творожный, лосось, зеленый лук</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/filadelfiya-fitnes.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=828</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>250</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

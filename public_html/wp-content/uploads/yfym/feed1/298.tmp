@@ -1,0 +1,12 @@
+<offer id="298" available="true"  >
+<name>Васаби</name>
+<description><![CDATA[<p>Отличный Васаби</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/vasabi-1.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=298</url>
+<price>10</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

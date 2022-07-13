@@ -1,0 +1,13 @@
+<offer id="748" available="true"  >
+<name>Запеченный ролл верона</name>
+<description><![CDATA[<p>Рис, томат, соус Цезарь, пекинская капуста, перец сладкий., Шапочка из шампиньонов и сыра моцареллы, украшена зеленым луком.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/verona.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-verona/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

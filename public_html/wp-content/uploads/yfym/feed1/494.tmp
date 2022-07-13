@@ -1,0 +1,13 @@
+<offer id="494" available="true"  >
+<name>Вок куриный со сливочным соусом</name>
+<description><![CDATA[<p>Брокколи, лук репчатый, морковь, соус сливочный, куриное филе, лапша пшеничная, капуста пекинская, фасоль стручковая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-kurinyj-so-slivochnym-sousom.webp</picture>
+<url>https://q-roll.ru/product/vok-kurinyj-so-slivochnym-sousom/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>

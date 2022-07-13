@@ -1,0 +1,13 @@
+<offer id="171" available="true"  >
+<name>Фреш</name>
+<description><![CDATA[<p>Сыр,угорь,курица,укроп,</p>
+<p>соус спайс</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/fresh-scaled-e1629196059535.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=171</url>
+<price>275</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

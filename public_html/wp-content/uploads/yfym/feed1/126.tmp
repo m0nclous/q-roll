@@ -1,0 +1,12 @@
+<offer id="126" available="true"  >
+<name>Гейша</name>
+<description><![CDATA[<p>Лосось, огурец, сыр, кунжут</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3262.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=126</url>
+<price>279</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

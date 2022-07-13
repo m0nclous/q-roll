@@ -1,0 +1,11 @@
+<offer id="279" available="true"  >
+<name>Домашняя</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/domashnyaya.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=279</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

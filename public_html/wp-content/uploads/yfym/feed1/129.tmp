@@ -1,0 +1,12 @@
+<offer id="129" available="true"  >
+<name>Киото темпура</name>
+<description><![CDATA[<p>Лосось, огурец, салатный лист, сыр</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3435.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=129</url>
+<price>330</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

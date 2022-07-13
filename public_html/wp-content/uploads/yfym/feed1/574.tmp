@@ -1,0 +1,13 @@
+<offer id="574" available="true"  >
+<name>Паста с томатами</name>
+<description><![CDATA[<p>Перья (макаронные изделия), соус томатный, курица, помидор, сыр пармезан</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pasta-s-tomatami.webp</picture>
+<url>https://q-roll.ru/product/pasta-s-tomatami/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>370</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>

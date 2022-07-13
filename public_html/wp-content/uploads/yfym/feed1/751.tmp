@@ -1,0 +1,13 @@
+<offer id="751" available="true"  >
+<name>Запеченный ролл окинава</name>
+<description><![CDATA[<p>Рис, омлет томаго, лук зеленый, соус спайси., Шапочка из мидий, томата, сыра моцареллы и зеленого лука., (соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/okinava.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-okinava/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

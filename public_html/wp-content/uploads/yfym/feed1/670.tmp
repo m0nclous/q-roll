@@ -1,0 +1,13 @@
+<offer id="670" available="true"  >
+<name>Сет Диета</name>
+<description><![CDATA[<p>Каппа маки, сяке маки, чука маки, туна маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-dieta.webp</picture>
+<url>https://q-roll.ru/product/set-dieta/</url>
+<price>600</price>
+<currencyId>RUR</currencyId>
+<weight>520</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

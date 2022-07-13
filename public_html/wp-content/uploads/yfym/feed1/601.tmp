@@ -1,0 +1,13 @@
+<offer id="601" available="true"  >
+<name>Комбо №2</name>
+<description><![CDATA[<p>Кесадилья, фри, напиток на выбор, соус на выбор</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kombo-2.webp</picture>
+<url>https://q-roll.ru/product/kombo-%e2%84%962/</url>
+<price>300</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>

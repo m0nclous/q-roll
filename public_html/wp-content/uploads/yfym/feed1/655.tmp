@@ -1,0 +1,13 @@
+<offer id="655" available="true"  >
+<name>Сет Жара</name>
+<description><![CDATA[<p>Green, вега, морской гад</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-zhara.webp</picture>
+<url>https://q-roll.ru/product/set-zhara/</url>
+<price>1000</price>
+<currencyId>RUR</currencyId>
+<weight>1000</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

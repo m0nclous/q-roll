@@ -1,0 +1,13 @@
+<offer id="390" available="true"  >
+<name>Мисо суп с лососем</name>
+<description><![CDATA[<p>Классический японский суп с добавлением пасты мисо, лосося, водорослей вакаме, сыра тофу, зелёного лука и кунжута.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/miso-sup-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/miso-sup-s-lososem/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

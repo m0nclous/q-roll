@@ -1,0 +1,13 @@
+<offer id="485" available="true"  >
+<name>Вок куриный с кисло-сладким соусом</name>
+<description><![CDATA[<p>Кисло-сладкий соус, куриное филе, лук репчатый, морковь, шампиньоны, фасоль стручковая, лапша пшеничная</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-kurinyj-s-kislo-sladkim-sousom.webp</picture>
+<url>https://q-roll.ru/product/vok-kurinyj-s-kislo-sladkim-sousom/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>

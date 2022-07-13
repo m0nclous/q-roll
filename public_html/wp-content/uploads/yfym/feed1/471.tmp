@@ -1,0 +1,13 @@
+<offer id="471" available="true"  >
+<name>Бургер Мужской набор</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус карри и томатно-кисло-сладкий, котлета свинина говядина, помидор, бекон, охотничьи колбаски, пепперони, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-muzhskoj-nabor.webp</picture>
+<url>https://q-roll.ru/product/burger-muzhskoj-nabor/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>355</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

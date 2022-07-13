@@ -1,0 +1,13 @@
+<offer id="176" available="true"  >
+<name>Яки ролл</name>
+<description><![CDATA[<p>Сыр,снежный краб,кунжут,угорь,курица,</p>
+<p>соус спайс,соус унаги</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/yaki-roll-scaled-e1629197480847.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=176</url>
+<price>285</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="652" available="true"  >
+<name>Сет Пятнашки 15шт.</name>
+<description><![CDATA[<p>Запеченный ролл кари 5шт. Запеченный ролл вулкан 5шт. Запеченный ролл томаго 5шт. (соевый, имбирь, васаби в комплект не входят)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pyatnashki.webp</picture>
+<url>https://q-roll.ru/product/set-pyatnashki-15sht/</url>
+<price>550</price>
+<currencyId>RUR</currencyId>
+<weight>480</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

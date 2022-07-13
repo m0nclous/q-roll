@@ -1,0 +1,13 @@
+<offer id="712" available="true"  >
+<name>Тортилья гавайская 8шт.</name>
+<description><![CDATA[<p>Тортилья сырная, курица х/к, сыр, такуан, перец сладкий, ананас.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tortilya-gavajskaya.webp</picture>
+<url>https://q-roll.ru/product/tortilya-gavajskaya-8sht/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>64</categoryId>
+</offer>

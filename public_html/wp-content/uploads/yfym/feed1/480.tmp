@@ -1,0 +1,13 @@
+<offer id="480" available="true"  >
+<name>Бургер острый холопенью</name>
+<description><![CDATA[<p>белая булочка, соус спайси и ореховый ,салат клоу-слоу, куриная котлета, помидор, стрипсы, холопенью ,сыр</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-ostryj-s-halapeno.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=480</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

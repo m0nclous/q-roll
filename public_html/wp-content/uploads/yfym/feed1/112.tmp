@@ -1,0 +1,12 @@
+<offer id="112" available="true"  >
+<name>Бекон темпура</name>
+<description><![CDATA[<p>Бекон, сыр, болгарский перец, кляр, рис</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/facetune_05-05-2021-20-39-54.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=112</url>
+<price>199</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

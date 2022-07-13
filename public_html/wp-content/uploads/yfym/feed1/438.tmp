@@ -1,0 +1,12 @@
+<offer id="438" available="true"  >
+<name>Соус ореховый</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/orehovyj-sous.webp</picture>
+<url>https://q-roll.ru/product/sous-orehovyj/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

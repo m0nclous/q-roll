@@ -1,0 +1,13 @@
+<offer id="775" available="true"  >
+<name>Запеченный ролл Вега</name>
+<description><![CDATA[<p>Рис, нори, помидор, зеленый лук, пекинская капуста, перец болгарский, соус Цезарь, фирменная грибная шапка</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vega.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=775</url>
+<price>300</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

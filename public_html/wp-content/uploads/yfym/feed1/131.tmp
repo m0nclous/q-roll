@@ -1,0 +1,12 @@
+<offer id="131" available="true"  >
+<name>Тортилья с овощами</name>
+<description><![CDATA[<p>Помидор, огурец, салатный лист, болгарский перец, сыр</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3286.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=131</url>
+<price>155</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

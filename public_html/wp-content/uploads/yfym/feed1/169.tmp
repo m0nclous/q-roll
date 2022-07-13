@@ -1,0 +1,13 @@
+<offer id="169" available="true"  >
+<name>Унаги темпура</name>
+<description><![CDATA[<p>Сыр,угорь,огурец,кунжут,</p>
+<p>соус унаги</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/unagi-tempura-scaled-e1629191036726.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=169</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

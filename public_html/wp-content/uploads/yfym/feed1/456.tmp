@@ -1,0 +1,13 @@
+<offer id="456" available="true"  >
+<name>Бургер Темный BBQ</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус горчичный и барбекю, котлета говядина, помидор, красный лук, маринованные огурцы, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-temnyj-bbq.webp</picture>
+<url>https://q-roll.ru/product/burger-temnyj-bbq/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>380</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

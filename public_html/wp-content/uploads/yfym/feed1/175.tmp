@@ -1,0 +1,12 @@
+<offer id="175" available="true"  >
+<name>Эби темпура</name>
+<description><![CDATA[<p>Сыр,креветка тигровая,авокадо,соус унаги</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/ebi-tempura-scaled-e1629197248525.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=175</url>
+<price>289</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

@@ -1,0 +1,12 @@
+<offer id="294" available="true"  >
+<name>Соус Кимчи</name>
+<description><![CDATA[<p>Приятный Соус Кимчи</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/kimchi.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=294</url>
+<price>30</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

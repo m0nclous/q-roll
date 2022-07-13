@@ -1,0 +1,11 @@
+<offer id="193" available="true"  >
+<name>Острые с крабом</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/ostrye-.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=193</url>
+<price>45</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

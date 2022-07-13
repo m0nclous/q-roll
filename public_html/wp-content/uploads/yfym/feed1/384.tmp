@@ -1,0 +1,13 @@
+<offer id="384" available="true"  >
+<name>Рамен с курицей</name>
+<description><![CDATA[<p>Классический японский суп. Лапша удон, куриное филе, перепелиное яйцо, пекинская капуста, зелёный лук, кунжут, соус кимчи.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ramen-s-kuriczej.webp</picture>
+<url>https://q-roll.ru/product/ramen-s-kuriczej/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

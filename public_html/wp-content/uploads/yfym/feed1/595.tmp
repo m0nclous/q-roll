@@ -1,0 +1,13 @@
+<offer id="595" available="true"  >
+<name>Цезарь твистер</name>
+<description><![CDATA[<p>Тортилья сырная, салат айсберг, соус цезарь, помидор, стрипсы, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tvister-czezar.webp</picture>
+<url>https://q-roll.ru/product/czezar-tvister/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

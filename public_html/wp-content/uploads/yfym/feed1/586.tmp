@@ -1,0 +1,13 @@
+<offer id="586" available="true"  >
+<name>Сэндвич с лососем</name>
+<description><![CDATA[<p>Тосты Harrys, лосось, рукола, помидор, оливки, сыр Cremette, лимонно-горчичный соус.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sendvich-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/sendvich-s-lososem/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>275</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="874" available="true"  >
+<name>Пицца маргарита 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/margarita-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-margarita-35-sm/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>390</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

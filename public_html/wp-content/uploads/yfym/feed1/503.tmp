@@ -1,0 +1,11 @@
+<offer id="503" available="true"  >
+<name>Чизкейк классический</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/klassicheskij-chizkejk.webp</picture>
+<url>https://q-roll.ru/product/chizkejk-klassicheskij/</url>
+<price>180</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>

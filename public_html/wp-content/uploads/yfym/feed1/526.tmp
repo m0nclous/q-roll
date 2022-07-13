@@ -1,0 +1,12 @@
+<offer id="526" available="true"  >
+<name>Sprite</name>
+<description><![CDATA[<p>0.5 мл</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/344261508_m650_7f3dc263cea31fe25caf81d1426efc01a13d43ea6982b9c54b436acf6ef22a77.webp</picture>
+<url>https://q-roll.ru/product/sprite/</url>
+<price>100</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

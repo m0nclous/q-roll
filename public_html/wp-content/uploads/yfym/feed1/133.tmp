@@ -1,0 +1,12 @@
+<offer id="133" available="true"  >
+<name>Медовый лайм</name>
+<description><![CDATA[<p>Креветка тигровая,ананас,соус медовый</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/medovyj-lajm-scaled-e1629189021184.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=133</url>
+<price>265</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

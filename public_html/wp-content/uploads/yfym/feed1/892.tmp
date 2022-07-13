@@ -1,0 +1,13 @@
+<offer id="892" available="true"  >
+<name>Пицца охотничья</name>
+<description><![CDATA[<p>Фирменный томатный соус, ветчина, охотничьи колбаски, сыр моцарелла, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ohotnichya.webp</picture>
+<url>https://q-roll.ru/product/piczcza-ohotnichya/</url>
+<price>580</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

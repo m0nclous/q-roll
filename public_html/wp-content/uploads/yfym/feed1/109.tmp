@@ -1,0 +1,12 @@
+<offer id="109" available="true"  >
+<name>Филадельфия классика</name>
+<description><![CDATA[<p>Сыр, рис, лосось, огурец, нори</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/ae2c04a0-7d26-4163-8fbf-ad7a184871e7.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=109</url>
+<price>399</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

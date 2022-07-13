@@ -1,0 +1,13 @@
+<offer id="512" available="true"  >
+<name>Клоу-Слоу</name>
+<description><![CDATA[<p>Капуста белокочанная, морковь, майонез, лимонный сок, брусника(украшение).</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/koul-slou.webp</picture>
+<url>https://q-roll.ru/product/klou-slou/</url>
+<price>90</price>
+<currencyId>RUR</currencyId>
+<weight>150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="730" available="true"  >
+<name>Ролл сяке темпура 8шт.</name>
+<description><![CDATA[<p>Лосось, сливочный сыр, рис, нори, лук зеленый, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/syake-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-syake-tempura-8sht/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>

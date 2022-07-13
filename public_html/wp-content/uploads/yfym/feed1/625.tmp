@@ -1,0 +1,13 @@
+<offer id="625" available="true"  >
+<name>Сет №8</name>
+<description><![CDATA[<p>Чука — 4 шт., филадельфия — 4 шт., нагаи 4 шт., акира 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-8.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%968/</url>
+<price>825</price>
+<currencyId>RUR</currencyId>
+<weight>535</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

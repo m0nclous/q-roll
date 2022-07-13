@@ -1,0 +1,13 @@
+<offer id="172" available="true"  >
+<name>Цезарь</name>
+<description><![CDATA[<p>Салат лист,пармезан,курица,</p>
+<p>помидор,соус цезарь</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/czezar-scaled-e1629196292512.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=172</url>
+<price>245</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

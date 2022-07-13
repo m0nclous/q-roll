@@ -1,0 +1,13 @@
+<offer id="368" available="true"  >
+<name>Пельмешки жаренные 20шт.</name>
+<description><![CDATA[<p>Тесто, свинина</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pelmeni-zharennye.webp</picture>
+<url>https://q-roll.ru/product/pelmeshki-zharennye-20sht/</url>
+<price>199</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>

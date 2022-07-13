@@ -1,0 +1,13 @@
+<offer id="910" available="true"  >
+<name>Пицца жемчужина 35см</name>
+<description><![CDATA[<p>Фирменный сливочный соус, креветки, сыр моцарелла, капуста брокколи, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/zhemchuzhina-35-sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-zhemchuzhina-35sm/</url>
+<price>670</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

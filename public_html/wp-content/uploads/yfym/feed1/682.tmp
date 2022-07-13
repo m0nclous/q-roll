@@ -1,0 +1,13 @@
+<offer id="682" available="true"  >
+<name>Сет Хит</name>
+<description><![CDATA[<p>Эби Эби, Филадельфия лайт, Вега</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-hit.webp</picture>
+<url>https://q-roll.ru/product/set-hit/</url>
+<price>1100</price>
+<currencyId>RUR</currencyId>
+<weight>810</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="703" available="true"  >
+<name>Биг Биг Филадельфийский</name>
+<description><![CDATA[<p>Филадельфия люкс, Филадельфия фитнес, Филадельфия лайт, Филадельфия max, Сяке маки, Каппа маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/big-big-filadelfiya.webp</picture>
+<url>https://q-roll.ru/product/big-big-filadelfijskij/</url>
+<price>2365</price>
+<currencyId>RUR</currencyId>
+<weight>1500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

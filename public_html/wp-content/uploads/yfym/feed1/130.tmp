@@ -1,0 +1,12 @@
+<offer id="130" available="true"  >
+<name>Тортилья с курицей</name>
+<description><![CDATA[<p>Курица холодного копчения, огурец, помидор, сыр, тортилья, салатный лист</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3292.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=130</url>
+<price>175</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

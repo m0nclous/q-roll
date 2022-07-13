@@ -1,0 +1,13 @@
+<offer id="913" available="true"  >
+<name>Пицца морская 35 см</name>
+<description><![CDATA[<p>Сливочный соус, лосось, креветки, сыр моцарелла, шампиньоны, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/morskaya-35-sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-morskaya-35-sm/</url>
+<price>690</price>
+<currencyId>RUR</currencyId>
+<weight>680</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

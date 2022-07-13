@@ -1,0 +1,12 @@
+<offer id="135" available="true"  >
+<name>Сяке спайс</name>
+<description><![CDATA[<p>Сыр,лосось,масаго,соус спайс</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/syake-spajs-scaled-e1629189927770.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=135</url>
+<price>339</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

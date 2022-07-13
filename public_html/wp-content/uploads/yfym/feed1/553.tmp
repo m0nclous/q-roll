@@ -1,0 +1,13 @@
+<offer id="553" available="true"  >
+<name>Мини Хачапури По-Аджарски</name>
+<description><![CDATA[<p>Тесто, сыр адыгейский, сыр сулугуни, масло, яйцо 1шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/mini-hachapuri-po-adzharski.webp</picture>
+<url>https://q-roll.ru/product/mini-hachapuri-po-adzharski/</url>
+<price>250</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>

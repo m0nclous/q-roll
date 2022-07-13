@@ -1,0 +1,13 @@
+<offer id="562" available="true"  >
+<name>Яппо буррито с лососем</name>
+<description><![CDATA[<p>Рис, нори, лосось, пекинская капуста, помидор, лук зеленый, огурец, соус Цезарь</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/yappo-burito-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/yappo-burrito-s-lososem/</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>240</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

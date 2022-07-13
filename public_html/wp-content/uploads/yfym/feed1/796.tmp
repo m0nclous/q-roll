@@ -1,0 +1,13 @@
+<offer id="796" available="true"  >
+<name>Ролл Солнечный лосось</name>
+<description><![CDATA[<p>Рис, нори, сыр творожный, лосось, апельсин, соус чили-манго</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/solnechnyj-losos.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=796</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>260</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

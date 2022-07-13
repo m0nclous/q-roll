@@ -1,0 +1,13 @@
+<offer id="778" available="true"  >
+<name>Запеченный ролл Морской гад</name>
+<description><![CDATA[<p>Рис, нори, омлет, зеленый лук, спайси соус, фирменная шапка из мидий</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/morskoj-gad.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=778</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

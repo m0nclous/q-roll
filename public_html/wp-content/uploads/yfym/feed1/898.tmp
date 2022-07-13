@@ -1,0 +1,13 @@
+<offer id="898" available="true"  >
+<name>Пицца четыре сыра 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, сыр пармезан, сыр дорблю, сыр маасдам, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/chetyre-syra-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-chetyre-syra-35-sm/</url>
+<price>590</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="477" available="true"  >
+<name>Бургер Фиш гриль</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус чесночный, ломтик лимона, тунец, помидор, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-fish-gril.webp</picture>
+<url>https://q-roll.ru/product/burger-fish-gril/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>240</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

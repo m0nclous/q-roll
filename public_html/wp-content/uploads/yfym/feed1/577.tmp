@@ -1,0 +1,13 @@
+<offer id="577" available="true"  >
+<name>Люля-кебаб</name>
+<description><![CDATA[<p>Лаваш, соус томатный, кинза, котлета куриная, красный лук</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lyulya-kebab.webp</picture>
+<url>https://q-roll.ru/product/lyulya-kebab/</url>
+<price>250</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

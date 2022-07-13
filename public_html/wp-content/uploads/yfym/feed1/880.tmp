@@ -1,0 +1,13 @@
+<offer id="880" available="true"  >
+<name>Пицца чикен 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, копченое куриное филе, сыр моцарелла, перец сладкий, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/chiken.webp</picture>
+<url>https://q-roll.ru/product/piczcza-chiken-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

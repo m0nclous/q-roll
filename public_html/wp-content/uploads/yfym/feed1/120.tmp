@@ -1,0 +1,12 @@
+<offer id="120" available="true"  >
+<name>Каппа маки</name>
+<description><![CDATA[<p>Огурец, рис, кунжут</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3406.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=120</url>
+<price>80</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

@@ -1,7 +1,6 @@
 <?php
 
 /** The name of the database for WordPress */
-define( 'WPCACHEHOME', '/home/m/m0nclous/q-roll.ru/public_html/wp-content/plugins/wp-super-cache/' );
 define('DB_NAME', 'm0nclous_qroll');
 
 /** Database username */
@@ -54,7 +53,6 @@ define('WP_DEBUG', false);
 
 /** Кэширование Redis */
 define('WP_CACHE_KEY_SALT', 'q-roll.ru:');
-define('WP_CACHE', true);
 
 
 

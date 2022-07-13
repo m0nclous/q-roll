@@ -1,0 +1,13 @@
+<offer id="408" available="true"  >
+<name>Тайский Ям</name>
+<description><![CDATA[<p>Паста том-ям, шампиньоны, лосось, креветки, мидия, помидоры черри, чили, лайм, зеленый лук, порция риса</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tajskij-yam.webp</picture>
+<url>https://q-roll.ru/product/tajskij-yam/</url>
+<price>480</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

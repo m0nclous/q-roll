@@ -1,0 +1,13 @@
+<offer id="834" available="true"  >
+<name>Ролл фьюжн 8шт.</name>
+<description><![CDATA[<p>Сливочный сыр, курица х/к, рис, нори, лук зеленый, кунжут.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/fyuzhn.webp</picture>
+<url>https://q-roll.ru/product/roll-fyuzhn-8sht/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>250</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

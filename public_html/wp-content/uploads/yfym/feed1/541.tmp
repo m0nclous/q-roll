@@ -1,0 +1,13 @@
+<offer id="541" available="true"  >
+<name>Тори Но Маринадо</name>
+<description><![CDATA[<p>Курица, фунчоза, шампиньоны, фасоль стручковая, красный лук, сливки, чили перец, зелёный лук, кунжут</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tori.webp</picture>
+<url>https://q-roll.ru/product/tori-no-marinado/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>

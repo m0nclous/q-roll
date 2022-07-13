@@ -1,0 +1,13 @@
+<offer id="772" available="true"  >
+<name>Запеченный ролл Green</name>
+<description><![CDATA[<p>Рис, нори, спайси соус, помидор, копченый кальмар, омлет, кунжут, шапка из фирменного чесночного соуса</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/green.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=772</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

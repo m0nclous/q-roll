@@ -1,0 +1,13 @@
+<offer id="907" available="true"  >
+<name>Пицца Цезарь 35 см</name>
+<description><![CDATA[<p>Фирменный сливочный соус, копченое куриное филе, сыр моцарелла, шампиньоны, пекинская капуста, соус чесночный, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czezar-35-sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-czezar-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

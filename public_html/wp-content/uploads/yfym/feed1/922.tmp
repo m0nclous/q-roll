@@ -1,0 +1,13 @@
+<offer id="922" available="true"  >
+<name>Дьябола 30см.</name>
+<description><![CDATA[<p>Тесто,соус барбекю,шампиньоны,охотничьи колбаски,пепперони,болгарский перец,холопенью,красный лук,сыр моцарелла</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/dyabola-30sm.webp</picture>
+<url>https://q-roll.ru/product/dyabola-30sm/</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<weight>500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

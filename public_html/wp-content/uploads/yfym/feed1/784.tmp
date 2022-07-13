@@ -1,0 +1,13 @@
+<offer id="784" available="true"  >
+<name>Запеченный ролл Эби Эби</name>
+<description><![CDATA[<p>Рис, нори, сыр творожный, помидор, перец болгарский, имбирь, шапка из креветки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ebi-ebi.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=784</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>230</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

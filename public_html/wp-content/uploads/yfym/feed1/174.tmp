@@ -1,0 +1,12 @@
+<offer id="174" available="true"  >
+<name>Эби краб</name>
+<description><![CDATA[<p>Сыр,масаго,снежный краб,креветка тигровая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/ebi-krab-scaled-e1629196637636.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=174</url>
+<price>299</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

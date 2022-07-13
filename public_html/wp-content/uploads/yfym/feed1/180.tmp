@@ -1,0 +1,12 @@
+<offer id="180" available="true"  >
+<name>Вулкан</name>
+<description><![CDATA[<p>Сыр,лосось,рис,масаго,  соус спайси</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/vulkan-1.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=180</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

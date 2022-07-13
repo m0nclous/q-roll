@@ -1,0 +1,12 @@
+<offer id="182" available="true"  >
+<name>Суши с лососем</name>
+<description><![CDATA[<p>Рис,лосось</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/sushi-syake.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=182</url>
+<price>90</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

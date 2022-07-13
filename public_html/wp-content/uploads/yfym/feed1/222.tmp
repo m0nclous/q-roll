@@ -1,0 +1,12 @@
+<offer id="222" available="true"  >
+<name>Курица и грибы 33см</name>
+<description><![CDATA[<p>Сыр, соус томатный, куриная грудка копченая, шампиньоны, лук красный</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_2785.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=222</url>
+<price>399</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

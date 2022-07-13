@@ -1,0 +1,12 @@
+<offer id="110" available="true"  >
+<name>Бонито</name>
+<description><![CDATA[<p>Лосось терияки, сыр,огурец, стружка тунца</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3456.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=110</url>
+<price>235</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

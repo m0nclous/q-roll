@@ -1,0 +1,12 @@
+<offer id="132" available="true"  >
+<name>Лава</name>
+<description><![CDATA[<p>Лосось,зелен.лук,соус лава</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/lava-scaled-e1629188827408.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=132</url>
+<price>210</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

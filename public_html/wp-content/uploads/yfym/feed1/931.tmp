@@ -1,0 +1,13 @@
+<offer id="931" available="true"  >
+<name>Цыпленок карри 30см.</name>
+<description><![CDATA[<p>Тесто,соус карри,курица копченая,перец болгарский,помидор,сыр моцарелла,маслины</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czyplenok-karri-30sm.webp</picture>
+<url>https://q-roll.ru/product/czyplenok-karri-30sm/</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<weight>500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

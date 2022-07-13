@@ -1,0 +1,12 @@
+<offer id="435" available="true"  >
+<name>Соус терияки</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-teriyaki.webp</picture>
+<url>https://q-roll.ru/product/sous-teriyaki/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

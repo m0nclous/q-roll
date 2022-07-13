@@ -1,0 +1,13 @@
+<offer id="497" available="true"  >
+<name>Вок овощной</name>
+<description><![CDATA[<p>Лук репчатый, морковь, соус соевый, фасоль стручковая, шампиньоны, перец болгарский, брокколи, лапша пшеничная, пекинская капуста</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-ovoshhnoj.webp</picture>
+<url>https://q-roll.ru/product/vok-ovoshhnoj/</url>
+<price>290</price>
+<currencyId>RUR</currencyId>
+<weight>450</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>

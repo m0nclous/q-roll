@@ -1,0 +1,13 @@
+<offer id="816" available="true"  >
+<name>Ролл Калифорния</name>
+<description><![CDATA[<p>Рис, нори, сыр творожный, имитация краба, огурец, масаго</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kaliforniya.webp</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=816</url>
+<price>330</price>
+<currencyId>RUR</currencyId>
+<weight>260</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

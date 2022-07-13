@@ -1,0 +1,13 @@
+<offer id="787" available="true"  >
+<name>Запеченный ролл Филадельфия max</name>
+<description><![CDATA[<p>Рис, нори, сыр творожный, лосось, огурец</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/filadelfiya-max.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-filadelfiya-max/</url>
+<price>570</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>

@@ -1,0 +1,12 @@
+<offer id="534" available="true"  >
+<name>Сок Rich</name>
+<description><![CDATA[<p>0.33 мл</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/rich.jpeg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=534</url>
+<price>90</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>56</categoryId>
+</offer>

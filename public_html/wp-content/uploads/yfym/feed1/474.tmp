@@ -1,0 +1,13 @@
+<offer id="474" available="true"  >
+<name>Бургер Чикен карри</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус сырный и карри, стрипсы, перец болгарский, помидор, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-chiken-karri.webp</picture>
+<url>https://q-roll.ru/product/burger-chiken-karri/</url>
+<price>315</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

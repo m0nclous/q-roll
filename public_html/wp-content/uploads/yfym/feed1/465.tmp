@@ -1,0 +1,13 @@
+<offer id="465" available="true"  >
+<name>Бургер Тропикано</name>
+<description><![CDATA[<p>Булочка белая, салат айсберг, соус карри и сырный, котлета в панировке свинина курица, помидор ананас, красный лук, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-tropikano.webp</picture>
+<url>https://q-roll.ru/product/burger-tropikano/</url>
+<price>315</price>
+<currencyId>RUR</currencyId>
+<weight>360</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

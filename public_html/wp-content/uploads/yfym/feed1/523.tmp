@@ -1,0 +1,12 @@
+<offer id="523" available="true"  >
+<name>Fanta</name>
+<description><![CDATA[<p>0.5 мл</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/344261507_m650_70958ab0e749b6a1d52199c7a5686baf169cf997cc9804e5b5ed603811928380.webp</picture>
+<url>https://q-roll.ru/product/fanta/</url>
+<price>100</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

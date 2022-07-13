@@ -1,0 +1,13 @@
+<offer id="571" available="true"  >
+<name>Паста с курицей и грибами</name>
+<description><![CDATA[<p>Перья (макаронные изделия), сливки, курица, шампиньоны, сыр пармезан</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pasta-s-kuriczej-i-gribami.webp</picture>
+<url>https://q-roll.ru/product/pasta-s-kuriczej-i-gribami/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>420</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>

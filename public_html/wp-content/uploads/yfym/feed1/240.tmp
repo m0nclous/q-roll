@@ -1,0 +1,12 @@
+<offer id="240" available="true"  >
+<name>Кальцоне 2</name>
+<description><![CDATA[<p>Сыр, соус шпинатный, куриное филе холодного копчения, черри вяленные, шампиньоны</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/83179322-60db-4b93-a278-836b01a9d657.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=240</url>
+<price>399</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

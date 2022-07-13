@@ -1,0 +1,13 @@
+<offer id="509" available="true"  >
+<name>TUNA Салат</name>
+<description><![CDATA[<p>Тунец, руккола, пекинская капуста, сельдерей, медово-горчичная заправка, кунжут. черри, сыр дор блю</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tuna-salat.webp</picture>
+<url>https://q-roll.ru/product/tuna-salat/</url>
+<price>295</price>
+<currencyId>RUR</currencyId>
+<weight>210</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>

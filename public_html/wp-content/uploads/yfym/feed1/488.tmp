@@ -1,0 +1,13 @@
+<offer id="488" available="true"  >
+<name>Вок мясной</name>
+<description><![CDATA[<p>Соус терияки, лук репчатый, морковь, капуста пекинская, перец болгарский, свинина, лапша пшеничная, фасоль стручковая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-myasnoj.webp</picture>
+<url>https://q-roll.ru/product/vok-myasnoj/</url>
+<price>360</price>
+<currencyId>RUR</currencyId>
+<weight>490</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>

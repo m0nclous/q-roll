@@ -1,0 +1,12 @@
+<offer id="125" available="true"  >
+<name>Филадельфия темпура</name>
+<description><![CDATA[<p>Лосось, рис, соус спайс, зеленый лук, сыр</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/facetune_05-05-2021-20-40-57.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=125</url>
+<price>270</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

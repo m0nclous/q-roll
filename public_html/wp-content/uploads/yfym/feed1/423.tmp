@@ -1,0 +1,12 @@
+<offer id="423" available="true"  >
+<name>Сметана 20%</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/smetana-20.webp</picture>
+<url>https://q-roll.ru/product/smetana-20/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

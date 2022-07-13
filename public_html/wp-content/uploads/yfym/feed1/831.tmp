@@ -1,0 +1,13 @@
+<offer id="831" available="true"  >
+<name>Ролл дракон 8шт.</name>
+<description><![CDATA[<p>Угорь, сливочный сыр, рис, такуан, кунжут, соус унаги.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/drakon.webp</picture>
+<url>https://q-roll.ru/product/roll-drakon-8sht/</url>
+<price>590</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

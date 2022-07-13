@@ -1,0 +1,12 @@
+<offer id="124" available="true"  >
+<name>Краб темпура</name>
+<description><![CDATA[<p>Краб, рис, сыр, авокадо, ореховый соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3369.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=124</url>
+<price>245</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="462" available="true"  >
+<name>Бургер Белые ночи</name>
+<description><![CDATA[<p>Булочка белая, салат айсберг, соус чесночный и сырный, котлета свинина говядина, помидор Маринованные огурцы, яйцо пашот, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-belye-nochi.webp</picture>
+<url>https://q-roll.ru/product/burger-belye-nochi/</url>
+<price>315</price>
+<currencyId>RUR</currencyId>
+<weight>380</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

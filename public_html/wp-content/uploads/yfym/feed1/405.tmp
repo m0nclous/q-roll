@@ -1,0 +1,13 @@
+<offer id="405" available="true"  >
+<name>Солянка</name>
+<description><![CDATA[<p>Куринный бульон, мясное ассорти, оливки, маслины, репчатый лук, лимон, зелень, сметана,(в комплект входят гренки).</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/solyanka.webp</picture>
+<url>https://q-roll.ru/product/solyanka/</url>
+<price>300</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

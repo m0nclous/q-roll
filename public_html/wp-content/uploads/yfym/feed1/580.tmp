@@ -1,0 +1,13 @@
+<offer id="580" available="true"  >
+<name>Люля-кебаб с огурчиком</name>
+<description><![CDATA[<p>Лаваш, соус томатный, кинза, котлета куриная, красный лук, маринованные огурцы</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lyulya-kebabs-s-ogurchikom.webp</picture>
+<url>https://q-roll.ru/product/lyulya-kebab-s-ogurchikom/</url>
+<price>250</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

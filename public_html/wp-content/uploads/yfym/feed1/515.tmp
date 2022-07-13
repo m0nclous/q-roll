@@ -1,0 +1,13 @@
+<offer id="515" available="true"  >
+<name>Цезарь</name>
+<description><![CDATA[<p>Курица, пекинская капуста, чери, сухари, пармезан, цезарь соус, клюквенный соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czezar.webp</picture>
+<url>https://q-roll.ru/product/czezar/</url>
+<price>235</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>

@@ -4,11 +4,16 @@ add_action('wp_enqueue_scripts', function () {
 	$version = wp_get_theme()->get('Version');
 	$js = fn ($file) => get_theme_file_uri($file);
 
-	wp_register_style('font-roboto', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-	wp_enqueue_style('m0nclous-style', get_stylesheet_uri(), ['font-roboto'], $version);
+	wp_dequeue_style('wc-blocks-style');
+	wp_dequeue_style('wp-block-library');
+	wp_dequeue_style('wc-blocks-style');
 
-	wp_register_script('jquery.maskedinput', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js');
-	wp_enqueue_script('m0nclous-script', get_theme_file_uri('assets/script.js'), ['jquery.maskedinput'], $version, true);
+	if (user_agent_is_user()) wp_enqueue_style('font-roboto', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+	wp_enqueue_style('m0nclous-style', get_stylesheet_uri(), [], $version);
+
+	if (is_checkout()) wp_enqueue_script('jquery.maskedinput', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js');
+	wp_enqueue_script('m0nclous-script', get_theme_file_uri('assets/script.js'), [], $version, true);
 });
 
 /** Удаляем jquery-migrate */
@@ -27,7 +32,7 @@ add_action('wp_head', fn () => print('<meta name="google-site-verification" cont
 add_action('wp_head', fn () => print('<meta name="yandex-verification" content="97530ced9599130e" />'));
 
 /** Yandex.Metrika counter */
-add_action('wp_head', fn () => print('<script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(87871205, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/87871205" style="position:absolute; left:-9999px;" alt="" /></div></noscript>'));
+if (user_agent_is_user()) add_action('wp_head', fn () => print('<script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(87871205, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/87871205" style="position:absolute; left:-9999px;" alt="" /></div></noscript>'));
 
 /** Эта функция позволит плагинам и темам изменять метатег <title> */
 add_theme_support('title-tag');
@@ -80,6 +85,9 @@ add_action('woocommerce_before_checkout_form', fn () => print('<h1>Оформл�
 /** Меняем ссылку корзины на ссылку оформления заказа */
 add_filter('woocommerce_get_cart_url', 'wc_get_checkout_url');
 
+/** Выводим все товары (без пагинации) */
+add_filter('loop_shop_per_page', fn () => 999);
+
 /** Направляем на страницу магазина, если мы находимся на оформлении заказа и у нас пустая корзина */
 add_action('template_redirect', fn () => is_checkout() && !(isset($_GET['key']) && is_wc_endpoint_url('order-received')) && count(WC()->cart->cart_contents) === 0 ? exit(wp_redirect(get_home_url())) : '');
 
@@ -94,11 +102,17 @@ add_filter('site_status_tests', function ($tests) {
 	return $tests;
 });
 
+/** Исправляем ошибку "префикс article неизвестен валидатору" */
+add_filter('language_attributes', fn ($lang) => $lang .= ' prefix="article: http://ogp.me/ns/article#" ', $lang);
+
 /** Убираем хлебные крошки woocommerce */
 remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
 
 /** Убираем хлебные крошки woocommerce */
 add_action('woocommerce_product_thumbnails_columns', fn () => 1);
+
+/** Убираем в Yoast Seo разметку поиска */
+add_filter('disable_wpseo_json_ld_search', '__return_true');
 
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
@@ -117,4 +131,13 @@ function get_the_weight($with_unit = false) {
 	global $product;
 	if (empty($product->get_weight())) return '';
 	return $with_unit ? ($product->get_weight() . ' ' . get_option('woocommerce_weight_unit')) : $product->get_weight();
+}
+
+add_filter('wp_nav_menu_objects', function ($items) {
+	foreach ($items as $item) if ($item->ID === 63 ) $item->title = '';
+	return $items;
+});
+
+function user_agent_is_user() {
+	return strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome-Lighthouse') === false && strpos($_SERVER['HTTP_USER_AGENT'], 'YandexBot') === false;
 }

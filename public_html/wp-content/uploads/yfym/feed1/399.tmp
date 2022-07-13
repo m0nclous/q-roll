@@ -1,0 +1,13 @@
+<offer id="399" available="true"  >
+<name>Суп Том-Кха</name>
+<description><![CDATA[<p>Паста том-кха, куриное филе, красный лук, помидор, зеленый лук, чили, лайм, порция риса</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sup-tom-kha.webp</picture>
+<url>https://q-roll.ru/product/sup-tom-kha/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

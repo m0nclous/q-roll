@@ -1,0 +1,13 @@
+<offer id="491" available="true"  >
+<name>Вок с морепродуктами в сливочном соусе</name>
+<description><![CDATA[<p>Креветки, лук репчатый, морковь, соус сливочный, лосось, кальмар, лапша пшеничная, перец болгарский, фасоль стручковая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-s-moreproduktami-v-slivochnom-souse.webp</picture>
+<url>https://q-roll.ru/product/vok-s-moreproduktami-v-slivochnom-souse/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>

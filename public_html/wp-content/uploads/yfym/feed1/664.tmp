@@ -1,0 +1,13 @@
+<offer id="664" available="true"  >
+<name>Сет Тори</name>
+<description><![CDATA[<p>Тори ясай, тори темпура, жюльен</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-tori.webp</picture>
+<url>https://q-roll.ru/product/set-tori/</url>
+<price>1000</price>
+<currencyId>RUR</currencyId>
+<weight>890</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

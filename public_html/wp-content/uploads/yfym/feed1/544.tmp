@@ -1,0 +1,13 @@
+<offer id="544" available="true"  >
+<name>Хачапури По-Аджарски</name>
+<description><![CDATA[<p>Тесто, сыр адыгейский, сыр сулугуни, масло, яйцо 2шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/hachapuri-po-adzharski.webp</picture>
+<url>https://q-roll.ru/product/hachapuri-po-adzharski/</url>
+<price>270</price>
+<currencyId>RUR</currencyId>
+<weight>315</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>

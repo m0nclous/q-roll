@@ -1,0 +1,12 @@
+<offer id="114" available="true"  >
+<name>Ролл с курицей</name>
+<description><![CDATA[<p>Сыр, рис, курица, помидор</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/kur-scaled-e1629215611169.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=114</url>
+<price>199</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

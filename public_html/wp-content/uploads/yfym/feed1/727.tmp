@@ -1,0 +1,13 @@
+<offer id="727" available="true"  >
+<name>Ролл Цезарь 8шт.</name>
+<description><![CDATA[<p>Курица х/к, сливочный сыр, пекинская капуста, томаты, рис, нории, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czezar-1.webp</picture>
+<url>https://q-roll.ru/product/roll-czezar-8sht/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>

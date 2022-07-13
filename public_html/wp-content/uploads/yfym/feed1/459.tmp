@@ -1,0 +1,13 @@
+<offer id="459" available="true"  >
+<name>Бургер Black терияки</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус горчичный и терияки, котлета говядина, помидор, красный лук, бекон, яйцо пашот, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-black-teriyaki.webp</picture>
+<url>https://q-roll.ru/product/burger-black-teriyaki/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

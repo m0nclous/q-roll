@@ -1,0 +1,13 @@
+<offer id="607" available="true"  >
+<name>Сет №2</name>
+<description><![CDATA[<p>Чука — 4 шт., калифорния — 4 шт., филадельфия — 4 шт., магуро — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-2.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%962/</url>
+<price>825</price>
+<currencyId>RUR</currencyId>
+<weight>560</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

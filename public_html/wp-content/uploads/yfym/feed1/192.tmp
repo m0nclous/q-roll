@@ -1,0 +1,11 @@
+<offer id="192" available="true"  >
+<name>Острые с лососем</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/ostrye-.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=192</url>
+<price>80</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

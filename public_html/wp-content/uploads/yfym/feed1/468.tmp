@@ -1,0 +1,13 @@
+<offer id="468" available="true"  >
+<name>Бургер Жюльен</name>
+<description><![CDATA[<p>Булочка белая, салат айсберг, соус чесночный и грибной, котлета в панировке курица, помидор, моцарелла в панировке</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-zhulen.webp</picture>
+<url>https://q-roll.ru/product/burger-zhyulen/</url>
+<price>345</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>

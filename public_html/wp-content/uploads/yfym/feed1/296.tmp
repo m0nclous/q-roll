@@ -1,0 +1,12 @@
+<offer id="296" available="true"  >
+<name>Соус Терияки</name>
+<description><![CDATA[<p>Приятный Соус Терияки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/teriyaki.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=296</url>
+<price>15</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

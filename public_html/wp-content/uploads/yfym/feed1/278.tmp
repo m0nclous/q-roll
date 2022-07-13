@@ -1,0 +1,11 @@
+<offer id="278" available="true"  >
+<name>Сырная с ветчиной</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/syrnaya-s-vetchinoj.png</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=278</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>

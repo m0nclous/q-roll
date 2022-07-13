@@ -1,0 +1,13 @@
+<offer id="724" available="true"  >
+<name>Ролл эби темпура 8шт.</name>
+<description><![CDATA[<p>Креветки, сливочный сыр, свежий огурчик, имбирь, рис, нори, кунжут, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ebi-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-ebi-tempura-8sht/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>310</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>

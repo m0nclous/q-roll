@@ -1,0 +1,13 @@
+<offer id="589" available="true"  >
+<name>Острый перчик</name>
+<description><![CDATA[<p>Тортилья сырная, салат Клоу Слоу, соус спайси, помидор, стрипсы, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ostryj-perchik.webp</picture>
+<url>https://q-roll.ru/product/ostryj-perchik/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>220</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

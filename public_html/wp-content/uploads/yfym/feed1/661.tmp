@@ -1,0 +1,13 @@
+<offer id="661" available="true"  >
+<name>Сет Искушение</name>
+<description><![CDATA[<p>Green, сяке темпура, калифорния, 1/2 тори пицца</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-iskushenie.webp</picture>
+<url>https://q-roll.ru/product/set-iskushenie/</url>
+<price>1300</price>
+<currencyId>RUR</currencyId>
+<weight>1000</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

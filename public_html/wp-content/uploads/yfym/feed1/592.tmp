@@ -1,0 +1,13 @@
+<offer id="592" available="true"  >
+<name>Грибной твистер</name>
+<description><![CDATA[<p>Тортилья сырная, салат айсберг, соус чесночный, помидор, стрипсы, шампиньоны, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tvister-gribnoj.webp</picture>
+<url>https://q-roll.ru/product/gribnoj-tvister/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

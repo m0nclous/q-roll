@@ -1,0 +1,12 @@
+<offer id="170" available="true"  >
+<name>Филадельфия</name>
+<description><![CDATA[<p>Зеленый лук,лосось,острый соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/filka-scaled-e1629191327355.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=170</url>
+<price>330</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

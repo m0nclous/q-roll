@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2022-07-13 13:48">
+<shop>
+<name>Q-Roll</name>
+<company>Q-Roll</company>
+<url>https://q-roll.ru/</url>
+<platform>WordPress - Yml for Yandex Market</platform>
+<version>6.0</version>
+<currencies>
+<currency id="RUR" rate="1"/>
+</currencies>
+<categories>
+<category id="47">Бургеры</category>
+<category id="48">Воки</category>
+<category id="49">Горячее</category>
+<category id="54">Десерты &amp; Комбо</category>
+<category id="46">Закуски</category>
+<category id="52">Запеченные роллы</category>
+<category id="55">Люля-кебаб</category>
+<category id="21">Напитки &amp; Дополнения</category>
+<category id="57">Паста &amp; Салаты</category>
+<category id="20">Пицца</category>
+<category id="19">Роллы</category>
+<category id="60">Сеты</category>
+<category id="61">Супы</category>
+<category id="51">Темпура роллы</category>
+<category id="64">Тортилья роллы</category>
+</categories>
+<pickup-options>
+<option cost="0" days="0"/>
+</pickup-options>
+<delivery-options>
+<option cost="0" days="0"/>
+</delivery-options>
+<offers>
+<offer id="931" available="true"  >
+<name>Цыпленок карри 30см.</name>
+<description><![CDATA[<p>Тесто,соус карри,курица копченая,перец болгарский,помидор,сыр моцарелла,маслины</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czyplenok-karri-30sm.webp</picture>
+<url>https://q-roll.ru/product/czyplenok-karri-30sm/</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<weight>500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="928" available="true"  >
+<name>Свинка 30см.</name>
+<description><![CDATA[<p>Тесто,свинина холодного копчения,оливки,черри,руккола,соус шпинатный,адыгейский сыр</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/svinka-30sm.webp</picture>
+<url>https://q-roll.ru/product/svinka-30sm/</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="925" available="true"  >
+<name>Морская 30см.</name>
+<description><![CDATA[<p>Тесто,сырно-сливочный соус,семга,креветки,чери,сыр моцарелла,сыр креметто,маслины,лимон</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/morskaya-30sm.webp</picture>
+<url>https://q-roll.ru/product/morskaya-30sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>660</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="922" available="true"  >
+<name>Дьябола 30см.</name>
+<description><![CDATA[<p>Тесто,соус барбекю,шампиньоны,охотничьи колбаски,пепперони,болгарский перец,холопенью,красный лук,сыр моцарелла</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/dyabola-30sm.webp</picture>
+<url>https://q-roll.ru/product/dyabola-30sm/</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<weight>500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="919" available="true"  >
+<name>Грибочки 30см.</name>
+<description><![CDATA[<p>Тесто,сырно-сливочный соус,шампиньоны,опята,сыр моцарелла,помидор,красный лук,соус цезарь</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/gribochki-30sm.webp</picture>
+<url>https://q-roll.ru/product/gribochki-30sm/</url>
+<price>450</price>
+<currencyId>RUR</currencyId>
+<weight>600</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="916" available="true"  >
+<name>Пицца сицилия 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, грудинка свиная, сыр моцарелла, шампиньоны, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sicziliya-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-sicziliya-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="913" available="true"  >
+<name>Пицца морская 35 см</name>
+<description><![CDATA[<p>Сливочный соус, лосось, креветки, сыр моцарелла, шампиньоны, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/morskaya-35-sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-morskaya-35-sm/</url>
+<price>690</price>
+<currencyId>RUR</currencyId>
+<weight>680</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="910" available="true"  >
+<name>Пицца жемчужина 35см</name>
+<description><![CDATA[<p>Фирменный сливочный соус, креветки, сыр моцарелла, капуста брокколи, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/zhemchuzhina-35-sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-zhemchuzhina-35sm/</url>
+<price>670</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="907" available="true"  >
+<name>Пицца Цезарь 35 см</name>
+<description><![CDATA[<p>Фирменный сливочный соус, копченое куриное филе, сыр моцарелла, шампиньоны, пекинская капуста, соус чесночный, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czezar-35-sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-czezar-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="904" available="true"  >
+<name>Пицца бьянка 35 см</name>
+<description><![CDATA[<p>Фирменный сливочный соус, мясное ассорти, сыр моцарелла, шампиньоны, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/byanka-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-byanka-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>660</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="901" available="true"  >
+<name>Пицца овощная 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, перец сладкий, шампиньоны, пекинская капуста, маслины, соус чесночный, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ovoshhnaya-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-ovoshhnaya-35-sm/</url>
+<price>520</price>
+<currencyId>RUR</currencyId>
+<weight>670</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="898" available="true"  >
+<name>Пицца четыре сыра 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, сыр пармезан, сыр дорблю, сыр маасдам, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/chetyre-syra-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-chetyre-syra-35-sm/</url>
+<price>590</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="895" available="true"  >
+<name>Пицца палермо</name>
+<description><![CDATA[<p>Фирменный томатный соус, ветчина, шампиньоны, сыр моцарелла, корнишоны, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/palermo-35sm-1.webp</picture>
+<url>https://q-roll.ru/product/piczcza-palermo/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>640</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="892" available="true"  >
+<name>Пицца охотничья</name>
+<description><![CDATA[<p>Фирменный томатный соус, ветчина, охотничьи колбаски, сыр моцарелла, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ohotnichya.webp</picture>
+<url>https://q-roll.ru/product/piczcza-ohotnichya/</url>
+<price>580</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="889" available="true"  >
+<name>Пицца гавайская</name>
+<description><![CDATA[<p>Фирменный сливочный соус, копченое куриное филе, сыр моцарелла, консервированные ананасы, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/gavajskaya.webp</picture>
+<url>https://q-roll.ru/product/piczcza-gavajskaya/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>670</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="886" available="true"  >
+<name>Пицца прошутто 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, ветчина, сыр моцарелла, шампиньоны, красный лук, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/proshutto-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-proshutto-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="883" available="true"  >
+<name>Пицца барбекю 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, мясное ассорти, копченое куриное филе, сыр моцарелла, шампиньоны, красный лук, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/bbq-30sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-barbekyu-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="880" available="true"  >
+<name>Пицца чикен 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, копченое куриное филе, сыр моцарелла, перец сладкий, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/chiken.webp</picture>
+<url>https://q-roll.ru/product/piczcza-chiken-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>650</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="877" available="true"  >
+<name>Пицца мясная 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, пепперони, копченое куриное филе, колбаски охотничьи, шампиньоны, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/myasnaya-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-myasnaya-35-sm/</url>
+<price>650</price>
+<currencyId>RUR</currencyId>
+<weight>730</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="874" available="true"  >
+<name>Пицца маргарита 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, сыр моцарелла, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/margarita-35sm.webp</picture>
+<url>https://q-roll.ru/product/piczcza-margarita-35-sm/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>390</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="870" available="true"  >
+<name>Пицца пепперони 35 см</name>
+<description><![CDATA[<p>Фирменный томатный соус, пепперони, сыр моцарелла, маслины, свежий базилик, орегано</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pepperoni.webp</picture>
+<url>https://q-roll.ru/product/piczcza-pepperoni-35-sm/</url>
+<price>560</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="867" available="true"  >
+<name>Ролл лава 8шт.</name>
+<description><![CDATA[<p>Рис, нори, сыр, лосось терияки, икра тобико.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lava.webp</picture>
+<url>https://q-roll.ru/product/roll-lava-8sht/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>250</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="864" available="true"  >
+<name>Ролл магуро 8шт.</name>
+<description><![CDATA[<p>Тунец, стружка тунца, сливочный сыр, свежий огурчик, рис, нори.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/maguro.webp</picture>
+<url>https://q-roll.ru/product/roll-maguro-8sht/</url>
+<price>375</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="861" available="true"  >
+<name>Ролл магуро яки 8шт.</name>
+<description><![CDATA[<p>Шапочка из тунца с соусом спайси, сливочный сыр, такуан, рис, нори, кунжут.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/maguro-yaki.webp</picture>
+<url>https://q-roll.ru/product/roll-maguro-yaki-8sht/</url>
+<price>390</price>
+<currencyId>RUR</currencyId>
+<weight>290</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="858" available="true"  >
+<name>Ролл акира 8шт.</name>
+<description><![CDATA[<p>Лосось х/к, сливочный сыр, рис, нори, кунжут, свежий огурчик.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/akira.webp</picture>
+<url>https://q-roll.ru/product/roll-akira-8sht/</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>250</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="855" available="true"  >
+<name>Ролл филадельфия гранд 8шт.</name>
+<description><![CDATA[<p>Лосось, рис, нори, сливочный сыр, креветки, свежий огурчик.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/filadelfiya-grand.webp</picture>
+<url>https://q-roll.ru/product/roll-filadelfiya-grand-8sht/</url>
+<price>555</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="849" available="true"  >
+<name>Ролл ясай маки 8шт.</name>
+<description><![CDATA[<p>Свежий огурчик, рис, нори, соус спайси, томаты, такуан.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/yasaj-maki.webp</picture>
+<url>https://q-roll.ru/product/roll-yasaj-maki-8sht/</url>
+<price>240</price>
+<currencyId>RUR</currencyId>
+<weight>210</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="846" available="true"  >
+<name>Ролл гейша 8шт.</name>
+<description><![CDATA[<p>Лосось, угорь, икра тобико, сливочный сыр, свежий огурчик, рис, нори.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/gejsha.webp</picture>
+<url>https://q-roll.ru/product/roll-gejsha-8sht/</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="843" available="true"  >
+<name>Ролл банито 8шт.</name>
+<description><![CDATA[<p>Креветки, сливочный сыр, свежий огурчик, рис, нори.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/banito.webp</picture>
+<url>https://q-roll.ru/product/roll-banito-8sht/</url>
+<price>390</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="840" available="true"  >
+<name>Ролл канада 8шт.</name>
+<description><![CDATA[<p>Бекон, сливочный сыр, рис, нори, свежий огурчик, соус унаги.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kanada.webp</picture>
+<url>https://q-roll.ru/product/roll-kanada-8sht/</url>
+<price>330</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="837" available="true"  >
+<name>Ролл бансай 8шт.</name>
+<description><![CDATA[<p>Креветки, сливочный сыр, рис, нори, томаты, пекинская капуста.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/bansaj.webp</picture>
+<url>https://q-roll.ru/product/roll-bansaj-8sht/</url>
+<price>390</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="834" available="true"  >
+<name>Ролл фьюжн 8шт.</name>
+<description><![CDATA[<p>Сливочный сыр, курица х/к, рис, нори, лук зеленый, кунжут.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/fyuzhn.webp</picture>
+<url>https://q-roll.ru/product/roll-fyuzhn-8sht/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>250</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="831" available="true"  >
+<name>Ролл дракон 8шт.</name>
+<description><![CDATA[<p>Угорь, сливочный сыр, рис, такуан, кунжут, соус унаги.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/drakon.webp</picture>
+<url>https://q-roll.ru/product/roll-drakon-8sht/</url>
+<price>590</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
+<offer id="787" available="true"  >
+<name>Запеченный ролл Филадельфия max</name>
+<description><![CDATA[<p>Рис, нори, сыр творожный, лосось, огурец</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/filadelfiya-max.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-filadelfiya-max/</url>
+<price>570</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="760" available="true"  >
+<name>Запеченный ролл токио</name>
+<description><![CDATA[<p>Рис, томат, кальмар г/к, омлет томаго, соус спайси, кунжут., Чесночная шапочка.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tokio.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-tokio/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="757" available="true"  >
+<name>Запеченный ролл самурай</name>
+<description><![CDATA[<p>Рис, сливочный сыр, такуан., Шапочка из угря, сыра моцареллы, кунжута и соуса терияки(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/samuraj.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-samuraj/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>290</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="754" available="true"  >
+<name>Запеченный ролл сакура</name>
+<description><![CDATA[<p>Рис, мидии, омлет томаго, соус спайси, лук зеленый., Чесночная шапочка из сыра моцареллы., (соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sakura.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-sakura/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>310</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="751" available="true"  >
+<name>Запеченный ролл окинава</name>
+<description><![CDATA[<p>Рис, омлет томаго, лук зеленый, соус спайси., Шапочка из мидий, томата, сыра моцареллы и зеленого лука., (соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/okinava.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-okinava/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>270</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="748" available="true"  >
+<name>Запеченный ролл верона</name>
+<description><![CDATA[<p>Рис, томат, соус Цезарь, пекинская капуста, перец сладкий., Шапочка из шампиньонов и сыра моцареллы, украшена зеленым луком.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/verona.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-verona/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="745" available="true"  >
+<name>Запеченный ролл жульен</name>
+<description><![CDATA[<p>Рис, курица х/к, сливочный сыр, томат., Шапочка из шампиньонов и сыра моцареллы., (соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/zhulen.webp</picture>
+<url>https://q-roll.ru/product/zapechennyj-roll-zhulen/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>52</categoryId>
+</offer>
+<offer id="739" available="true"  >
+<name>Ролл скорпион темпура 5шт.</name>
+<description><![CDATA[<p>рис, нори, бекон, помидор, имбирь,спайси соус, панко(соевый,имбирь,васаби в комплект не входят)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/skorpion-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-skorpion-tempura-5sht/</url>
+<price>220</price>
+<currencyId>RUR</currencyId>
+<weight>160</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="736" available="true"  >
+<name>Ролл калифорния хот 8шт.</name>
+<description><![CDATA[<p>Имитация краба, сливочный сыр, икра тобико, свежий огурчик, рис, нори, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kaliforniya-hot.webp</picture>
+<url>https://q-roll.ru/product/roll-kaliforniya-hot-8sht/</url>
+<price>360</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="733" available="true"  >
+<name>Ролл динамит темпура 8шт.</name>
+<description><![CDATA[<p>Лосось х/к, сливочный сыр, рис, нори, соус спайси, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/dinamit-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-dinamit-tempura-8sht/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="730" available="true"  >
+<name>Ролл сяке темпура 8шт.</name>
+<description><![CDATA[<p>Лосось, сливочный сыр, рис, нори, лук зеленый, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/syake-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-syake-tempura-8sht/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>280</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="727" available="true"  >
+<name>Ролл Цезарь 8шт.</name>
+<description><![CDATA[<p>Курица х/к, сливочный сыр, пекинская капуста, томаты, рис, нории, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czezar-1.webp</picture>
+<url>https://q-roll.ru/product/roll-czezar-8sht/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="724" available="true"  >
+<name>Ролл эби темпура 8шт.</name>
+<description><![CDATA[<p>Креветки, сливочный сыр, свежий огурчик, имбирь, рис, нори, кунжут, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ebi-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-ebi-tempura-8sht/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>310</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="721" available="true"  >
+<name>Тортилья темпура гавайская 8шт.</name>
+<description><![CDATA[<p>Тортилья сырная, курица х/к, сливочный сыр, такуан, перец сладкий, ананас.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tortilya-tempura-gavajskaya.webp</picture>
+<url>https://q-roll.ru/product/tortilya-tempura-gavajskaya-8sht/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>235</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="718" available="true"  >
+<name>Ролл унаги темпура 8шт.</name>
+<description><![CDATA[<p>Угорь, сливочный сыр, свежий огурчик, рис, нории, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/unagi-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-unagi-tempura-8sht/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="715" available="true"  >
+<name>Ролл терияки темпура 8шт.</name>
+<description><![CDATA[<p>Лосось в соусе терияки, сливочный сыр, такуан, рис, нори, сухари панко, темпура.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/teriyaki-tempura.webp</picture>
+<url>https://q-roll.ru/product/roll-teriyaki-tempura-8sht/</url>
+<price>380</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>51</categoryId>
+</offer>
+<offer id="712" available="true"  >
+<name>Тортилья гавайская 8шт.</name>
+<description><![CDATA[<p>Тортилья сырная, курица х/к, сыр, такуан, перец сладкий, ананас.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tortilya-gavajskaya.webp</picture>
+<url>https://q-roll.ru/product/tortilya-gavajskaya-8sht/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>64</categoryId>
+</offer>
+<offer id="709" available="true"  >
+<name>Тортилья с семгой 8шт.</name>
+<description><![CDATA[<p>Тортилья сырная, сёмга, сыр, огурец, пекинская капуста.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tortilya-s-semgoj.webp</picture>
+<url>https://q-roll.ru/product/tortilya-s-semgoj-8sht/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>64</categoryId>
+</offer>
+<offer id="706" available="true"  >
+<name>Тортилья с беконом 8шт.</name>
+<description><![CDATA[<p>Тортилья сырная, бекон, сыр, огурец, пекинская капуста.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tortilya-s-bekonom.webp</picture>
+<url>https://q-roll.ru/product/tortilya-s-bekonom-8sht/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>190</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>64</categoryId>
+</offer>
+<offer id="703" available="true"  >
+<name>Биг Биг Филадельфийский</name>
+<description><![CDATA[<p>Филадельфия люкс, Филадельфия фитнес, Филадельфия лайт, Филадельфия max, Сяке маки, Каппа маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/big-big-filadelfiya.webp</picture>
+<url>https://q-roll.ru/product/big-big-filadelfijskij/</url>
+<price>2365</price>
+<currencyId>RUR</currencyId>
+<weight>1500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="700" available="true"  >
+<name>MAX Филадельфийский</name>
+<description><![CDATA[<p>Филадельфия люкс, Филадельфия фитнес, Филадельфия лайт, Сяке маки, Каппа маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/max-filadelfiya.webp</picture>
+<url>https://q-roll.ru/product/max-filadelfijskij/</url>
+<price>2000</price>
+<currencyId>RUR</currencyId>
+<weight>1150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="697" available="true"  >
+<name>Сет Дракония</name>
+<description><![CDATA[<p>Филадельфия лайт, Филадельфия фитнес, Дракон люкс</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-drakoniya.webp</picture>
+<url>https://q-roll.ru/product/set-drakoniya/</url>
+<price>1600</price>
+<currencyId>RUR</currencyId>
+<weight>810</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="694" available="true"  >
+<name>Сет Фантазия</name>
+<description><![CDATA[<p>Аляска, Филадельфия фитнес, Дракон люкс</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-fantaziya.webp</picture>
+<url>https://q-roll.ru/product/set-fantaziya/</url>
+<price>1550</price>
+<currencyId>RUR</currencyId>
+<weight>830</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="691" available="true"  >
+<name>Сет Инь</name>
+<description><![CDATA[<p>Чука маки, Туна маки, Филадельфия фитнес</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-in.webp</picture>
+<url>https://q-roll.ru/product/set-in/</url>
+<price>865</price>
+<currencyId>RUR</currencyId>
+<weight>510</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="688" available="true"  >
+<name>Сет Ян</name>
+<description><![CDATA[<p>Чука маки, Туна маки, Филадельфия лайт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-yan.webp</picture>
+<url>https://q-roll.ru/product/set-yan/</url>
+<price>995</price>
+<currencyId>RUR</currencyId>
+<weight>520</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="685" available="true"  >
+<name>Сет Дуэт</name>
+<description><![CDATA[<p>Оси,Филадельфия лайт,Green</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-duet.webp</picture>
+<url>https://q-roll.ru/product/set-duet/</url>
+<price>1100</price>
+<currencyId>RUR</currencyId>
+<weight>875</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="682" available="true"  >
+<name>Сет Хит</name>
+<description><![CDATA[<p>Эби Эби, Филадельфия лайт, Вега</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-hit.webp</picture>
+<url>https://q-roll.ru/product/set-hit/</url>
+<price>1100</price>
+<currencyId>RUR</currencyId>
+<weight>810</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="679" available="true"  >
+<name>Сет Нежный</name>
+<description><![CDATA[<p>Оси, Эби Эби, Филадельфия лайт</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-nezhnyj.webp</picture>
+<url>https://q-roll.ru/product/set-nezhnyj/</url>
+<price>1100</price>
+<currencyId>RUR</currencyId>
+<weight>805</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="676" available="true"  >
+<name>Сет Биг Биг Жара</name>
+<description><![CDATA[<p>Оси, Эби Эби, Морской гад, Green,Жульен</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-big-big-zhara.webp</picture>
+<url>https://q-roll.ru/product/set-big-big-zhara/</url>
+<price>1700</price>
+<currencyId>RUR</currencyId>
+<weight>1500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="673" available="true"  >
+<name>Сет Филадельфийский</name>
+<description><![CDATA[<p>Филадельфия люкс,Филадельфия фитнес,Сяке маки ,Каппа маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-filadelfijskij.webp</picture>
+<url>https://q-roll.ru/product/set-filadelfijskij/</url>
+<price>1300</price>
+<currencyId>RUR</currencyId>
+<weight>860</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="670" available="true"  >
+<name>Сет Диета</name>
+<description><![CDATA[<p>Каппа маки, сяке маки, чука маки, туна маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-dieta.webp</picture>
+<url>https://q-roll.ru/product/set-dieta/</url>
+<price>600</price>
+<currencyId>RUR</currencyId>
+<weight>520</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="667" available="true"  >
+<name>Сет Трио</name>
+<description><![CDATA[<p>Филадельфия лайт, жюльен, green</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-trio.webp</picture>
+<url>https://q-roll.ru/product/set-trio/</url>
+<price>1069</price>
+<currencyId>RUR</currencyId>
+<weight>910</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="664" available="true"  >
+<name>Сет Тори</name>
+<description><![CDATA[<p>Тори ясай, тори темпура, жюльен</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-tori.webp</picture>
+<url>https://q-roll.ru/product/set-tori/</url>
+<price>1000</price>
+<currencyId>RUR</currencyId>
+<weight>890</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="661" available="true"  >
+<name>Сет Искушение</name>
+<description><![CDATA[<p>Green, сяке темпура, калифорния, 1/2 тори пицца</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-iskushenie.webp</picture>
+<url>https://q-roll.ru/product/set-iskushenie/</url>
+<price>1300</price>
+<currencyId>RUR</currencyId>
+<weight>1000</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="658" available="true"  >
+<name>Сет Мини Филадельфийский</name>
+<description><![CDATA[<p>Филадельфия люкс, филадельфия фитнес, сяке маки</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-mini-filadelfijskij.webp</picture>
+<url>https://q-roll.ru/product/set-mini-filadelfijskij/</url>
+<price>1100</price>
+<currencyId>RUR</currencyId>
+<weight>730</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="655" available="true"  >
+<name>Сет Жара</name>
+<description><![CDATA[<p>Green, вега, морской гад</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-zhara.webp</picture>
+<url>https://q-roll.ru/product/set-zhara/</url>
+<price>1000</price>
+<currencyId>RUR</currencyId>
+<weight>1000</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="652" available="true"  >
+<name>Сет Пятнашки 15шт.</name>
+<description><![CDATA[<p>Запеченный ролл кари 5шт. Запеченный ролл вулкан 5шт. Запеченный ролл томаго 5шт. (соевый, имбирь, васаби в комплект не входят)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pyatnashki.webp</picture>
+<url>https://q-roll.ru/product/set-pyatnashki-15sht/</url>
+<price>550</price>
+<currencyId>RUR</currencyId>
+<weight>480</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="649" available="true"  >
+<name>Сет Скорпион-Чиз 10шт.</name>
+<description><![CDATA[<p>ролл скорпион темпура 5шт. ролл 2чиз 5шт. (соевый,имбирь,васаби в комплект не входят)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/skorpion-chiz.webp</picture>
+<url>https://q-roll.ru/product/set-skorpion-chiz-10sht/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="646" available="true"  >
+<name>Сет Весенний</name>
+<description><![CDATA[<p>Роллы капп маки, роллы сяке маки, роллы жульен , роллы канада, 32шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-vesennij.webp</picture>
+<url>https://q-roll.ru/product/set-vesennij/</url>
+<price>950</price>
+<currencyId>RUR</currencyId>
+<weight>1000</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="643" available="true"  >
+<name>Сет №14</name>
+<description><![CDATA[<p>Роллы окинава 8шт., Роллы сакура 8шт., Роллы самурай 8шт., Роллы токио 8шт.(соевый, имбирь и васаби в комплект не входит), роллы верона 8шт., 40шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-14.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%9614/</url>
+<price>1580</price>
+<currencyId>RUR</currencyId>
+<weight>1450</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="640" available="true"  >
+<name>Сет №13</name>
+<description><![CDATA[<p>Роллы окинава 8шт., Роллы сакура 8шт., Роллы токио 8шт., Роллы верона 8шт.(соевый, имбирь и васаби в комплект не входит), 32шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-13.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%9613/</url>
+<price>1260</price>
+<currencyId>RUR</currencyId>
+<weight>1150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="637" available="true"  >
+<name>Сет №12</name>
+<description><![CDATA[<p>Роллы окинава 8шт., Роллы токио 8шт., Роллы верона 8шт., 24шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-12.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%9612/</url>
+<price>950</price>
+<currencyId>RUR</currencyId>
+<weight>860</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="634" available="true"  >
+<name>Сет №11</name>
+<description><![CDATA[<p>Роллы окинава 8шт., Роллы калифорния 8шт., Роллы акира 8шт., Роллы верона 8шт.(соевый, имбирь и васаби в комплект не входит), 32шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-11.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%9611/</url>
+<price>1230</price>
+<currencyId>RUR</currencyId>
+<weight>1000</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="631" available="true"  >
+<name>Сет №10</name>
+<description><![CDATA[<p>Роллы акира 8шт., Роллы калифорния 8шт., Роллы окинава 8шт., 24шт. (соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-10.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%9610/</url>
+<price>920</price>
+<currencyId>RUR</currencyId>
+<weight>790</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="628" available="true"  >
+<name>Сет №9</name>
+<description><![CDATA[<p>Лосось терияки с огурчиком 4 шт., магуро 4 шт., сяке маки 4 шт., снежный краб 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-9.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%969/</url>
+<price>760</price>
+<currencyId>RUR</currencyId>
+<weight>460</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="625" available="true"  >
+<name>Сет №8</name>
+<description><![CDATA[<p>Чука — 4 шт., филадельфия — 4 шт., нагаи 4 шт., акира 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-8.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%968/</url>
+<price>825</price>
+<currencyId>RUR</currencyId>
+<weight>535</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="622" available="true"  >
+<name>Сет №7</name>
+<description><![CDATA[<p>Дракон 4 шт., филадельфия 4 шт., калифорния 4 шт., филадельфия блэк 4 шт., филадельфия гранд 4 шт., сяке маки 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-7.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%967/</url>
+<price>1440</price>
+<currencyId>RUR</currencyId>
+<weight>750</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="619" available="true"  >
+<name>Сет №6</name>
+<description><![CDATA[<p>Калифорния хот 8 шт., филадельфия хот 8 шт., акира 4 шт., лосось терияки 4 шт., нагаи 4 шт., гейша 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-6.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%966/</url>
+<price>1450</price>
+<currencyId>RUR</currencyId>
+<weight>1080</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="616" available="true"  >
+<name>Сет №5</name>
+<description><![CDATA[<p>Цезарь ролл 4 шт., калифорния с угрем 4 шт., одари 4 шт., филадельфия4 шт., ясай маки 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-5.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%965/</url>
+<price>950</price>
+<currencyId>RUR</currencyId>
+<weight>665</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="613" available="true"  >
+<name>Сет №4</name>
+<description><![CDATA[<p>Цезарь ролл — 4 шт., унаги темпура — 4 шт., динамит темпура — 4 шт., сяке темпура — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-4.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%964/</url>
+<price>793</price>
+<currencyId>RUR</currencyId>
+<weight>580</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="610" available="true"  >
+<name>Сет №3</name>
+<description><![CDATA[<p>Дракон — 4 шт., филадельфия с огурцом — 4 шт., фьюжн — 4 шт., сяке маки — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-3.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%963/</url>
+<price>950</price>
+<currencyId>RUR</currencyId>
+<weight>695</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="607" available="true"  >
+<name>Сет №2</name>
+<description><![CDATA[<p>Чука — 4 шт., калифорния — 4 шт., филадельфия — 4 шт., магуро — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-2.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%962/</url>
+<price>825</price>
+<currencyId>RUR</currencyId>
+<weight>560</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="604" available="true"  >
+<name>Сет №1</name>
+<description><![CDATA[<p>Сяке темпура — 4 шт., спайси — 4 шт., снежный краб — 4 шт., магуро яки — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-1.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%961/</url>
+<price>783</price>
+<currencyId>RUR</currencyId>
+<weight>530</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>
+<offer id="601" available="true"  >
+<name>Комбо №2</name>
+<description><![CDATA[<p>Кесадилья, фри, напиток на выбор, соус на выбор</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kombo-2.webp</picture>
+<url>https://q-roll.ru/product/kombo-%e2%84%962/</url>
+<price>300</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>
+<offer id="598" available="true"  >
+<name>Комбо №1</name>
+<description><![CDATA[<p>Сэндвич, наггетсы 3 шт., картофель фри 70 г, соус на выбор, напиток на выбор</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kombo-1.webp</picture>
+<url>https://q-roll.ru/product/kombo-%e2%84%961/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>450</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>
+<offer id="595" available="true"  >
+<name>Цезарь твистер</name>
+<description><![CDATA[<p>Тортилья сырная, салат айсберг, соус цезарь, помидор, стрипсы, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tvister-czezar.webp</picture>
+<url>https://q-roll.ru/product/czezar-tvister/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="592" available="true"  >
+<name>Грибной твистер</name>
+<description><![CDATA[<p>Тортилья сырная, салат айсберг, соус чесночный, помидор, стрипсы, шампиньоны, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tvister-gribnoj.webp</picture>
+<url>https://q-roll.ru/product/gribnoj-tvister/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="589" available="true"  >
+<name>Острый перчик</name>
+<description><![CDATA[<p>Тортилья сырная, салат Клоу Слоу, соус спайси, помидор, стрипсы, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ostryj-perchik.webp</picture>
+<url>https://q-roll.ru/product/ostryj-perchik/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>220</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="586" available="true"  >
+<name>Сэндвич с лососем</name>
+<description><![CDATA[<p>Тосты Harrys, лосось, рукола, помидор, оливки, сыр Cremette, лимонно-горчичный соус.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sendvich-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/sendvich-s-lososem/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>275</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="583" available="true"  >
+<name>Сэндвич с курицей</name>
+<description><![CDATA[<p>Тосты Harrys, салат Клоу Слоу, соус чесночный, стрипсы, помидор. яйцо пашот, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sendvich-s-kuriczej.webp</picture>
+<url>https://q-roll.ru/product/sendvich-s-kuriczej/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>275</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="580" available="true"  >
+<name>Люля-кебаб с огурчиком</name>
+<description><![CDATA[<p>Лаваш, соус томатный, кинза, котлета куриная, красный лук, маринованные огурцы</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lyulya-kebabs-s-ogurchikom.webp</picture>
+<url>https://q-roll.ru/product/lyulya-kebab-s-ogurchikom/</url>
+<price>250</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="577" available="true"  >
+<name>Люля-кебаб</name>
+<description><![CDATA[<p>Лаваш, соус томатный, кинза, котлета куриная, красный лук</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lyulya-kebab.webp</picture>
+<url>https://q-roll.ru/product/lyulya-kebab/</url>
+<price>250</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="574" available="true"  >
+<name>Паста с томатами</name>
+<description><![CDATA[<p>Перья (макаронные изделия), соус томатный, курица, помидор, сыр пармезан</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pasta-s-tomatami.webp</picture>
+<url>https://q-roll.ru/product/pasta-s-tomatami/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>370</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>
+<offer id="571" available="true"  >
+<name>Паста с курицей и грибами</name>
+<description><![CDATA[<p>Перья (макаронные изделия), сливки, курица, шампиньоны, сыр пармезан</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pasta-s-kuriczej-i-gribami.webp</picture>
+<url>https://q-roll.ru/product/pasta-s-kuriczej-i-gribami/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>420</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>
+<offer id="568" available="true"  >
+<name>Паста Карбонара</name>
+<description><![CDATA[<p>Спагетти, бекон, чеснок, сливки, сыр пармезан</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pasta-karbonara.webp</picture>
+<url>https://q-roll.ru/product/pasta-karbonara/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>
+<offer id="565" available="true"  >
+<name>Яппо буррито с креветкой</name>
+<description><![CDATA[<p>Рис, нори, пекинская капуста, помидор, креветка, имбирь, спайси соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/yappo-burito-s-krevetkoj.webp</picture>
+<url>https://q-roll.ru/product/yappo-burrito-s-krevetkoj/</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>220</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="562" available="true"  >
+<name>Яппо буррито с лососем</name>
+<description><![CDATA[<p>Рис, нори, лосось, пекинская капуста, помидор, лук зеленый, огурец, соус Цезарь</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/yappo-burito-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/yappo-burrito-s-lososem/</url>
+<price>440</price>
+<currencyId>RUR</currencyId>
+<weight>240</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>
+<offer id="559" available="true"  >
+<name>Суши-пицца Тори</name>
+<description><![CDATA[<p>Рис, нори, соус Цезарь, копченое куриное филе, помидор, сыр моцарелла</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sushi-piczcza-tori.webp</picture>
+<url>https://q-roll.ru/product/sushi-piczcza-tori/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>260</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="556" available="true"  >
+<name>Суши-пицца с лососем</name>
+<description><![CDATA[<p>Рис, нори, лосось, помидор, сыр моцарелла, фирменный чесночный соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sushi-piczcza-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/sushi-piczcza-s-lososem/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>260</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>20</categoryId>
+</offer>
+<offer id="553" available="true"  >
+<name>Мини Хачапури По-Аджарски</name>
+<description><![CDATA[<p>Тесто, сыр адыгейский, сыр сулугуни, масло, яйцо 1шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/mini-hachapuri-po-adzharski.webp</picture>
+<url>https://q-roll.ru/product/mini-hachapuri-po-adzharski/</url>
+<price>250</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="550" available="true"  >
+<name>Хачапури по Мигрельски 33см</name>
+<description><![CDATA[<p>Тесто, сыр сулугуни, сыр адыгейский, масло,33см</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/hachapuri-po-migrelski-33sm.webp</picture>
+<url>https://q-roll.ru/product/hachapuri-po-migrelski-33sm/</url>
+<price>500</price>
+<currencyId>RUR</currencyId>
+<weight>500</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="547" available="true"  >
+<name>Хачапури по Мигрельски 20см.</name>
+<description><![CDATA[<p>Тесто, сыр адыгейский, сыр сулугуни, масло.20см</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/hachapuri-po-migrelski-20sm.webp</picture>
+<url>https://q-roll.ru/product/hachapuri-po-migrelski-20sm/</url>
+<price>300</price>
+<currencyId>RUR</currencyId>
+<weight>250</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="544" available="true"  >
+<name>Хачапури По-Аджарски</name>
+<description><![CDATA[<p>Тесто, сыр адыгейский, сыр сулугуни, масло, яйцо 2шт.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/hachapuri-po-adzharski.webp</picture>
+<url>https://q-roll.ru/product/hachapuri-po-adzharski/</url>
+<price>270</price>
+<currencyId>RUR</currencyId>
+<weight>315</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="541" available="true"  >
+<name>Тори Но Маринадо</name>
+<description><![CDATA[<p>Курица, фунчоза, шампиньоны, фасоль стручковая, красный лук, сливки, чили перец, зелёный лук, кунжут</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tori.webp</picture>
+<url>https://q-roll.ru/product/tori-no-marinado/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>320</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="538" available="true"  >
+<name>Буто Кусикацу</name>
+<description><![CDATA[<p>Свинина, бекон, шампиньоны, красный лук, перец болгарский, рис, сыр моцарелла, зелёный лук, кунжут, соус спайси, ореховый соус.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/buto.webp</picture>
+<url>https://q-roll.ru/product/buto-kusikaczu/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>410</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="526" available="true"  >
+<name>Sprite</name>
+<description><![CDATA[<p>0.5 мл</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/344261508_m650_7f3dc263cea31fe25caf81d1426efc01a13d43ea6982b9c54b436acf6ef22a77.webp</picture>
+<url>https://q-roll.ru/product/sprite/</url>
+<price>100</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="523" available="true"  >
+<name>Fanta</name>
+<description><![CDATA[<p>0.5 мл</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/344261507_m650_70958ab0e749b6a1d52199c7a5686baf169cf997cc9804e5b5ed603811928380.webp</picture>
+<url>https://q-roll.ru/product/fanta/</url>
+<price>100</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="515" available="true"  >
+<name>Цезарь</name>
+<description><![CDATA[<p>Курица, пекинская капуста, чери, сухари, пармезан, цезарь соус, клюквенный соус</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/czezar.webp</picture>
+<url>https://q-roll.ru/product/czezar/</url>
+<price>235</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>
+<offer id="512" available="true"  >
+<name>Клоу-Слоу</name>
+<description><![CDATA[<p>Капуста белокочанная, морковь, майонез, лимонный сок, брусника(украшение).</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/koul-slou.webp</picture>
+<url>https://q-roll.ru/product/klou-slou/</url>
+<price>90</price>
+<currencyId>RUR</currencyId>
+<weight>150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>
+<offer id="509" available="true"  >
+<name>TUNA Салат</name>
+<description><![CDATA[<p>Тунец, руккола, пекинская капуста, сельдерей, медово-горчичная заправка, кунжут. черри, сыр дор блю</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tuna-salat.webp</picture>
+<url>https://q-roll.ru/product/tuna-salat/</url>
+<price>295</price>
+<currencyId>RUR</currencyId>
+<weight>210</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>57</categoryId>
+</offer>
+<offer id="506" available="true"  >
+<name>Кесадилья с курицей</name>
+<description><![CDATA[<p>тортилья, лук репчатый, шампиньоны, болгарский перец. помидор, курица х\к,<br />
+моцарелла, соус карри</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kesadilya.webp</picture>
+<url>https://q-roll.ru/product/kesadilya-s-kuriczej/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="503" available="true"  >
+<name>Чизкейк классический</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/klassicheskij-chizkejk.webp</picture>
+<url>https://q-roll.ru/product/chizkejk-klassicheskij/</url>
+<price>180</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>
+<offer id="500" available="true"  >
+<name>Чизкейк малиновый</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/malinovyj-chizkejk.webp</picture>
+<url>https://q-roll.ru/product/chizkejk-malinovyj/</url>
+<price>180</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>54</categoryId>
+</offer>
+<offer id="497" available="true"  >
+<name>Вок овощной</name>
+<description><![CDATA[<p>Лук репчатый, морковь, соус соевый, фасоль стручковая, шампиньоны, перец болгарский, брокколи, лапша пшеничная, пекинская капуста</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-ovoshhnoj.webp</picture>
+<url>https://q-roll.ru/product/vok-ovoshhnoj/</url>
+<price>290</price>
+<currencyId>RUR</currencyId>
+<weight>450</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>
+<offer id="494" available="true"  >
+<name>Вок куриный со сливочным соусом</name>
+<description><![CDATA[<p>Брокколи, лук репчатый, морковь, соус сливочный, куриное филе, лапша пшеничная, капуста пекинская, фасоль стручковая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-kurinyj-so-slivochnym-sousom.webp</picture>
+<url>https://q-roll.ru/product/vok-kurinyj-so-slivochnym-sousom/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>
+<offer id="491" available="true"  >
+<name>Вок с морепродуктами в сливочном соусе</name>
+<description><![CDATA[<p>Креветки, лук репчатый, морковь, соус сливочный, лосось, кальмар, лапша пшеничная, перец болгарский, фасоль стручковая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-s-moreproduktami-v-slivochnom-souse.webp</picture>
+<url>https://q-roll.ru/product/vok-s-moreproduktami-v-slivochnom-souse/</url>
+<price>420</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>
+<offer id="488" available="true"  >
+<name>Вок мясной</name>
+<description><![CDATA[<p>Соус терияки, лук репчатый, морковь, капуста пекинская, перец болгарский, свинина, лапша пшеничная, фасоль стручковая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-myasnoj.webp</picture>
+<url>https://q-roll.ru/product/vok-myasnoj/</url>
+<price>360</price>
+<currencyId>RUR</currencyId>
+<weight>490</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>
+<offer id="485" available="true"  >
+<name>Вок куриный с кисло-сладким соусом</name>
+<description><![CDATA[<p>Кисло-сладкий соус, куриное филе, лук репчатый, морковь, шампиньоны, фасоль стручковая, лапша пшеничная</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vok-kurinyj-s-kislo-sladkim-sousom.webp</picture>
+<url>https://q-roll.ru/product/vok-kurinyj-s-kislo-sladkim-sousom/</url>
+<price>340</price>
+<currencyId>RUR</currencyId>
+<weight>470</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>48</categoryId>
+</offer>
+<offer id="399" available="true"  >
+<name>Суп Том-Кха</name>
+<description><![CDATA[<p>Паста том-кха, куриное филе, красный лук, помидор, зеленый лук, чили, лайм, порция риса</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sup-tom-kha.webp</picture>
+<url>https://q-roll.ru/product/sup-tom-kha/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="396" available="true"  >
+<name>Суп Карри</name>
+<description><![CDATA[<p>Паста карри, куриное филе, красный лук, фасоль, перец болгарский, помидоры черри, ананас</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sup-karri.webp</picture>
+<url>https://q-roll.ru/product/sup-karri/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="393" available="true"  >
+<name>Суп сливочный с лососем</name>
+<description><![CDATA[<p>Паназиатский суп с добавлением сливок, лосося, водорослей вакаме, риса, зелёного лука</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/slivochnyj-sup-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/sup-slivochnyj-s-lososem/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="390" available="true"  >
+<name>Мисо суп с лососем</name>
+<description><![CDATA[<p>Классический японский суп с добавлением пасты мисо, лосося, водорослей вакаме, сыра тофу, зелёного лука и кунжута.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/miso-sup-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/miso-sup-s-lososem/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="387" available="true"  >
+<name>Том Ям</name>
+<description><![CDATA[<p>Том ям — кисло-острый суп с креветками, лососем, шампиньонами, чили, лаймом, чери. 350 гр.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sup-tom-yam.webp</picture>
+<url>https://q-roll.ru/product/tom-yam/</url>
+<price>480</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="384" available="true"  >
+<name>Рамен с курицей</name>
+<description><![CDATA[<p>Классический японский суп. Лапша удон, куриное филе, перепелиное яйцо, пекинская капуста, зелёный лук, кунжут, соус кимчи.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ramen-s-kuriczej.webp</picture>
+<url>https://q-roll.ru/product/ramen-s-kuriczej/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="379" available="true"  >
+<name>Крылья острые 7шт.</name>
+<description><![CDATA[<p>Маринованные куриные крылья в острой панировке.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/ostrye-krylya.webp</picture>
+<url>https://q-roll.ru/product/krylya-ostrye-7sht/</url>
+<price>299</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="368" available="true"  >
+<name>Пельмешки жаренные 20шт.</name>
+<description><![CDATA[<p>Тесто, свинина</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/pelmeni-zharennye.webp</picture>
+<url>https://q-roll.ru/product/pelmeshki-zharennye-20sht/</url>
+<price>199</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>
+<offer id="352" available="true"  >
+<name>Картофельные дольки</name>
+<description><![CDATA[<p>Дольки из натурального картофеля в специях</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/kartofelnye-dolki.webp</picture>
+<url>https://q-roll.ru/product/kartofelnye-dolki/</url>
+<price>115</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="345" available="true"  >
+<name>Сырные палочки</name>
+<description><![CDATA[<p>Сыр голландский в панировке </p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/syrnye-palochki.webp</picture>
+<url>https://q-roll.ru/product/syrnye-palochki/</url>
+<price>210</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="340" available="true"  >
+<name>Картофель фри</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/344325906_m650_589720df454397271a8c246d79484edebde59c291f4afd558127e914c7369026.webp</picture>
+<url>https://q-roll.ru/product/kartofel-fri/</url>
+<price>150</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="441" available="true"  >
+<name>Соус кимчи</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-kimchi.webp</picture>
+<url>https://q-roll.ru/product/sous-kimchi/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="438" available="true"  >
+<name>Соус ореховый</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/orehovyj-sous.webp</picture>
+<url>https://q-roll.ru/product/sous-orehovyj/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="435" available="true"  >
+<name>Соус терияки</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-teriyaki.webp</picture>
+<url>https://q-roll.ru/product/sous-teriyaki/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="432" available="true"  >
+<name>Соус сырный</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-syrnyj.webp</picture>
+<url>https://q-roll.ru/product/sous-syrnyj/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="429" available="true"  >
+<name>Соус Цезарь</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-czezar.webp</picture>
+<url>https://q-roll.ru/product/sous-czezar/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="426" available="true"  >
+<name>Соус чесночный</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-chesnochnyj.webp</picture>
+<url>https://q-roll.ru/product/sous-chesnochnyj/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="423" available="true"  >
+<name>Сметана 20%</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/smetana-20.webp</picture>
+<url>https://q-roll.ru/product/smetana-20/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="420" available="true"  >
+<name>Соус спайси</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-spajsi.webp</picture>
+<url>https://q-roll.ru/product/sous-spajsi/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="417" available="true"  >
+<name>Соус соевый</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/soevyj-sous.webp</picture>
+<url>https://q-roll.ru/product/sous-soevyj/</url>
+<price>45</price>
+<currencyId>RUR</currencyId>
+<weight>75</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="414" available="true"  >
+<name>Имбирь</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/imbir.webp</picture>
+<url>https://q-roll.ru/product/imbir/</url>
+<price>30</price>
+<currencyId>RUR</currencyId>
+<weight>30</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="411" available="true"  >
+<name>Васаби</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/vasabi.webp</picture>
+<url>https://q-roll.ru/product/vasabi/</url>
+<price>15</price>
+<currencyId>RUR</currencyId>
+<weight>15</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="408" available="true"  >
+<name>Тайский Ям</name>
+<description><![CDATA[<p>Паста том-ям, шампиньоны, лосось, креветки, мидия, помидоры черри, чили, лайм, зеленый лук, порция риса</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/tajskij-yam.webp</picture>
+<url>https://q-roll.ru/product/tajskij-yam/</url>
+<price>480</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="405" available="true"  >
+<name>Солянка</name>
+<description><![CDATA[<p>Куринный бульон, мясное ассорти, оливки, маслины, репчатый лук, лимон, зелень, сметана,(в комплект входят гренки).</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/solyanka.webp</picture>
+<url>https://q-roll.ru/product/solyanka/</url>
+<price>300</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="402" available="true"  >
+<name>Шпинатный крем суп</name>
+<description><![CDATA[<p>Шпинат, сливки, бекон,(в комплект входят гренки).</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/shpinatnyj-krem-sup.webp</picture>
+<url>https://q-roll.ru/product/shpinatnyj-krem-sup/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>200</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>
+<offer id="477" available="true"  >
+<name>Бургер Фиш гриль</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус чесночный, ломтик лимона, тунец, помидор, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-fish-gril.webp</picture>
+<url>https://q-roll.ru/product/burger-fish-gril/</url>
+<price>350</price>
+<currencyId>RUR</currencyId>
+<weight>240</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="474" available="true"  >
+<name>Бургер Чикен карри</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус сырный и карри, стрипсы, перец болгарский, помидор, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-chiken-karri.webp</picture>
+<url>https://q-roll.ru/product/burger-chiken-karri/</url>
+<price>315</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="471" available="true"  >
+<name>Бургер Мужской набор</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус карри и томатно-кисло-сладкий, котлета свинина говядина, помидор, бекон, охотничьи колбаски, пепперони, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-muzhskoj-nabor.webp</picture>
+<url>https://q-roll.ru/product/burger-muzhskoj-nabor/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>355</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="468" available="true"  >
+<name>Бургер Жюльен</name>
+<description><![CDATA[<p>Булочка белая, салат айсберг, соус чесночный и грибной, котлета в панировке курица, помидор, моцарелла в панировке</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-zhulen.webp</picture>
+<url>https://q-roll.ru/product/burger-zhyulen/</url>
+<price>345</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="465" available="true"  >
+<name>Бургер Тропикано</name>
+<description><![CDATA[<p>Булочка белая, салат айсберг, соус карри и сырный, котлета в панировке свинина курица, помидор ананас, красный лук, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-tropikano.webp</picture>
+<url>https://q-roll.ru/product/burger-tropikano/</url>
+<price>315</price>
+<currencyId>RUR</currencyId>
+<weight>360</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="462" available="true"  >
+<name>Бургер Белые ночи</name>
+<description><![CDATA[<p>Булочка белая, салат айсберг, соус чесночный и сырный, котлета свинина говядина, помидор Маринованные огурцы, яйцо пашот, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-belye-nochi.webp</picture>
+<url>https://q-roll.ru/product/burger-belye-nochi/</url>
+<price>315</price>
+<currencyId>RUR</currencyId>
+<weight>380</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="459" available="true"  >
+<name>Бургер Black терияки</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус горчичный и терияки, котлета говядина, помидор, красный лук, бекон, яйцо пашот, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-black-teriyaki.webp</picture>
+<url>https://q-roll.ru/product/burger-black-teriyaki/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>400</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="456" available="true"  >
+<name>Бургер Темный BBQ</name>
+<description><![CDATA[<p>Булочка черная, салат айсберг, соус горчичный и барбекю, котлета говядина, помидор, красный лук, маринованные огурцы, ломтик сыра</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/burger-temnyj-bbq.webp</picture>
+<url>https://q-roll.ru/product/burger-temnyj-bbq/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>380</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>47</categoryId>
+</offer>
+<offer id="453" available="true"  >
+<name>Масло острое</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/maslo-ostroe.webp</picture>
+<url>https://q-roll.ru/product/maslo-ostroe/</url>
+<price>20</price>
+<currencyId>RUR</currencyId>
+<weight>30</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="450" available="true"  >
+<name>Соус брусничный</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-brusnichnyj.webp</picture>
+<url>https://q-roll.ru/product/sous-brusnichnyj/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="447" available="true"  >
+<name>Соус томатный</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-tomatnyj.webp</picture>
+<url>https://q-roll.ru/product/sous-tomatnyj/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="444" available="true"  >
+<name>Соус барбекю</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sous-barbekyu.webp</picture>
+<url>https://q-roll.ru/product/sous-barbekyu/</url>
+<price>60</price>
+<currencyId>RUR</currencyId>
+<weight>50</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>
+<offer id="373" available="true"  >
+<name>Кольца кальмара 7шт.</name>
+<description><![CDATA[<p>Кольца кальмара в панировке</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lukovye-kolcza.webp</picture>
+<url>https://q-roll.ru/product/kolcza-kalmara-7sht/</url>
+<price>149</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="365" available="true"  >
+<name>Гренки чесночные</name>
+<description><![CDATA[<p>Хлеб бородинский с чесноком.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/grenki-chesnochnye.webp</picture>
+<url>https://q-roll.ru/product/grenki-chesnochnye/</url>
+<price>150</price>
+<currencyId>RUR</currencyId>
+<weight>150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="358" available="true"  >
+<name>Луковые кольца 9шт.</name>
+<description><![CDATA[<p>Луковые колечки в панировке</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/lukovye-kolcza.webp</picture>
+<url>https://q-roll.ru/product/lukovye-kolcza-9sht/</url>
+<price>125</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="355" available="true"  >
+<name>Наггетсы 7шт.</name>
+<description><![CDATA[<p>Куриные наггетсы</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/nagetsy.webp</picture>
+<url>https://q-roll.ru/product/naggetsy-7sht/</url>
+<price>150</price>
+<currencyId>RUR</currencyId>
+<weight>100</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+<offer id="348" available="true"  >
+<name>Стрипсы 6шт.</name>
+<description><![CDATA[<p>Филе курицы в панировке</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/stripsy.webp</picture>
+<url>https://q-roll.ru/product/stripsy-6sht/</url>
+<price>199</price>
+<currencyId>RUR</currencyId>
+<weight>150</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>46</categoryId>
+</offer>
+</offers>
+</shop>
+</yml_catalog>

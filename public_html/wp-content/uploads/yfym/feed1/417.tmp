@@ -1,0 +1,12 @@
+<offer id="417" available="true"  >
+<name>Соус соевый</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/soevyj-sous.webp</picture>
+<url>https://q-roll.ru/product/sous-soevyj/</url>
+<price>45</price>
+<currencyId>RUR</currencyId>
+<weight>75</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

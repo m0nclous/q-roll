@@ -1,0 +1,13 @@
+<offer id="583" available="true"  >
+<name>Сэндвич с курицей</name>
+<description><![CDATA[<p>Тосты Harrys, салат Клоу Слоу, соус чесночный, стрипсы, помидор. яйцо пашот, ломтик сыра.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sendvich-s-kuriczej.webp</picture>
+<url>https://q-roll.ru/product/sendvich-s-kuriczej/</url>
+<price>200</price>
+<currencyId>RUR</currencyId>
+<weight>275</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>55</categoryId>
+</offer>

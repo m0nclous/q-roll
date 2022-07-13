@@ -1,0 +1,13 @@
+<offer id="387" available="true"  >
+<name>Том Ям</name>
+<description><![CDATA[<p>Том ям — кисло-острый суп с креветками, лососем, шампиньонами, чили, лаймом, чери. 350 гр.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/sup-tom-yam.webp</picture>
+<url>https://q-roll.ru/product/tom-yam/</url>
+<price>480</price>
+<currencyId>RUR</currencyId>
+<weight>350</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

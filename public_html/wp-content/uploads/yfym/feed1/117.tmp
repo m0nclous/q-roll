@@ -1,0 +1,12 @@
+<offer id="117" available="true"  >
+<name>Панко</name>
+<description><![CDATA[<p>Сыр, рис, лосось, авокадо, соус спайс</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/235fb052-bea3-40ea-babf-234dc36d8171.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=117</url>
+<price>270</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>

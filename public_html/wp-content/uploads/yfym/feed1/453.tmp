@@ -1,0 +1,12 @@
+<offer id="453" available="true"  >
+<name>Масло острое</name>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/maslo-ostroe.webp</picture>
+<url>https://q-roll.ru/product/maslo-ostroe/</url>
+<price>20</price>
+<currencyId>RUR</currencyId>
+<weight>30</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

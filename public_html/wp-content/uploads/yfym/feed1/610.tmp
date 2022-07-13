@@ -1,0 +1,13 @@
+<offer id="610" available="true"  >
+<name>Сет №3</name>
+<description><![CDATA[<p>Дракон — 4 шт., филадельфия с огурцом — 4 шт., фьюжн — 4 шт., сяке маки — 4 шт.(соевый, имбирь и васаби в комплект не входит)</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/set-3.webp</picture>
+<url>https://q-roll.ru/product/set-%e2%84%963/</url>
+<price>950</price>
+<currencyId>RUR</currencyId>
+<weight>695</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>60</categoryId>
+</offer>

@@ -1,0 +1,13 @@
+<offer id="393" available="true"  >
+<name>Суп сливочный с лососем</name>
+<description><![CDATA[<p>Паназиатский суп с добавлением сливок, лосося, водорослей вакаме, риса, зелёного лука</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/slivochnyj-sup-s-lososem.webp</picture>
+<url>https://q-roll.ru/product/sup-slivochnyj-s-lososem/</url>
+<price>320</price>
+<currencyId>RUR</currencyId>
+<weight>300</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>61</categoryId>
+</offer>

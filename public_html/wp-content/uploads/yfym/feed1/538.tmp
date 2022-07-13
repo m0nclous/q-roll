@@ -1,0 +1,13 @@
+<offer id="538" available="true"  >
+<name>Буто Кусикацу</name>
+<description><![CDATA[<p>Свинина, бекон, шампиньоны, красный лук, перец болгарский, рис, сыр моцарелла, зелёный лук, кунжут, соус спайси, ореховый соус.</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/05/buto.webp</picture>
+<url>https://q-roll.ru/product/buto-kusikaczu/</url>
+<price>400</price>
+<currencyId>RUR</currencyId>
+<weight>410</weight>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>49</categoryId>
+</offer>

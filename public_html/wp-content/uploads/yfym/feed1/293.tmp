@@ -1,0 +1,12 @@
+<offer id="293" available="true"  >
+<name>Соус Барбекю</name>
+<description><![CDATA[<p>Приятный Соус Барбекю</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/barbekyu.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=293</url>
+<price>20</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>21</categoryId>
+</offer>

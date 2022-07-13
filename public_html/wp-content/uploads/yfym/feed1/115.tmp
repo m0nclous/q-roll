@@ -1,0 +1,12 @@
+<offer id="115" available="true"  >
+<name>Сливочный с курицей</name>
+<description><![CDATA[<p>Сыр, рис, курица копченая</p>]]></description>
+<picture>https://q-roll.ru/wp-content/uploads/2022/03/img_3364.jpg</picture>
+<url>https://q-roll.ru/?post_type=product&amp;p=115</url>
+<price>175</price>
+<currencyId>RUR</currencyId>
+<store>false</store>
+<pickup>true</pickup>
+<delivery>false</delivery>
+<categoryId>19</categoryId>
+</offer>
