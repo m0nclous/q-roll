@@ -32,6 +32,13 @@ class EIO_Picture_Webp extends EIO_Page_Parser {
 	protected $user_element_exclusions = array();
 
 	/**
+	 * Request URI.
+	 *
+	 * @var string $request_uri
+	 */
+	public $request_uri = '';
+
+	/**
 	 * Register (once) actions and filters for Picture WebP.
 	 */
 	function __construct() {
@@ -45,9 +52,9 @@ class EIO_Picture_Webp extends EIO_Page_Parser {
 		parent::__construct();
 		$this->debug_message( '<b>' . __METHOD__ . '()</b>' );
 
-		$uri = add_query_arg( null, null );
-		if ( false === strpos( $uri, 'page=ewww-image-optimizer-options' ) ) {
-			$this->debug_message( "request uri is $uri" );
+		$this->request_uri = add_query_arg( null, null );
+		if ( false === strpos( $this->request_uri, 'page=ewww-image-optimizer-options' ) ) {
+			$this->debug_message( "request uri is {$this->request_uri}" );
 		} else {
 			$this->debug_message( 'request uri is EWWW IO settings' );
 		}
@@ -58,9 +65,9 @@ class EIO_Picture_Webp extends EIO_Page_Parser {
 		 * Allow pre-empting <picture> WebP by page.
 		 *
 		 * @param bool Whether to parse the page for images to rewrite for WebP, default true.
-		 * @param string $uri The URL of the page.
+		 * @param string The URI/path of the page.
 		 */
-		if ( ! apply_filters( 'eio_do_picture_webp', true, $uri ) ) {
+		if ( ! apply_filters( 'eio_do_picture_webp', true, $this->request_uri ) ) {
 			return;
 		}
 
@@ -115,7 +122,10 @@ class EIO_Picture_Webp extends EIO_Page_Parser {
 			return false;
 		}
 		if ( empty( $uri ) ) {
-			$uri = add_query_arg( null, null );
+			$uri = $this->request_uri;
+		}
+		if ( false !== strpos( $uri, 'bricks=run' ) ) {
+			return false;
 		}
 		if ( false !== strpos( $uri, '?brizy-edit' ) ) {
 			return false;
@@ -171,10 +181,6 @@ class EIO_Picture_Webp extends EIO_Page_Parser {
 			return $should_process;
 		}
 		if ( $this->is_amp() ) {
-			return false;
-		}
-		if ( is_embed() ) {
-			$this->debug_message( 'is_embed' );
 			return false;
 		}
 		if ( is_feed() ) {
@@ -264,6 +270,9 @@ class EIO_Picture_Webp extends EIO_Page_Parser {
 		}
 		if ( ! $this->should_process_page() ) {
 			$this->debug_message( 'picture WebP should not process page' );
+			return $buffer;
+		}
+		if ( ! apply_filters( 'eio_do_picture_webp', true, $this->request_uri ) ) {
 			return $buffer;
 		}
 

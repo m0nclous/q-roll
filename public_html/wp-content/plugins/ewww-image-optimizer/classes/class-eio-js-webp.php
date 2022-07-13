@@ -56,6 +56,13 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 	private $load_webp_script = '';
 
 	/**
+	 * Request URI.
+	 *
+	 * @var string $request_uri
+	 */
+	public $request_uri = '';
+
+	/**
 	 * Register (once) actions and filters for JS WebP.
 	 */
 	function __construct() {
@@ -66,9 +73,9 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 		parent::__construct();
 		$this->debug_message( '<b>' . __METHOD__ . '()</b>' );
 
-		$uri = add_query_arg( null, null );
-		if ( false === strpos( $uri, 'page=ewww-image-optimizer-options' ) ) {
-			$this->debug_message( "request uri is $uri" );
+		$this->request_uri = add_query_arg( null, null );
+		if ( false === strpos( $this->request_uri, 'page=ewww-image-optimizer-options' ) ) {
+			$this->debug_message( "request uri is {$this->request_uri}" );
 		} else {
 			$this->debug_message( 'request uri is EWWW IO settings' );
 		}
@@ -79,9 +86,9 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 		 * Allow pre-empting JS WebP by page.
 		 *
 		 * @param bool Whether to parse the page for images to rewrite for WebP, default true.
-		 * @param string $uri The URL of the page.
+		 * @param string The URI/path of the page.
 		 */
-		if ( ! apply_filters( 'eio_do_js_webp', true, $uri ) ) {
+		if ( ! apply_filters( 'eio_do_js_webp', true, $this->request_uri ) ) {
 			return;
 		}
 
@@ -93,6 +100,8 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 		add_filter( 'woocommerce_available_variation', array( $this, 'woocommerce_available_variation' ) );
 		// Filter for FacetWP JSON responses.
 		add_filter( 'facetwp_render_output', array( $this, 'filter_facetwp_json_output' ) );
+		// Filter for LL when multiple background images are used--because it uses JSON, and the background image parser skips elements containing JSON.
+		add_filter( 'eio_ll_multiple_bg_images_for_webp', array( $this, 'filter_image_url_array' ) );
 
 		// Load up the minified check script.
 		$this->check_webp_script = file_get_contents( EWWW_IMAGE_OPTIMIZER_PLUGIN_PATH . 'includes/check-webp.min.js' );
@@ -155,7 +164,10 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 			return false;
 		}
 		if ( empty( $uri ) ) {
-			$uri = add_query_arg( null, null );
+			$uri = $this->request_uri;
+		}
+		if ( false !== strpos( $uri, 'bricks=run' ) ) {
+			return false;
 		}
 		if ( false !== strpos( $uri, '?brizy-edit' ) ) {
 			return false;
@@ -369,9 +381,12 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 			$this->debug_message( 'JS WebP should not process page' );
 			return $buffer;
 		}
+		if ( ! apply_filters( 'eio_do_js_webp', true, $this->request_uri ) ) {
+			return $buffer;
+		}
 
 		$body_tags        = $this->get_elements_from_html( $buffer, 'body' );
-		$body_webp_script = '<script data-cfasync="false">if(ewww_webp_supported){document.body.classList.add("webp-support");}</script>';
+		$body_webp_script = '<script data-cfasync="false" data-no-defer="1">if(ewww_webp_supported){document.body.classList.add("webp-support");}</script>';
 		if ( $this->is_iterable( $body_tags ) && ! empty( $body_tags[0] ) && false !== strpos( $body_tags[0], '<body' ) ) {
 			// Add the WebP script right after the opening tag.
 			$buffer = str_replace( $body_tags[0], $body_tags[0] . "\n" . $body_webp_script, $buffer );
@@ -413,7 +428,10 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 						$this->set_attribute( $new_image, 'class', $this->get_attribute( $new_image, 'class' ) . ' ewww_webp_lazy_load', true );
 						$buffer = str_replace( $image, $new_image, $buffer );
 					}
-				} elseif ( $this->validate_image_url( $file ) && false === strpos( $image, 'lazyload' ) ) {
+				} elseif (
+					$this->validate_image_url( $file ) &&
+					( false === strpos( $image, 'lazyload' ) || false !== strpos( $image, 'lazyloaded' ) )
+				) {
 					// If a CDN path match was found, or .webp image existence is confirmed, and this is not a lazy-load 'dummy' image.
 					$this->debug_message( 'found a webp image or forced path' );
 					$new_image = $image;
@@ -877,6 +895,27 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 	}
 
 	/**
+	 * Parse an array of image URLs and replace them with their WebP counterparts.
+	 * Mostly for our Lazy Loader at this point, since it uses JSON when multiple
+	 * background images are used on a single element.
+	 *
+	 * @param array $image_urls An array of image URLs.
+	 * @return array An array with WebP image URLs.
+	 */
+	function filter_image_url_array( $image_urls ) {
+		$this->debug_message( '<b>' . __METHOD__ . '()</b>' );
+		if ( $this->is_iterable( $image_urls ) ) {
+			foreach ( $image_urls as $index => $image_url ) {
+				$this->debug_message( "checking $image_url for a WebP variant" );
+				if ( ! empty( $image_url ) && $this->validate_image_url( $image_url ) ) {
+					$image_urls[ $index ] = $this->generate_url( $image_url );
+				}
+			}
+		}
+		return $image_urls;
+	}
+
+	/**
 	 * Converts a URL to a file-system path and checks if the resulting path exists.
 	 *
 	 * @param string $url The URL to mangle.
@@ -1028,6 +1067,9 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 		if ( ! $this->should_process_page() ) {
 			return;
 		}
+		if ( ! apply_filters( 'eio_do_js_webp', true, $this->request_uri ) ) {
+			return;
+		}
 		if ( ! ewww_image_optimizer_ce_webp_enabled() ) {
 			wp_enqueue_script( 'ewww-webp-check-script', plugins_url( '/includes/check-webp.js', EWWW_IMAGE_OPTIMIZER_PLUGIN_FILE ), array(), EWWW_IMAGE_OPTIMIZER_VERSION );
 			wp_enqueue_script( 'ewww-webp-load-script', plugins_url( '/includes/load-webp.js', EWWW_IMAGE_OPTIMIZER_PLUGIN_FILE ), array(), EWWW_IMAGE_OPTIMIZER_VERSION, true );
@@ -1039,6 +1081,9 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 	 */
 	function min_external_script() {
 		if ( ! $this->should_process_page() ) {
+			return;
+		}
+		if ( ! apply_filters( 'eio_do_js_webp', true, $this->request_uri ) ) {
 			return;
 		}
 		if ( ! ewww_image_optimizer_ce_webp_enabled() ) {
@@ -1054,11 +1099,14 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 		if ( ! $this->should_process_page() ) {
 			return;
 		}
+		if ( ! apply_filters( 'eio_do_js_webp', true, $this->request_uri ) ) {
+			return;
+		}
 		if ( defined( 'EWWW_IMAGE_OPTIMIZER_NO_JS' ) && EWWW_IMAGE_OPTIMIZER_NO_JS ) {
 			return;
 		}
 		$this->debug_message( 'inlining check webp script' );
-		echo '<script data-cfasync="false" type="text/javascript">' . $this->check_webp_script . '</script>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo '<script data-cfasync="false" data-no-defer="1">' . $this->check_webp_script . '</script>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 
 	/**
@@ -1071,8 +1119,11 @@ class EIO_JS_Webp extends EIO_Page_Parser {
 		if ( ! $this->should_process_page() ) {
 			return;
 		}
+		if ( ! apply_filters( 'eio_do_js_webp', true, $this->request_uri ) ) {
+			return;
+		}
 		$this->debug_message( 'inlining load webp script' );
-		echo '<script data-cfasync="false" type="text/javascript">' . $this->load_webp_script . '</script>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo '<script data-cfasync="false" data-no-defer="1">' . $this->load_webp_script . '</script>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }
 

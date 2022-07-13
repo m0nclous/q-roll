@@ -67,8 +67,8 @@ class THWCFD {
 		add_action('admin_menu', array($plugin_admin, 'admin_menu'));
 		add_filter('woocommerce_screen_ids', array($plugin_admin, 'add_screen_id'));
 		add_filter('plugin_action_links_'.THWCFD_BASE_NAME, array($plugin_admin, 'plugin_action_links'));
-		//add_action( 'admin_init', array( $plugin_admin, 'wcfd_notice_actions' ), 20 );
-		//add_action( 'admin_notices', array($plugin_admin, 'output_review_request_link'));
+		add_action( 'admin_init', array( $plugin_admin, 'wcfd_notice_actions' ), 20 );
+		add_action( 'admin_notices', array($plugin_admin, 'output_review_request_link'));
 		//add_filter('plugin_row_meta', array($plugin_admin, 'plugin_row_meta'), 10, 2);
 		
 		$themehigh_plugins = new THWCFD_Admin_Settings_Themehigh_Plugins();
@@ -118,7 +118,8 @@ class THWCFD {
 	public function hide_thwcfd_admin_notice(){
 		check_ajax_referer('thwcfd_notice_security', 'thwcfd_review_nonce');
 
-		$capability = THWEPOF_Utils::wepo_capability();
+		$capability = THWCFD_Utils::wcfd_capability();
+		
 		if(!current_user_can($capability)){
 			wp_die(-1);
 		}

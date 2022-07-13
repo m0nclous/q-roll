@@ -1056,7 +1056,7 @@ var thwcfd_settings = (function($, window, document) {
 		var wrapper = $(this).closest('div.thpladmin-notice');
 		var nonce = wrapper.data("nonce");
 		var data = {
-			thwepo_review_nonce: nonce,
+			thwcfd_review_nonce: nonce,
 			action: 'hide_thwcfd_admin_notice',
 		};
 		$.post( ajaxurl, data, function() {
