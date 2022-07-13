@@ -1,3 +1,9 @@
+# BEGIN YOAST REDIRECTS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 "/product-category/zharenye-rolly" "/product-category/tempura-rolly"
+</IfModule>
+# END YOAST REDIRECTS
 # Сохранение сессий в Redis
 php_value session.save_handler "redis"
 php_value session.save_path "tcp://127.0.0.1:6379"
@@ -20,6 +26,12 @@ php_value session.save_path "tcp://127.0.0.1:6379"
 
 AddType image/webp .webp
 AddType image/svg+xml svg
+
+# Редиректы
+Redirect 301 /menyu https://q-roll.ru
+Redirect 301 /rolls https://q-roll.ru/product-category/rolls/
+Redirect 301 /pizza https://q-roll.ru/product-category/pizza/
+Redirect 301 /addons https://q-roll.ru/product-category/addons/
 
 # BEGIN WordPress
 # Директивы (строки) между `BEGIN WordPress` и `END WordPress`

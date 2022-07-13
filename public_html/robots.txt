@@ -1,5 +1,6 @@
 User-agent: Yandex
 Disallow:
+Allow: /wp-content/uploads/feed-yml-0.yml
 Clean-param: add-to-cart
 
 User-agent: *
