@@ -34,9 +34,9 @@ trait YFYM_T_Variable_Get_Name {
 			$result_yml_name_itog = $result_yml_name;
 		} else {
 			// массив с group_id заполнен
-			$CurCategoryId = (string)$this->get_catid();
+			$сur_сategory_id = (string)$this->get_feed_category_id();
 			// если id текущей категории совпал со списком категорий без group_id			  
-			if (in_array($CurCategoryId, $no_group_id_arr)) {
+			if (in_array($сur_сategory_id, $no_group_id_arr)) {
 				$add_in_name_arr = unserialize(yfym_optionGET('yfym_add_in_name_arr', $this->get_feed_id()));
 				$attributes = $product->get_attributes(); // получили все атрибуты товара
 				$param_at_name = '';		

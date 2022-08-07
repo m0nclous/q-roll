@@ -198,6 +198,7 @@ class YFYM_Settings_Page {
 		$yfym_whot_export = yfym_optionGET('yfym_whot_export', $this->get_feed_id(), 'set_arr'); 
 		$yfym_feed_assignment = yfym_optionGET('yfym_feed_assignment', $this->get_feed_id(), 'set_arr');
 		$yfym_file_extension = yfym_optionGET('yfym_file_extension', $this->get_feed_id(), 'set_arr');
+		$yfym_format_date = yfym_optionGET('yfym_format_date', $this->get_feed_id(), 'set_arr');
 		$yfym_yml_rules = yfym_optionGET('yfym_yml_rules', $this->get_feed_id(), 'set_arr');
 		$yfym_step_export = yfym_optionGET('yfym_step_export', $this->get_feed_id(), 'set_arr'); 		
 		?>
@@ -246,7 +247,17 @@ class YFYM_Settings_Page {
 							</select><br />
 							<span class="description"><small><?php _e('Default', 'yfym'); ?>: XML</small></span>
 						</td>
-					</tr>		 
+					</tr>
+					<tr>
+						<th scope="row"><label for="yfym_format_date"><?php _e('Format date', 'yfym'); ?></label></th>
+						<td class="overalldesc">
+							<select name="yfym_format_date" id="yfym_format_date">
+								<option value="rfc" <?php selected($yfym_format_date, 'rfc'); ?>>RFC 3339 (<?php _e('recommend', 'yfym'); ?>)</option>
+								<option value="unixtime" <?php selected($yfym_format_date, 'unixtime'); ?>>Unix time</option>
+							</select><br />
+							<span class="description"><small><?php _e('Default', 'yfym'); ?>: RFC 3339</small></span>
+						</td>
+					</tr>
 					<tr>
 						<th scope="row"><label for="yfym_yml_rules"><?php _e('To follow the rules', 'yfym'); ?></label></th>
 						<td class="overalldesc">
@@ -256,6 +267,7 @@ class YFYM_Settings_Page {
 							<option value="single_catalog" <?php selected($yfym_yml_rules, 'single_catalog'); ?>>FBY, FBY+, FBS (<?php _e('in a single catalog', 'yfym'); ?>) (beta)</option>
 							<option value="sbermegamarket" <?php selected($yfym_yml_rules, 'sbermegamarket'); ?>><?php _e('SberMegaMarket', 'yfym'); ?> (beta)</option>
 							<option value="beru" <?php selected($yfym_yml_rules, 'beru'); ?>><?php _e('Former Beru', 'yfym'); ?></option>
+							<option value="yandex_webmaster" <?php selected($yfym_yml_rules, 'yandex_webmaster'); ?>><?php _e('Yandex Webmaster', 'yfym'); ?> (turbo)</option>
 							<option value="all_elements" <?php selected($yfym_yml_rules, 'all_elements'); ?>><?php _e('No rules', 'yfym'); ?> (<?php _e('Not recommended', 'yfym'); ?>)</option>
 							<option value="ozon" <?php selected($yfym_yml_rules, 'ozon'); ?>>OZON</option>
 							<?php do_action('yfym_append_select_yfym_yml_rules', $yfym_yml_rules, $this->get_feed_id()); ?>
@@ -716,9 +728,9 @@ class YFYM_Settings_Page {
 			<div class="icp_wrap">
 				<input type="radio" name="icp_slides" id="icp_point1">
 				<input type="radio" name="icp_slides" id="icp_point2">
-				<input type="radio" name="icp_slides" id="icp_point3" checked>
+				<input type="radio" name="icp_slides" id="icp_point3">
 				<input type="radio" name="icp_slides" id="icp_point4">
-				<input type="radio" name="icp_slides" id="icp_point5">
+				<input type="radio" name="icp_slides" id="icp_point5" checked>
 				<input type="radio" name="icp_slides" id="icp_point6">
 				<input type="radio" name="icp_slides" id="icp_point7">
 				<div class="icp_slider">

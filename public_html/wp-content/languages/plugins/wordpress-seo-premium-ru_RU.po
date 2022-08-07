@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Yoast - Yoast SEO Premium (for WordPress) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-20 16:56:59+0000\n"
+"PO-Revision-Date: 2022-08-04 20:42:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +14,94 @@ msgstr ""
 #: src/integrations/admin/crawl-settings-integration.php:182
 msgid "Disabled"
 msgstr "Отключено"
+
+#: src/integrations/admin/crawl-settings-integration.php:297
+msgid "By removing Global comments feed, Post comments feeds will be removed too."
+msgstr "При удалении ленты глобальных комментариев, лента комментариев записей также будет удалена."
+
+#: src/integrations/admin/crawl-settings-integration.php:177
+msgid "Remove feed links added by WordPress that aren't needed for this site."
+msgstr "Удалить ссылки на ленты, добавленные WordPress, которые не нужны для этого сайта."
+
+#: src/integrations/admin/crawl-settings-integration.php:177
+msgid "Feed crawl settings"
+msgstr "Настройки обхода ленты"
+
+#: src/integrations/admin/crawl-settings-integration.php:175
+msgid "Basic crawl settings"
+msgstr "Основные настройки обхода"
+
+#: src/integrations/admin/crawl-settings-integration.php:133
+msgid "Powered by HTTP header"
+msgstr "Работает на основе заголовка HTTP"
+
+#: src/integrations/admin/crawl-settings-integration.php:132
+msgid "Pingback HTTP header"
+msgstr "Заголовок уведомления HTTP"
+
+#: src/integrations/admin/crawl-settings-integration.php:131
+msgid "Emoji scripts"
+msgstr "Скрипты Emoji"
+
+#: src/integrations/admin/crawl-settings-integration.php:130
+msgid "Generator tag"
+msgstr "Метка генератора"
+
+#: src/integrations/admin/crawl-settings-integration.php:129
+msgid "oEmbed links"
+msgstr "Ссылки oEmbed"
+
+#: src/integrations/admin/crawl-settings-integration.php:128
+msgid "RSD / WLW links"
+msgstr "Ссылки RSD / WLW"
+
+#: src/integrations/admin/crawl-settings-integration.php:127
+msgid "REST API links"
+msgstr "Ссылки REST API"
+
+#: src/integrations/admin/crawl-settings-integration.php:126
+msgid "Shortlinks"
+msgstr "Короткие ссылки"
+
+#: src/integrations/admin/crawl-settings-integration.php:122
+msgid "Atom/RDF feeds"
+msgstr "Лента Atom/RDF"
+
+#: src/integrations/admin/crawl-settings-integration.php:121
+msgid "Search results feeds"
+msgstr "Лента поисковых результатов"
+
+#: src/integrations/admin/crawl-settings-integration.php:120
+msgid "Custom taxonomy feeds"
+msgstr "Лента пользовательских таксономий"
+
+#: src/integrations/admin/crawl-settings-integration.php:119
+msgid "Tag feeds"
+msgstr "Лента меток"
+
+#: src/integrations/admin/crawl-settings-integration.php:118
+msgid "Category feeds"
+msgstr "Лента рубрик"
+
+#: src/integrations/admin/crawl-settings-integration.php:117
+msgid "Post type feeds"
+msgstr "Лента типов записей"
+
+#: src/integrations/admin/crawl-settings-integration.php:116
+msgid "Post authors feeds"
+msgstr "Лента авторов записей"
+
+#: src/integrations/admin/crawl-settings-integration.php:114
+msgid "Global comment feeds"
+msgstr "Глобальная лента комментариев"
+
+#: src/integrations/admin/crawl-settings-integration.php:113
+msgid "Global feed"
+msgstr "Глобальная лента"
+
+#: src/integrations/admin/crawl-settings-integration.php:115
+msgid "Post comments feeds"
+msgstr "Ленты комментариев записей"
 
 #: src/integrations/admin/crawl-settings-integration.php:258
 msgid "Keep"
@@ -587,6 +675,7 @@ msgstr "Изменить"
 #: classes/premium-javascript-strings.php:53
 #: assets/js/src/components/RedirectNotification.js:123
 #: assets/js/src/elementor/components/RedirectNotification.js:127
+#: assets/js/src/frontend-inspector/components/frontend-inspector.js:58
 msgid "OK"
 msgstr "OK"
 
@@ -1295,25 +1384,25 @@ msgid "Remove"
 msgstr "Убрать"
 
 #. translators: %s: Zapier.
-#: src/integrations/third-party/zapier.php:123
+#: src/integrations/third-party/zapier.php:128
 msgid "Go to your %s Dashboard"
 msgstr "Перейти к вашей %s панели управления"
 
 #. translators: 1: Zapier, 2: The Zapier API Key.
-#: src/integrations/third-party/zapier.php:128
+#: src/integrations/third-party/zapier.php:133
 msgid "%1$s uses this API Key: %2$s"
 msgstr "%1$s использует этот ключ API: %2$s"
 
-#: src/integrations/third-party/zapier.php:132
+#: src/integrations/third-party/zapier.php:137
 msgid "Reset API Key"
 msgstr "Сбросить ключ API"
 
 #. translators: %s: Zapier.
-#: src/integrations/third-party/zapier.php:171
+#: src/integrations/third-party/zapier.php:176
 msgid "%s will ask for an API key. Use this one:"
 msgstr "%s попросит ключ API. Используйте этот:"
 
-#: src/integrations/third-party/zapier.php:177
+#: src/integrations/third-party/zapier.php:182
 msgid "Copy to clipboard"
 msgstr "Скопировать в буфер обмена"
 
@@ -1325,22 +1414,24 @@ msgid "%1$sConnect %2$s with %3$s%4$s to instantly share your published posts wi
 msgstr "%1$sПодключите %2$s к %3$s%4$s, чтобы моментально публиковать записи на 2000+ сервисах, включая Twitter, Facebook и многие другие."
 
 #. translators: 1: Yoast SEO, 2: Zapier.
-#: src/integrations/third-party/zapier.php:112
+#: src/integrations/third-party/zapier.php:117
 msgid "%1$s is successfully connected to %2$s!"
 msgstr "%1$s успешно подключен к %2$s!"
 
 #. translators: 1: Yoast SEO, 2: Zapier, 3: Emphasis open tag, 4: Emphasis
 #. close tag.
-#: src/integrations/third-party/zapier.php:146
+#: src/integrations/third-party/zapier.php:151
 msgid "%1$s is not connected to %2$s. To set up a connection, make sure you click %3$sSave changes%4$s first, then copy the given API key below and use it to %3$screate%4$s and %3$sturn on%4$s a Zap within your %2$s account."
 msgstr "%1$s не подключен к %2$s. Чтобы настроить соединение, обязательно сперва нажмите  %3$sСохранить изменения%4$s, затем скопируйте данный ключ API ниже. Воспользуйтесь ним для %3$sсоздания%4$s и %3$sвключения%4$s Zap в вашей учетной записи %2$s."
 
 #. translators: 1: Yoast SEO.
-#: src/integrations/third-party/zapier.php:156
+#: src/integrations/third-party/zapier.php:161
 msgid "Please note that you can only create 1 Zap with a trigger event from %1$s. Within this Zap you can choose one or more actions."
 msgstr "Пожалуйста, обратите внимание, что вы можете создать только 1 Zap с обработчиком события от %1$s. В рамках этого Zap вы можете выбрать одно или несколько действий."
 
 #. translators: %s: Zapier.
-#: src/integrations/third-party/zapier.php:182
+#. translators: 1: Zapier
+#: src/integrations/third-party/zapier.php:187
+#: assets/js/src/components/ZapierModal.js:213
 msgid "Create a Zap in %s"
 msgstr "Создать Zap в %s"

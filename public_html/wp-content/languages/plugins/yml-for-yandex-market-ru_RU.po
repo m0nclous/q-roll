@@ -2,14 +2,70 @@
 # This file is distributed under the same license as the Plugins - YML for Yandex Market - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-22 17:41:50+0000\n"
+"PO-Revision-Date: 2022-07-25 20:16:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - YML for Yandex Market - Stable (latest release)\n"
+
+#: includes/class_wp_list_table.php:60
+msgid "Not created yet"
+msgstr "Ещё не создавался"
+
+#: export.php:999
+msgid "Shelf life"
+msgstr "Срок годности"
+
+#: export.php:972
+msgid "for variable products"
+msgstr "для вариативных товаров"
+
+#: export.php:971
+msgid "for simple products"
+msgstr "для простых товаров"
+
+#: export.php:803
+msgid "Add information about stock to feed for EBay"
+msgstr "Добавить информацию о запасах в фид для EBay"
+
+#: export.php:499
+msgid "Element \"currencies\""
+msgstr "Элемент \"currencies\""
+
+#: yml-for-yandex-market.php:814
+msgid "Price for Ozon Premium customers. Used only in the OZONE feed"
+msgstr "Цена для покупателей с подпиской Ozon Premium"
+
+#: export.php:785
+msgid "Source ID of the product"
+msgstr "Источник ID товара"
+
+#: export.php:432
+msgid "Not recommended"
+msgstr "Не рекомендуется"
+
+#: export.php:432
+msgid "No rules"
+msgstr "Нет правил"
+
+#: export.php:430
+msgid "in a single catalog"
+msgstr "в едином каталоге"
+
+#: export.php:428 export.php:429
+msgid "Simplified type"
+msgstr "Упрощенный тип"
+
+#: includes/class_wp_list_table.php:77
+msgid "Don't start"
+msgstr "Не начинать"
+
+#: includes/class_wp_list_table.php:32
+msgid "Feed ID"
+msgstr "Фид ID"
 
 #: export.php:769 export.php:799 export.php:971 export.php:972
 msgid "Name post_meta"
@@ -716,6 +772,10 @@ msgstr "Одежда и обувь"
 #: export.php:511
 msgid "Electronics"
 msgstr "Электроника"
+
+#: export.php:508
+msgid "What kind of products do you sell"
+msgstr "Какие товары вы продаете"
 
 #: export.php:272 export.php:273
 msgid "extension for exporting products to"

@@ -80,13 +80,25 @@ class YFYM_WP_List_Table extends WP_List_Table {
 				default: $text_column_yfym_run_cron = __("Don't start", "yfym"); 
 			}
 
+			if ($yfym_settings_arr[$key]['yfym_date_sborki_end'] === '0000000001') {
+				$text_date_sborki_end = '-';
+			} else {
+				$text_date_sborki_end = $yfym_settings_arr[$key]['yfym_date_sborki_end'];
+			}
+
+			if ($yfym_settings_arr[$key]['yfym_count_products_in_feed'] === '-1') {
+				$text_count_products_in_feed = '-';
+			} else {
+				$text_count_products_in_feed = $yfym_settings_arr[$key]['yfym_count_products_in_feed'];
+			}
+
 			$result_arr[$i] = array(
 				'yfym_feed_id' 					=> $text_column_yfym_feed_id,
 				'yfym_url_xml_file' 			=> $text_column_yfym_url_xml_file,
 				'yfym_run_cron' 				=> $text_column_yfym_run_cron,
 				'yfym_step_export' 				=> $yfym_settings_arr[$key]['yfym_step_export'],
-				'yfym_date_sborki_end'			=> $yfym_settings_arr[$key]['yfym_date_sborki_end'],
-				'yfym_count_products_in_feed'	=> $yfym_settings_arr[$key]['yfym_count_products_in_feed']
+				'yfym_date_sborki_end'			=> $text_date_sborki_end,
+				'yfym_count_products_in_feed'	=> $text_count_products_in_feed
 			);
 		}
 

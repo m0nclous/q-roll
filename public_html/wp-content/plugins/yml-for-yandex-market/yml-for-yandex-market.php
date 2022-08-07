@@ -3,7 +3,7 @@
 * Plugin Name: Yml for Yandex Market
 * Plugin URI: https://icopydoc.ru/category/documentation/yml-for-yandex-market/
 * Description: Подключите свой магазин к Яндекс Маркету и выгружайте товары, получая новых клиентов!
-* Version: 3.7.16
+* Version: 3.8.1
 * Requires at least: 4.5
 * Requires PHP: 5.6
 * Author: Maxim Glazunov
@@ -14,7 +14,7 @@
 * Domain Path: /languages
 * Tags: yml, yandex, market, export, woocommerce
 * WC requires at least: 3.0.0
-* WC tested up to: 6.6.1
+* WC tested up to: 6.7.0
 *
 * This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 * General Public License version 2, as published by the Free Software Foundation. You may NOT assume
@@ -49,7 +49,7 @@ $upload_dir = wp_get_upload_dir();
 define('YFYM_SITE_UPLOADS_URL', $upload_dir['baseurl']); // http://site.ru/wp-content/uploads
 define('YFYM_SITE_UPLOADS_DIR_PATH', $upload_dir['basedir']); // /home/site.ru/public_html/wp-content/uploads
 
-define('YFYM_PLUGIN_VERSION', '3.7.16'); // 1.0.0
+define('YFYM_PLUGIN_VERSION', '3.8.1'); // 1.0.0
 define('YFYM_PLUGIN_UPLOADS_DIR_URL', $upload_dir['baseurl'].'/yfym'); // http://site.ru/wp-content/uploads/yfym
 define('YFYM_PLUGIN_UPLOADS_DIR_PATH', $upload_dir['basedir'].'/yfym'); // /home/site.ru/public_html/wp-content/uploads/yfym
 define('YFYM_PLUGIN_DIR_URL', plugin_dir_url(__FILE__)); // http://site.ru/wp-content/plugins/yml-for-yandex-market/
@@ -70,11 +70,11 @@ final class YmlforYandexMarket {
 	private $plugin_version = YFYM_PLUGIN_VERSION; // 1.0.0
 	private $plugin_upload_dir_url = YFYM_PLUGIN_UPLOADS_DIR_URL; // http://site.ru/wp-content/uploads/yfym/
 	private $plugin_upload_dir_path = YFYM_PLUGIN_UPLOADS_DIR_PATH; // /home/site.ru/public_html/wp-content/uploads/yfym/
-	private $plugin_dir_url = YFYM_PLUGIN_DIR_URL; // http://site.ru/wp-content/plugins/import-from-yml/
-	private $plugin_dir_path = YFYM_PLUGIN_DIR_PATH; // /home/p135/www/site.ru/wp-content/plugins/import-from-yml/
-	private $plugin_main_file_path = YFYM_PLUGIN_MAIN_FILE_PATH; // /home/p135/www/site.ru/wp-content/plugins/import-from-yml/import-from-yml.php
-	private $plugin_slug = YFYM_PLUGIN_SLUG; // import-from-yml - псевдоним плагина
-	private $plugin_basename = YFYM_PLUGIN_BASENAME; // import-from-yml/import-from-yml.php - полный псевдоним плагина (папка плагина + имя главного файла)
+	private $plugin_dir_url = YFYM_PLUGIN_DIR_URL; // http://site.ru/wp-content/plugins/yml-for-yandex-market/
+	private $plugin_dir_path = YFYM_PLUGIN_DIR_PATH; // /home/p135/www/site.ru/wp-content/plugins/yml-for-yandex-market/
+	private $plugin_main_file_path = YFYM_PLUGIN_MAIN_FILE_PATH; // /home/p135/www/site.ru/wp-content/plugins/yml-for-yandex-market/yml-for-yandex-market.php
+	private $plugin_slug = YFYM_PLUGIN_SLUG; // yml-for-yandex-market - псевдоним плагина
+	private $plugin_basename = YFYM_PLUGIN_BASENAME; // yml-for-yandex-market/yml-for-yandex-market.php - полный псевдоним плагина (папка плагина + имя главного файла)
 
 	protected static $instance;
 	public static function init() {
@@ -114,7 +114,7 @@ final class YmlforYandexMarket {
 		$yfym_settings_arr['1'] = $def_plugin_date_arr->get_opts_name_and_def_date('all');
 
 		if (is_multisite()) {
-			add_blog_option(get_current_blog_id(), 'yfym_version', '3.7.16');
+			add_blog_option(get_current_blog_id(), 'yfym_version', '3.8.1');
 			add_blog_option(get_current_blog_id(), 'yfym_keeplogs', '');
 			add_blog_option(get_current_blog_id(), 'yfym_disable_notices', '');
 			add_blog_option(get_current_blog_id(), 'yfym_enable_five_min', '');
@@ -123,7 +123,7 @@ final class YmlforYandexMarket {
 			add_blog_option(get_current_blog_id(), 'yfym_settings_arr', $yfym_settings_arr);
 			add_blog_option(get_current_blog_id(), 'yfym_registered_feeds_arr', $yfym_registered_feeds_arr);
 		} else {
-			add_option('yfym_version', '3.7.16');
+			add_option('yfym_version', '3.8.1');
 			add_option('yfym_keeplogs', '');
 			add_option('yfym_disable_notices', '');
 			add_option('yfym_enable_five_min', '');

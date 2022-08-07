@@ -55,6 +55,18 @@ trait YFYM_T_Variable_Get_Barcode {
 					}
 				}
 				break;
+			case "ean-for-woocommerce":
+				if (class_exists('Alg_WC_EAN')) {
+					$var_id = $offer->get_id();
+					if (get_post_meta($var_id, '_alg_ean', true) !== '') {
+						$tag_value = get_post_meta($var_id, '_alg_ean', true);
+					} else {
+						if (get_post_meta($product->get_id(), '_alg_ean', true) !== '') {
+							$tag_value = get_post_meta($product->get_id(), '_alg_ean', true);
+						}
+					}
+				}
+				break;
 			default:
 				$tag_value = apply_filters('y4ym_f_variable_tag_value_switch_barcode', $tag_value, array('product' => $product, 'offer' => $offer, 'switch_value' => $yfym_barcode), $this->get_feed_id());			
 				if ($tag_value == '') {

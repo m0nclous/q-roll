@@ -40,6 +40,13 @@ trait YFYM_T_Simple_Get_Barcode {
 					}
 				}
 				break;
+			case "ean-for-woocommerce":
+				if (class_exists('Alg_WC_EAN')) {
+					if (get_post_meta($product->get_id(), '_alg_ean', true) !== '') {
+						$tag_value = get_post_meta($product->get_id(), '_alg_ean', true);
+					}
+				}
+				break;
 			default:
 				$tag_value = apply_filters('y4ym_f_simple_tag_value_switch_barcode', $tag_value, array('product' => $product, 'switch_value' => $yfym_barcode), $this->get_feed_id());			
 				if ($tag_value == '') {

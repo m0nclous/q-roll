@@ -10,7 +10,7 @@
 *
 * @depends		class:	YFYM_Get_Paired_Tag
 *				methods: add_skip_reason
-*				functions: 
+*				functions: yfym_optionGET
 */
 
 trait YFYM_T_Variable_Get_Offer_Tag {
@@ -31,9 +31,9 @@ trait YFYM_T_Variable_Get_Offer_Tag {
 			$gi = 'group_id="'.$product->get_id().'"'; 
 		} else {
 			// массив с group_id заполнен
-			$CurCategoryId = (string)$this->get_catid();
+			$сur_сategory_id = (string)$this->get_feed_category_id();
 			// если id текущей категории совпал со списком категорий без group_id			  
-			if (in_array($CurCategoryId, $no_group_id_arr)) {
+			if (in_array($сur_сategory_id, $no_group_id_arr)) {
 
 			} else {
 				// совпадений нет. подставляем group_id
@@ -42,7 +42,7 @@ trait YFYM_T_Variable_Get_Offer_Tag {
 		}
 
 		$offer_type = '';
-		$offer_type = apply_filters('yfym_variable_offer_type_filter', $offer_type, $this->get_catid(), $product->get_id(), $offer->get_id(), $product, $offer, $this->get_feed_id());  /* с версии 3.3.3 */	   
+		$offer_type = apply_filters('yfym_variable_offer_type_filter', $offer_type, $this->get_feed_category_id(), $product->get_id(), $offer->get_id(), $product, $offer, $this->get_feed_id());  /* с версии 3.3.3 */	   
 
 		/* с версии 2.1.2 */
 		$append_offer_tag = apply_filters('yfym_append_offer_tag_filter', $append_offer_tag, $product, $this->get_feed_id());

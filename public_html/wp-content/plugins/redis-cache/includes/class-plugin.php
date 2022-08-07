@@ -281,7 +281,7 @@ class Plugin {
             return;
         }
 
-        wp_enqueue_style( 'redis-cache', WP_REDIS_DIR . '/assets/css/admin.css', null, WP_REDIS_VERSION );
+        wp_enqueue_style( 'redis-cache', WP_REDIS_PLUGIN_DIR . '/assets/css/admin.css', null, WP_REDIS_VERSION );
     }
 
     /**
@@ -593,6 +593,10 @@ class Plugin {
      * @return void
      */
     public function show_admin_notices() {
+        if ( defined( '\RedisCachePro\Version' ) || defined( '\ObjectCachePro\Version' ) ) {
+            return;
+        }
+
         if ( ! defined( 'WP_REDIS_DISABLE_BANNERS' ) || ! WP_REDIS_DISABLE_BANNERS ) {
             $this->pro_notice();
             $this->wc_pro_notice();

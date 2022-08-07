@@ -22,7 +22,7 @@ trait YFYM_T_Variable_Get_CategoryId {
 		$offer = $this->get_offer();
 		$tag_value = '';
 		
-		$tag_value = $this->get_catid();
+		$tag_value = $this->get_feed_category_id();
 
 		$tag_value = apply_filters('y4ym_f_variable_tag_value_categoryid', $tag_value, array('product' => $product, 'offer' => $offer), $this->get_feed_id());
 		if (!empty($tag_value)) {

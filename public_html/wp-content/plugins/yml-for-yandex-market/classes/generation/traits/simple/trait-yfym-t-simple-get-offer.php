@@ -18,7 +18,7 @@ trait YFYM_T_Simple_Get_Offer_Tag {
 		$product = $this->product;
 		
 		$offer_type = '';
-		$offer_type = apply_filters('yfym_offer_type_filter', $offer_type, $this->get_catid(), $product->get_id(), $product, $this->get_feed_id());  /* изменён с версии 3.3.3 */	   
+		$offer_type = apply_filters('yfym_offer_type_filter', $offer_type, $this->get_feed_category_id(), $product->get_id(), $product, $this->get_feed_id());  /* изменён с версии 3.3.3 */	   
 
 		$append_offer_tag = '';
 		if (get_post_meta($product->get_id(), 'yfym_bid', true) !== '') {

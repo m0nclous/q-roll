@@ -63,7 +63,7 @@ $info['Metrics recorded'] = wp_json_encode( \Rhubarb\RedisCache\Metrics::count()
 
 $info['Filesystem'] = is_wp_error( $filesystem ) ? $filesystem->get_error_message() : 'Working';
 
-if ( $dropin ) {
+if ( $dropin && ! $disabled ) {
     $info['Global Prefix'] = wp_json_encode( $wp_object_cache->global_prefix );
     $info['Blog Prefix'] = wp_json_encode( $wp_object_cache->blog_prefix );
 }
@@ -98,7 +98,7 @@ foreach ( $constants as $constant ) {
     if ( defined( $constant ) ) {
         $info[ $constant ] = wp_json_encode(
             constant( $constant ),
-            JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
+            JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT
         );
     }
 }
@@ -117,19 +117,24 @@ if ( defined( 'WP_REDIS_PASSWORD' ) ) {
     }
 }
 
-if ( $dropin ) {
+if ( $dropin && ! $disabled ) {
     $info['Global Groups'] = wp_json_encode(
-        array_values( $wp_object_cache->global_groups ),
+        array_values( $wp_object_cache->global_groups ?? [] ),
         JSON_PRETTY_PRINT
     );
 
     $info['Ignored Groups'] = wp_json_encode(
-        array_values( $wp_object_cache->ignored_groups ),
+        array_values( $wp_object_cache->ignored_groups ?? [] ),
         JSON_PRETTY_PRINT
     );
 
     $info['Unflushable Groups'] = wp_json_encode(
-        array_values( $wp_object_cache->unflushable_groups ),
+        array_values( $wp_object_cache->unflushable_groups ?? [] ),
+        JSON_PRETTY_PRINT
+    );
+
+    $info['Groups Types'] = wp_json_encode(
+        $wp_object_cache->group_type ?? null,
         JSON_PRETTY_PRINT
     );
 }

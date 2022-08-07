@@ -3,8 +3,8 @@ Contributors: icopydoc
 Donate link: https://sobe.ru/na/plugin_yml_for_yandex_market
 Tags: yml, yandex, market, export, woocommerce
 Requires at least: 4.5
-Tested up to: 6.0
-Stable tag: 3.7.16
+Tested up to: 6.0.1
+Stable tag: 3.8.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,17 @@ After 1-7 minutes (depending on the number of products), the feed will be genera
 1. screenshot-1.png
 
 == Changelog ==
+
+= 3.8.1 =
+* Some improved
+
+= 3.8.0 =
+* Fixed bugs
+* Now the plugin consumes less resources
+
+= 3.7.17 =
+* Fixed bugs
+* Added plugin compatibility EAN for WooCommerce
 
 = 3.7.16 =
 * Fixed bug with count
@@ -656,5 +667,5 @@ What's new:
 
 == Upgrade Notice ==
 
-= 3.7.16 =
-* Fixed bug with count
+= 3.8.1 =
+* Some improved

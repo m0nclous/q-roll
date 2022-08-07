@@ -20,7 +20,7 @@ trait YFYM_T_Simple_Get_CategoryId {
 		$product = $this->get_product();
 		$tag_value = '';
 		
-		$tag_value = $this->get_catid();
+		$tag_value = $this->get_feed_category_id();
 
 		$tag_value = apply_filters('y4ym_f_simple_tag_value_categoryid', $tag_value, array('product' => $product), $this->get_feed_id());
 		if (!empty($tag_value)) {

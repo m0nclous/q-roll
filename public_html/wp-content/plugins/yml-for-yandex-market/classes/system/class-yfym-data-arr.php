@@ -34,6 +34,7 @@ class YFYM_Data_Arr {
 		array('yfym_behavior_stip_symbol', 'default', 'public'), 
 		array('yfym_feed_assignment', '', 'public'),
 		array('yfym_file_extension', 'xml', 'public'),
+		array('yfym_format_date', 'rfc', 'public'),
 
 		array('yfym_shop_sku', 'disabled', 'public'),
 		array('yfym_count', 'disabled', 'public'),

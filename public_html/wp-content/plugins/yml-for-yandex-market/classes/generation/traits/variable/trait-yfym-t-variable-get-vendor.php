@@ -21,13 +21,15 @@ trait YFYM_T_Variable_Get_Vendor {
 		$product = $this->product;
 		$offer = $this->offer;
 
-		$result_yml_vendor = '';
+		$vendor_name = '';
+		// $result_yml_vendor = '';
 		$vendor = yfym_optionGET('yfym_vendor', $this->get_feed_id(), 'set_arr');
 		if ((is_plugin_active('perfect-woocommerce-brands/perfect-woocommerce-brands.php') || is_plugin_active('perfect-woocommerce-brands/main.php') || class_exists('Perfect_Woocommerce_Brands')) && $vendor === 'sfpwb') {
 			$barnd_terms = get_the_terms($product->get_id(), 'pwb-brand');
 			if ($barnd_terms !== false) {
 				foreach($barnd_terms as $barnd_term) {
-					$result_yml_vendor = '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
+					$vendor_name = $barnd_term->name;
+					// $result_yml_vendor = '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
 					break;
 				}
 			}
@@ -35,7 +37,8 @@ trait YFYM_T_Variable_Get_Vendor {
 			$barnd_terms = get_the_terms($product->get_id(), 'product_brand');
 			if ($barnd_terms !== false) {
 				foreach($barnd_terms as $barnd_term) {
-					$result_yml_vendor = '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
+					$vendor_name = $barnd_term->name;
+					// $result_yml_vendor = '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
 					break;
 				}
 			}			
@@ -43,7 +46,8 @@ trait YFYM_T_Variable_Get_Vendor {
 			$barnd_terms = get_the_terms($product->get_id(), 'product_brand');
 			if ($barnd_terms !== false) {
 				foreach($barnd_terms as $barnd_term) {
-					$result_xml .= '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
+					$vendor_name = $barnd_term->name;
+					// $result_xml .= '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
 					break;
 				}
 			}
@@ -51,7 +55,8 @@ trait YFYM_T_Variable_Get_Vendor {
 			$barnd_terms = get_the_terms($product->get_id(), 'product_brand');
 				if ($barnd_terms !== false) {
 				foreach($barnd_terms as $barnd_term) {
-					$result_yml_vendor = '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
+					$vendor_name = $barnd_term->name;
+					// $result_yml_vendor = '<vendor>'. $barnd_term->name .'</vendor>'.PHP_EOL;
 					break;
 				}
 			}			
@@ -59,31 +64,47 @@ trait YFYM_T_Variable_Get_Vendor {
 			$vendor_post_meta_id = yfym_optionGET('yfym_vendor_post_meta', $this->get_feed_id(), 'set_arr');
 			if (get_post_meta($product->get_id(), $vendor_post_meta_id, true) !== '') {					
 				$vendor_yml = get_post_meta($product->get_id(), $vendor_post_meta_id, true);
-				$result_yml_vendor = "<vendor>".$vendor_yml."</vendor>".PHP_EOL;
+				$vendor_name = $vendor_yml;
+				// $result_yml_vendor = "<vendor>".$vendor_yml."</vendor>".PHP_EOL;
 			}
 		} else if ($vendor == 'default_value') {
 			$vendor_yml = yfym_optionGET('yfym_vendor_post_meta', $this->get_feed_id(), 'set_arr');
 			if ($vendor_yml !== '') {
-				$result_yml_vendor = "<vendor>".$vendor_yml."</vendor>".PHP_EOL;
+				$vendor_name = $vendor_yml;
+				// $result_yml_vendor = "<vendor>".$vendor_yml."</vendor>".PHP_EOL;
 			}
 		} else {
 			if ($vendor !== 'disabled') {
 				$vendor = (int)$vendor;
 				$vendor_yml = $offer->get_attribute(wc_attribute_taxonomy_name_by_id($vendor));
 				if (!empty($vendor_yml)) {
-					$result_yml_vendor = '<vendor>'.ucfirst(yfym_replace_decode($vendor_yml)).'</vendor>'.PHP_EOL;
+					$vendor_name = ucfirst(yfym_replace_decode($vendor_yml));
+					// $result_yml_vendor = '<vendor>'.ucfirst(yfym_replace_decode($vendor_yml)).'</vendor>'.PHP_EOL;
 				} else {
 					$vendor_yml = $product->get_attribute(wc_attribute_taxonomy_name_by_id($vendor));
 					if (!empty($vendor_yml)) {
-						$result_yml_vendor = '<vendor>'.ucfirst(yfym_replace_decode($vendor_yml)).'</vendor>'.PHP_EOL;
+						$vendor_name = ucfirst(yfym_replace_decode($vendor_yml));
+						// $result_yml_vendor = '<vendor>'.ucfirst(yfym_replace_decode($vendor_yml)).'</vendor>'.PHP_EOL;
 					}
 				}
 			}
 		}
 
-		$result_xml = $result_yml_vendor;
+		$skip_vendor_reason = false;
+		$skip_vendor_reason = apply_filters('y4ym_f_variable_skip_vendor_reason', $skip_vendor_reason, array('product' => $product, 'offer' => $offer, 'vendor_name' => $vendor_name), $this->get_feed_id());
+		if ($skip_vendor_reason !== false) {
+			$this->add_skip_reason(array('reason' => $skip_vendor_reason, 'post_id' => $product->get_id(), 'file' => 'trait-yfym-t-variable-get-vendor.php', 'line' => __LINE__)); return '';
+		}
 
-		$result_xml = apply_filters('y4ym_f_variable_tag_vendor', $result_xml, array('product' => $product, 'offer' => $offer), $this->get_feed_id());
+		// $result_xml = $result_yml_vendor;
+
+		$vendor_name = apply_filters('y4ym_f_variable_tag_value_vendor', $vendor_name, array('product' => $product, 'offer' => $offer), $this->get_feed_id());
+		if (!empty($vendor_name)) {	
+			$tag_name = apply_filters('y4ym_f_variable_tag_name_vendor', $tag_name, array('product' => $product, 'offer' => $offer), $this->get_feed_id());
+			$result_xml = new YFYM_Get_Paired_Tag($tag_name, $vendor_name);
+		}
+
+		$result_xml = apply_filters('y4ym_f_variable_tag_vendor', $result_xml, array('product' => $product, 'offer' => $offer, 'vendor_name' => $vendor_name), $this->get_feed_id());
 		return $result_xml;
 	}
 }

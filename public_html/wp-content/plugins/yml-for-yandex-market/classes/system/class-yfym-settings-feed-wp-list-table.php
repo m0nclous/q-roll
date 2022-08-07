@@ -185,7 +185,7 @@ class YFYM_Settings_Feed_WP_List_Table extends WP_List_Table {
 		$result_arr[] = array(
 			'yfym_google_attribute' 		=> sprintf("<span class='yfym_bold'>%1\$s</span><br/>[%2\$s]", __('Barcode', 'yfym'), 'barcode'),
 			'yfym_attribute_description' 	=> '',
-			'yfym_value' 					=> $this->get_select_html('yfym_barcode', $feed_id, array('sku' => true, 'post_meta' => true, /*'brands' => true, */ 'germanized' => true)),
+			'yfym_value' 					=> $this->get_select_html('yfym_barcode', $feed_id, array('sku' => true, 'post_meta' => true, /*'brands' => true, */ 'germanized' => true, 'ean-for-woocommerce' => true)),
 			'yfym_default_value'			=> $this->get_input_html('yfym_barcode_post_meta', $feed_id, 'type4').'<br/>'.$this->get_input_html('yfym_barcode_post_meta_var', $feed_id, 'type5')
 		);
 
@@ -374,7 +374,13 @@ class YFYM_Settings_Feed_WP_List_Table extends WP_List_Table {
 						if (isset($otions_arr['germanized'])) {
 							$res .= '<option value="germanized" '. selected($opt_value, 'germanized', false).'>'. __('Substitute from', 'yfym'). 'WooCommerce Germanized</option>';
 						}
-					}	
+					}
+					
+					if (class_exists('Alg_WC_EAN')) {
+						if (isset($otions_arr['ean-for-woocommerce'])) {
+							$res .= '<option value="ean-for-woocommerce" '. selected($opt_value, 'ean-for-woocommerce', false).'>'. __('Substitute from', 'yfym'). 'EAN for WooCommerce</option>';
+						}
+					}					
 					
 					if (isset($otions_arr['brands'])) {
 						if (is_plugin_active('perfect-woocommerce-brands/perfect-woocommerce-brands.php') || is_plugin_active('perfect-woocommerce-brands/main.php') || class_exists('Perfect_Woocommerce_Brands')) {

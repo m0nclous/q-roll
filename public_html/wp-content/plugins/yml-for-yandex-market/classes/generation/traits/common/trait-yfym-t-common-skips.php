@@ -59,7 +59,7 @@ trait YFYM_T_Common_Skips {
 		}
 // на удаление в след версиях
 		/* С версии 3.7.13 */
-		$skip_flag = apply_filters('y4ym_f_skip_flag', $skip_flag, array('product' => $product), $this->get_feed_id());
+		$skip_flag = apply_filters('y4ym_f_skip_flag', $skip_flag, array('product' => $product, 'catid' => $this->get_feed_category_id()), $this->get_feed_id());
 		if ($skip_flag !== false) {
 			$this->add_skip_reason(array('reason' => $skip_flag, 'post_id' => $product->get_id(), 'file' => 'trait-yfym-t-common-skips.php', 'line' => __LINE__)); return '';
 		}
@@ -117,7 +117,7 @@ trait YFYM_T_Common_Skips {
 			} 
 // на удаление в след версиях
 			/* С версии 3.7.13 */
-			$skip_flag = apply_filters('y4ym_f_skip_flag_variable', $skip_flag, array('product' => $product, 'offer' => $offer), $this->get_feed_id());
+			$skip_flag = apply_filters('y4ym_f_skip_flag_variable', $skip_flag, array('product' => $product, 'offer' => $offer, 'catid' => $this->get_feed_category_id()), $this->get_feed_id());
 			if ($skip_flag !== false) {
 				$this->add_skip_reason(array('offer_id' => $offer->get_id(), 'reason' => $skip_flag, 'post_id' => $product->get_id(), 'file' => 'trait-yfym-t-common-skips.php', 'line' => __LINE__)); return '';
 			}

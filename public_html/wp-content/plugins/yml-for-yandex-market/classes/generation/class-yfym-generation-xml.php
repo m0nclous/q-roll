@@ -288,18 +288,25 @@ class YFYM_Generation_XML {
 
 	protected function get_feed_header($result_xml = '') {
 		$unixtime = current_time('Y-m-d H:i'); // время в unix формате 
+		$rfc_3339_time = current_time('c'); // 2022-07-17T17:47:19+03:00
 		yfym_optionUPD('yfym_date_sborki', $unixtime, $this->get_feed_id(), 'yes', 'set_arr');		
 		$shop_name = stripslashes(yfym_optionGET('yfym_shop_name', $this->get_feed_id(), 'set_arr'));
 		$company_name = stripslashes(yfym_optionGET('yfym_company_name', $this->get_feed_id(), 'set_arr'));
 		$result_xml .= '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL;
-		$result_xml .= '<yml_catalog date="'.$unixtime.'">'.PHP_EOL;
+		$yfym_format_date = yfym_optionGET('yfym_format_date', $this->get_feed_id(), 'set_arr');
+		if ($yfym_format_date === 'unixtime') {
+			$catalog_date = $unixtime;
+		} else {
+			$catalog_date = (string)$rfc_3339_time;
+		}
+		$result_xml .= '<yml_catalog date="'.$catalog_date.'">'.PHP_EOL;
 		$result_xml .= "<shop>". PHP_EOL ."<name>".esc_html($shop_name)."</name>".PHP_EOL;
-		$result_xml .= "<company>".esc_html($company_name)."</company>".PHP_EOL;
+		$result_xml .= new YFYM_Get_Paired_Tag('company', esc_html($company_name));
 		$res_home_url = home_url('/');
 		$res_home_url = apply_filters('yfym_home_url', $res_home_url, $this->get_feed_id());
-		$result_xml .= "<url>".yfym_replace_domain($res_home_url, $this->get_feed_id())."</url>".PHP_EOL;
-		$result_xml .= "<platform>WordPress - Yml for Yandex Market</platform>".PHP_EOL;
-		$result_xml .= "<version>".get_bloginfo('version')."</version>".PHP_EOL;
+		$result_xml .= new YFYM_Get_Paired_Tag('url', yfym_replace_domain($res_home_url, $this->get_feed_id()));
+		$result_xml .= new YFYM_Get_Paired_Tag('platform', 'WordPress - Yml for Yandex Market');
+		$result_xml .= new YFYM_Get_Paired_Tag('version', get_bloginfo('version'));
 	   
 		if (class_exists('WOOCS')) { 
 		   $yfym_wooc_currencies = yfym_optionGET('yfym_wooc_currencies', $this->get_feed_id(), 'set_arr');

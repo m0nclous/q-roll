@@ -11,13 +11,17 @@
 * @depends		class:		YFYM_Get_Paired_Tag
 *				methods: 	get_product
 *							get_feed_id
+*							get_feed_category_id
 *							add_skip_reason
 *				functions:	yfym_optionGET 
 */
 
+// на удаление фильтры yfym_simple_sale_price_filter и yfym_simple_oldprice_filter
+// более осторожное удаление - yfym_simple_price_filter
 trait YFYM_T_Simple_Get_Price {
 	public function get_price($tag_name = 'price', $result_xml = '') {
 		$product = $this->product;
+		$product_category_id = $this->get_feed_category_id();
 
 		/*
 		* $offer->get_price() - актуальная цена (равна sale_price или regular_price если sale_price пуст)
@@ -27,6 +31,7 @@ trait YFYM_T_Simple_Get_Price {
 
 		$price_yml = $product->get_price();
 		$price_yml = apply_filters('yfym_simple_price_filter', $price_yml, $product, $this->get_feed_id()); /* с версии 3.0.0 */ 
+		$price_yml = apply_filters('y4ym_f_simple_price', $price_yml, array('product' => $product, 'product_category_id' => $product_category_id), $this->get_feed_id());
 
 		$yfym_yml_rules = yfym_optionGET('yfym_yml_rules', $this->feed_id, 'set_arr');
 		if ($yfym_yml_rules !== 'all_elements') { // если цены нет - пропускаем вариацию 
@@ -71,19 +76,19 @@ trait YFYM_T_Simple_Get_Price {
 			$sale_price = (float)$product->get_sale_price();
 			$sale_price = apply_filters('yfym_simple_sale_price_filter', $sale_price, $price_yml, $product, $this->get_feed_id()); /* с версии 3.5.1 */
 			if ($sale_price > 0) {
-				if ($price_yml === $sale_price) {		
+			//	if ($price_yml === $sale_price) {		
 					$oldprice_yml = $product->get_regular_price();
 					$oldprice_name_tag = 'oldprice';
 					$oldprice_name_tag = apply_filters('yfym_oldprice_name_tag_filter', $oldprice_name_tag, $this->get_feed_id()); /* с версии 3.2.0 */
 					$oldprice_yml = apply_filters('yfym_simple_oldprice_filter', $oldprice_yml, $price_yml, $product, $this->get_feed_id()); /* с версии 3.6.15 */
 					$result_yml .= new YFYM_Get_Paired_Tag($oldprice_name_tag, $oldprice_yml);
-				}
+			//	}
 			}
 		}
 
 		$result_xml = $result_yml;
 
-		$result_xml = apply_filters('y4ym_f_simple_tag_price', $result_xml, array('product' => $product), $this->get_feed_id());
+		$result_xml = apply_filters('y4ym_f_simple_tag_price', $result_xml, array('product' => $product, 'product_category_id' => $product_category_id), $this->get_feed_id());
 		return $result_xml;
 	}
 }

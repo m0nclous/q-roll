@@ -60,12 +60,16 @@ class YFYM_Get_Unit_Offer_Simple extends YFYM_Get_Unit_Offer {
 	use YFYM_T_Simple_Get_Weight;
 
 	public function generation_product_xml($result_xml = '') {
+		$this->feed_category_id = $this->get_catid();
 		$this->get_skips();
 		
 		$yfym_yml_rules = yfym_optionGET('yfym_yml_rules', $this->feed_id, 'set_arr');
 		switch ($yfym_yml_rules) {
 			case "yandex_market": 
 				$result_xml = $this->adv(); 
+				break;
+			case "yandex_webmaster": 
+				$result_xml = $this->all_elements(); 
 				break;
 			case "single_catalog": 
 				$result_xml = $this->single_catalog(); 
