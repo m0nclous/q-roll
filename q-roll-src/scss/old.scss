@@ -373,6 +373,10 @@ input:focus, textarea:focus {
 	}
 }
 
+.woocommerce ul.order_details li {
+	border-right: none;
+}
+
 #add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
 	border-bottom: 0;
 	border-left: 1px solid #FCC12C;
