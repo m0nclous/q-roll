@@ -15,5 +15,3 @@
 		<?php the_custom_logo() ?>
 		<?php wp_nav_menu(['sort_column' => 'menu_order', 'theme_location' => 'header']) ?>
 	</header>
-
-	<?php if (function_exists('yoast_breadcrumb') && !is_shop() && !is_checkout()) yoast_breadcrumb('<nav class="breadcrumb">', '</nav>') ?>
