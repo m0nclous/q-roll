@@ -1,3 +1,6 @@
+# IDE local config
+.idea/
+
 # npm модули для node.js
 node_modules/
 
