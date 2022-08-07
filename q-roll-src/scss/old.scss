@@ -19,6 +19,10 @@ body {
 
 main {
 	min-height: calc(100vh - 452px);
+
+	& > h1 {
+		text-align: center;
+	}
 }
 
 body.admin-bar main {

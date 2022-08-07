@@ -1,0 +1,58 @@
+.delivery {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+
+    &__map {
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    &__title {
+        margin-top: 80px;
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
+
+    &-zone {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        &::before {
+            content: '—';
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 28px;
+            height: 28px;
+            order: -1;
+        }
+
+        &--1::after {
+            background: #9EE88E;
+        }
+
+        &--2::after {
+            background: #FCE383;
+        }
+
+        &--3::after {
+            background: #EEB78D;
+        }
+
+        &--4::after {
+            background: #EC867C;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            font-size: 18px;
+        }
+    }
+
+}
