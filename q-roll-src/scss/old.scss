@@ -283,13 +283,20 @@ h1:empty, h3:empty {
 
 .checkout {
 	display: grid;
-	grid-template-columns: 3fr 2fr;
 	grid-template-rows: minmax(0, max-content) minmax(0, max-content);
 	grid-column-gap: 70px;
 	grid-template-areas:
 		'order_errors order_errors'
 		'customer_details order_review_heading'
 		'customer_details order_review';
+
+	@media (max-width: 1024px) {
+		grid-template-areas:
+			'order_errors'
+			'customer_details'
+			'order_review_heading'
+			'order_review';
+	}
 }
 
 .woocommerce-NoticeGroup-checkout {
@@ -358,6 +365,12 @@ input:focus, textarea:focus {
 	justify-content: space-between;
 	background: transparent;
 	border-radius: 0;
+
+	@media (max-width: 426px) {
+		& {
+			flex-direction: column;
+		}
+	}
 }
 
 #add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
@@ -526,6 +539,12 @@ input:focus, textarea:focus {
 		justify-content: center;
 		justify-items: center;
 		gap: 35px;
+	}
+}
+
+@media (max-width: 426px) {
+	#billing_first_name_field, #billing_phone_field, #billing_email_field {
+		grid-column: 1/4;
 	}
 }
 
